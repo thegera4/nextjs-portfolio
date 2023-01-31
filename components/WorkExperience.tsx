@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
-import ExperienceCard from "./ExperienceCard"
-import SectionTitle from "./SectionTitle"
+import ExperienceCard from "./ui/ExperienceCard"
+import SectionTitle from "./reusable/SectionTitle"
 
 type Props = {}
 

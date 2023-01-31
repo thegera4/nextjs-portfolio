@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
-import TechIcon from './TechIcon'
+import TechIcon from '../reusable/TechIcon'
 
 type Props = {}
 
