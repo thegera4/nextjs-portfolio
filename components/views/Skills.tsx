@@ -1,6 +1,6 @@
-import SectionTitle from "./reusable/SectionTitle"
+import SectionTitle from "../reusable/SectionTitle"
 import { motion } from "framer-motion"
-import TechTool from "./reusable/TechTool"
+import TechTool from "../reusable/TechTool"
 
 type Props = {}
 

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import SectionTitle from "./reusable/SectionTitle"
+import SectionTitle from "../reusable/SectionTitle"
 
 type Props = {}
 
