@@ -7,8 +7,10 @@ import Skills from '@/components/views/Skills'
 import Projects from '@/components/views/Projects'
 import ContactMe from '@/components/views/ContactMe'
 import IconLabel from '@/components/reusable/IconLabel'
+import data from '@/data/projects.json'
 
-export default function Home() {
+export default function Home(props: any) {
+
   return (
     <div className='bg-[rgb(36,36,36)] text-white h-screen snap-y 
     snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin
@@ -32,7 +34,7 @@ export default function Home() {
         <Skills />
       </section>
       <section id="projects" className='snap-start'>
-        <Projects />
+        <Projects projects={props.projects} />
       </section>
       <section id="contact" className='snap-start'>
         <ContactMe />
@@ -46,4 +48,11 @@ export default function Home() {
   )
 }
 
-
+export async function getStaticProps() {
+  const projects = data.projects
+  return {
+    props: {
+      projects
+    }
+  }
+}

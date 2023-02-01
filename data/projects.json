@@ -1,0 +1,95 @@
+{
+  "projects": [
+    {
+      "image": "/images/tuSpacio.PNG",
+      "title": "TuSpacio",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/images/redux.png"
+        },
+        {
+          "name": "MaterialUI",
+          "icon": "/images/mui.png"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/node.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png"
+        },
+        {
+          "name": "Sequelize",
+          "icon": "/images/sequelize.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "/images/postgresql.png"
+        },
+        {
+          "name": "Auth0",
+          "icon": "/images/auth0.png"
+        },
+        {
+          "name": "Stripe",
+          "icon": "/images/stripe.png"
+        }
+      ],
+      "url": "https://tuspacio.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
+      "description": "This is a Fullstack E-commerce app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, a shopping cart, a payment system with Stripe, a product search system, a profile system , a product review system and a complete admin panel/dashboard where the page admin can modify every product offered in the page, add new products, modify price and stock, see registered users, request password changes from registered users, and see earning trends."
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Proyecto 2",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "Next",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "/images/js.png"
+        }
+      ],
+      "url": "https://google.com",
+      "sourceCode": "https://github.com",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    },
+    {
+      "image": "https://picsum.photos/200/300",
+      "title": "Proyecto 3",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "Next",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "/images/js.png"
+        }
+      ],
+      "url": "https://google.com",
+      "sourceCode": "https://github.com",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+    }
+  ]
+}

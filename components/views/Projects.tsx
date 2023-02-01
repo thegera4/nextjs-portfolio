@@ -1,22 +1,24 @@
-import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import SectionTitle from '../reusable/SectionTitle'
-import { getProjects } from '../helpers/fetchers'
+import ProjectCard from '../ui/ProjectCard'
 
-function Projects(props: any) {
+interface props {
+  projects: {
+    title: string,
+    description: string,
+    image: string,
+    url: string,
+    sourceCode: string,
+    technologies: [
+      {
+        icon: string,
+        name: string
+      }
+    ]
+  }[]
+}
 
-  console.log(props)
-  /* asi si funciona
-  useEffect(() => {
-    //call the api to get the projects
-    async function fetchData() {
-      const response = await fetch('/api/projects')
-      const data = await response.json()
-      console.log(data)
-    }
-    fetchData()
-  }, [])
-  */
+function Projects({ projects }: props) {
 
   return (
     <motion.div 
@@ -30,7 +32,9 @@ function Projects(props: any) {
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden 
       snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 
       scrollbar-thumb-[#16ac16]/80'>
-        
+        {projects.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
       </div>
       <div className='w-full absolute top-[30%] bg-[#16ac16]/10 left-0 
       h-[500px] -skew-y-12'/>
@@ -39,5 +43,3 @@ function Projects(props: any) {
 }
 
 export default Projects
-
-//TODO: implement static props to get the projects from the api

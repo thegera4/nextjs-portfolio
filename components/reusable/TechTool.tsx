@@ -15,9 +15,8 @@ function TechTool({ directionLeft, path, alt }: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         src={path}
         alt={alt}
-        className="rounded-full border border-gray-500 object-cover w-24 h-24 
-        xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 
-        ease-in-out"
+        className="object-fit: w-13 h-10 lg:w-50 xl:h-50 filter 
+        group-hover:grayscale transition duration-300 ease-in-out"
       />
       <div className="absolute opacity-0 group-hover:opacity-80 transition 
       duration-300 ease-in-out group-hover:bg-white h-24 w-24 xl:w-32 xl:h-32 

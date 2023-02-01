@@ -1,6 +1,7 @@
 import SectionTitle from "../reusable/SectionTitle"
 import { motion } from "framer-motion"
 import TechTool from "../reusable/TechTool"
+import { myTechStack } from "@/constants/technologies"
 
 type Props = {}
 
@@ -15,26 +16,19 @@ function Skills({}: Props) {
     transition={{ duration: 2.5 }}
     >
       <SectionTitle title='Skills' />
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3 className="absolute top-36 uppercase tracking-[3px]
+       text-gray-500 text-sm">
         The tech stack that I have used:
       </h3>
       <div className="grid grid-cols-4 gap-5">
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool directionLeft={true} path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
-        <TechTool path='/images/NodeJs.png' alt='NodeJS' />
+        {myTechStack.map((tech, index) => (
+          <TechTool 
+            key={index} 
+            directionLeft={index % 2 === 0} 
+            path={tech.path} 
+            alt={tech.alt} 
+          />
+        ))}
       </div>
     </motion.div>
   )
