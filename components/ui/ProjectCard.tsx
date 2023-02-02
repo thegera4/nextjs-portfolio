@@ -33,7 +33,7 @@ function ProjectCard({ project }: Props) {
         alt={project.title}
         className={
           project.mobile ?
-           'w-[150px] h-[300px] md:w-[250px] md:h-[450px] lg:w-[230px] lg:h-[450px] object-fit rounded-md' :
+           'w-[150px] h-[300px] md:w-[200px] md:h-[400px] lg:w-[230px] lg:h-[450px] object-fit rounded-md' :
             'w-[150px] h-[100px] md:w-[280px] md:h-[300px] lg:w-[500px] object-cover rounded-md'
         }
       />
