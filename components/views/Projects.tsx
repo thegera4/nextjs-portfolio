@@ -14,7 +14,8 @@ interface props {
         icon: string,
         name: string
       }
-    ]
+    ],
+    mobile: boolean
   }[]
 }
 

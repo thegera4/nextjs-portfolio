@@ -31,11 +31,12 @@ function About({}: Props) {
           </span>
         </h4>
         <p className='text-base'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptatum, quod, quia, voluptas quae voluptatem quibusdam
-          exercitationem voluptates quos dolorum quas. Quisquam, quae. Quisquam
-          voluptatum, quod, quia, voluptas quae voluptatem quibusdam
-          exercitationem voluptates quos dolorum quas. Quisquam, quae.
+          I'm a mechatronics engineer with 10 years of professional experience in different manufacturing industries 
+          (automotive, metal-mechanic, plastics, food, etc), in different positions 
+          (automation, maintenance, production, engineering, quality, projects, etc). <br/><br/>
+          During the last few years, I found a real passion for programming and becoming a developer,
+          so I started studying Mobile development technologies, and then I decided to start a 
+          Bootcamp (Henry) in order to become a Fullstack Developer.
         </p>
       </div>
     </motion.div>

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import ExperienceCard from "../ui/ExperienceCard"
 import SectionTitle from "../reusable/SectionTitle"
+import { jobs } from "@/data/jobs"
 
 type Props = {}
 
@@ -17,9 +18,9 @@ function WorkExperience({}: Props) {
       <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
       snap-mandatory scrollbar-thin scrollbar-thumb-[#16ac16]/80 
       scrollbar-track-[rgb(36,36,36)] scrollbar-rounded-1">
-        <ExperienceCard />
-        <ExperienceCard />
-        <ExperienceCard />
+        {jobs.map((job, index) => (
+          <ExperienceCard key={index} job={job}/>
+        ))}
       </div>
     </motion.div>
   )

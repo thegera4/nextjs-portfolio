@@ -47,49 +47,134 @@
       ],
       "url": "https://tuspacio.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
-      "description": "This is a Fullstack E-commerce app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, a shopping cart, a payment system with Stripe, a product search system, a profile system , a product review system and a complete admin panel/dashboard where the page admin can modify every product offered in the page, add new products, modify price and stock, see registered users, request password changes from registered users, and see earning trends."
+      "description": "This is a Web Fullstack E-commerce app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, a shopping cart, a payment system with Stripe, a product search system, a profile system , a product review system and a complete admin panel/dashboard where the page admin can modify every product offered in the page, add new products, modify price and stock, see registered users, request password changes from registered users, and see earning trends.",
+      "mobile": false
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "title": "Proyecto 2",
+      "image": "/images/befos.PNG",
+      "title": "Befos",
       "technologies": [
         {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+         {
           "name": "Javascript",
           "icon": "/images/js.png"
         },
         {
-          "name": "Next",
-          "icon": "/images/js.png"
+          "name": "React",
+          "icon": "/images/react.png"
         },
         {
-          "name": "Tailwind",
-          "icon": "/images/js.png"
+          "name": "Redux",
+          "icon": "/images/redux.png"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/node.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png"
+        },
+        {
+          "name": "Sequelize",
+          "icon": "/images/sequelize.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "/images/postgresql.png"
         }
       ],
-      "url": "https://google.com",
-      "sourceCode": "https://github.com",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "url": "https://pi-dogs-main-seven.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
+      "description": "This is a Web Fullstack app about dogs breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
+      "mobile": false
     },
     {
-      "image": "https://picsum.photos/200/300",
-      "title": "Proyecto 3",
+      "image": "/images/lazynema.JPG",
+      "title": "LaZynema",
       "technologies": [
         {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "SASS",
+          "icon": "/images/sass.png"
+        },
+         {
           "name": "Javascript",
           "icon": "/images/js.png"
         },
         {
-          "name": "Next",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "Tailwind",
-          "icon": "/images/js.png"
+          "name": "React",
+          "icon": "/images/react.png"
         }
       ],
-      "url": "https://google.com",
-      "sourceCode": "https://github.com",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
+      "url": "https://lazynema.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/laZynema",
+      "description": "This is a simple web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
+      "mobile": false
+    },
+    {
+      "image": "/images/coolmorning.png",
+      "title": "Cool Morning",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Java",
+          "icon": "/images/java.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.coolmorning&pli=1",
+      "sourceCode": "https://github.com/thegera4/Cool-Morning-App",
+      "description": "This Android mobile app was developed for a local gift shop that operates in the city Torreon in Mexico. It includes the menu, instructions to purchase the products and the contact information from the store. The app was made with Java.",
+      "mobile": true
+    },
+    {
+      "image": "/images/paint.png",
+      "title": "Paint Your Images",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.kot_drawing_app",
+      "sourceCode": "https://github.com/thegera4/Paint-your-images-app",
+      "description": "This Android mobile app allows you to paint on a blank canvas or use an image as a background and paint over it. You can also save and share your creations with friends. The app was made with Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/workout.png",
+      "title": "1&1 Workout",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
+      "sourceCode": "https://github.com/thegera4/Workout-app",
+      "description": "This Android app was developed to help people workout at home without exercising equipment. It is based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app, so you can check your current status and compare it with global standards. The app was made with Kotlin and it uses an SQLite database to save your progress.",
+      "mobile": true
     }
   ]
 }

@@ -6,8 +6,7 @@ export const CSS = 'CSS';
 export const SASS = 'SASS';
 export const REDUX = 'Redux';
 export const TAILWIND = 'Tailwind';
-export const MATERIAL_UI = 'Material UI';
-export const BOOTSTRAP = 'Bootstrap';
+export const MATERIAL_UI = 'MaterialUI';
 export const NODEJS = 'NodeJS';
 export const EXPRESS = 'Express';
 export const MONGODB = 'MongoDB';
@@ -24,6 +23,9 @@ export const DART = 'Dart';
 export const AUTO0 = 'Auto0';
 export const SEQUELIZE = 'Sequelize';
 export const NEXTJS = 'NextJS';
+export const GIT = 'Git';
+export const GITLAB = 'GitLab';
+export const LESS = 'Less';
 
 export const myTechStack = [
   {
@@ -47,16 +49,20 @@ export const myTechStack = [
     path: '/images/css.png',
   },
   {
+    alt: LESS,
+    path: '/images/less.png',
+  },
+  {
     alt: SASS,
     path: '/images/sass.png',
   },
   {
-    alt: REDUX,
-    path: '/images/redux.png',
-  },
-  {
     alt: TAILWIND,
     path: '/images/tailwind.png',
+  },
+  {
+    alt: REDUX,
+    path: '/images/redux.png',
   },
   {
     alt: MATERIAL_UI,
@@ -87,8 +93,8 @@ export const myTechStack = [
     path: '/images/auth0.png',
   },
   {
-    alt: STRIPE,
-    path: '/images/stripe.png',
+    alt: SQLITE,
+    path: '/images/sqlite.png',
   },
   {
     alt: FIREBASE,
@@ -121,5 +127,17 @@ export const myTechStack = [
   {
     alt: DART,
     path: '/images/dart.png',
+  },
+  {
+    alt: GIT,
+    path: '/images/git.png',
+  },
+  {
+    alt: GITLAB,
+    path: '/images/gitlab.png',
+  },
+  {
+    alt: STRIPE,
+    path: '/images/stripe.png',
   },
 ];

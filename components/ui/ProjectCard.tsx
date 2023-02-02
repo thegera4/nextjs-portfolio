@@ -14,7 +14,8 @@ type Props = {
         icon: string,
         name: string
       }
-    ]
+    ],
+    mobile: boolean
   }
 }
 
@@ -30,7 +31,11 @@ function ProjectCard({ project }: Props) {
         viewport={{ once: true}}
         src={project.image}
         alt={project.title}
-        className='w-[250px] h-[200px] md:w-[350px] lg:w-[600px] lg:h-[600px] object-cover rounded-md '
+        className={
+          project.mobile ?
+           'w-[150px] h-[300px] md:w-[250px] md:h-[450px] lg:w-[230px] lg:h-[450px] object-fit rounded-md' :
+            'w-[350px] h-[200px] md:w-[450px] lg:w-[700px] lg:h-[600px] object-cover rounded-md'
+        }
       />
       <h4 className='text-4xl font-semibold text-center'>
         <span className='underline decoration-[#16ac16]/50'>
@@ -49,8 +54,18 @@ function ProjectCard({ project }: Props) {
         ))}
       </div>
       <div className='flex space-x-5'>
-        <Link href={project.url} className='projectButton'>See Demo</Link>
-        <Link href={project.sourceCode} className='projectButton'>Source Code</Link>
+        <Link 
+          href={project.url} 
+          className='projectButton'
+          target='_blank'
+        >
+          { project.mobile ? 'Download App' : 'See Demo'}
+        </Link>
+        <Link 
+          href={project.sourceCode} 
+          className='projectButton'
+          target='_blank'
+        >Source Code</Link>
       </div>
       <p className='text-lg text-center md:text-left max-w-7xl'>
         {project.description}
