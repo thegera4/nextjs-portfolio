@@ -54,7 +54,7 @@ export const jobs = [
   {
     title: "Quality Supervisor",
     company: "PKC Group",
-    date: "May 2014 - Aug 2015 and May 2017 - Oct 2019",
+    date: "May 2017 - Oct 2019",
     summary: [
       "Administration, training and development of the quality personnel (5 quality engineers and 30 quality inspectors).",
       "Analysis of processes and implementation of containment,permanent and preventive actions.",
@@ -65,7 +65,7 @@ export const jobs = [
     image: "/images/pkc.png",
   },
   {
-    title: "Process and Quality Engineer",
+    title: "Process Engineer",
     company: "Henniges Automotive",
     date: "Aug 2015  - Oct 2016",
     summary: [
