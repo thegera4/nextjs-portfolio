@@ -34,7 +34,7 @@ function ProjectCard({ project }: Props) {
         className={
           project.mobile ?
            'w-[150px] h-[300px] md:w-[250px] md:h-[450px] lg:w-[230px] lg:h-[450px] object-fit rounded-md' :
-            'w-[350px] h-[200px] md:w-[450px] lg:w-[700px] lg:h-[600px] object-cover rounded-md'
+            'w-[150px] h-[100px] md:w-[280px] md:h-[300px] lg:w-[500px] object-cover rounded-md'
         }
       />
       <h4 className='text-4xl font-semibold text-center'>
