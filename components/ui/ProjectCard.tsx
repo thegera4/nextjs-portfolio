@@ -42,6 +42,7 @@ function ProjectCard({ project }: Props) {
           {project.title}
         </span>
       </h4>
+      {project.technologies &&
       <div className='flex items-center space-x-2'>
         {project.technologies.map((tech, index) => (
           <Image
@@ -53,7 +54,10 @@ function ProjectCard({ project }: Props) {
           />
         ))}
       </div>
+      }
       <div className='flex space-x-5'>
+        {
+          project.url &&
         <Link 
           href={project.url} 
           className='projectButton'
@@ -61,11 +65,14 @@ function ProjectCard({ project }: Props) {
         >
           { project.mobile ? 'Download App' : 'See Demo'}
         </Link>
+        }
         <Link 
           href={project.sourceCode} 
           className='projectButton'
           target='_blank'
-        >Source Code</Link>
+        >
+          {project.technologies ? 'Source Code' : 'Github profile'}
+        </Link>
       </div>
       <p className='text-lg text-center md:text-left max-w-7xl'>
         {project.description}

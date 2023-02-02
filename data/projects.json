@@ -47,7 +47,7 @@
       ],
       "url": "https://tuspacio.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
-      "description": "This is a Web Fullstack E-commerce app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, a shopping cart, a payment system with Stripe, a product search system, a profile system , a product review system and a complete admin panel/dashboard where the page admin can modify every product offered in the page, add new products, modify price and stock, see registered users, request password changes from registered users, and see earning trends.",
+      "description": "This is a Fullstack E-commerce web app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, a shopping cart, a payment system with Stripe, a product search system, a profile system , a product review system and a complete admin panel/dashboard where the page admin can modify every product offered in the page, add new products, modify price and stock, see registered users, request password changes from registered users, and see earning trends.",
       "mobile": false
     },
     {
@@ -93,7 +93,7 @@
       ],
       "url": "https://pi-dogs-main-seven.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
-      "description": "This is a Web Fullstack app about dogs breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
+      "description": "This is a Fullstack web app about dog breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
       "mobile": false
     },
     {
@@ -119,7 +119,115 @@
       ],
       "url": "https://lazynema.vercel.app/",
       "sourceCode": "https://github.com/thegera4/laZynema",
-      "description": "This is a simple web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
+      "description": "This is a web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
+      "mobile": false
+    },
+    {
+      "image": "/images/ecommerce.PNG",
+      "title": "E-Commerce",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "NextJS",
+          "icon": "/images/next.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Sanity",
+          "icon": "/images/sanity.webp"
+        },
+        {
+          "name": "Stripe",
+          "icon": "/images/stripe.png"
+        }
+      ],
+      "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
+      "description": "This is a fully functional e-commerce web app/template with an all products screen, product detail screen, shopping cart and a payment system with Stripe. The App was made with Javascript, React, NextJS and React. It uses Sanity, which provides an easy administration alternative to a common backend.",
+      "mobile": false
+    },
+    {
+      "image": "/images/blog.PNG",
+      "title": "Personal Blog",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "NextJS",
+          "icon": "/images/next.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        }
+      ],
+      "url": "https://nextjs-blog-thegera4.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/nextjs-blog",
+      "description": "This is my personal blog web app where you can find interesting posts about the IT world and some technologies that I find interesting. The App was made with Javascript, React, NextJS and CSS, and it uses some 3rd party libraries to write the posts in Markdown and show code snippets.",
+      "mobile": false
+    },
+    {
+      "image": "/images/WeatherAPP.JPG",
+      "title": "Weather app",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "/images/tailwind.png"
+        }
+      ],
+      "url": "https://weather-app-murex-alpha.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/Budget-app",
+      "description": "This is the classic weather app made with React, tailwind and using the Open Weather API.",
+      "mobile": false
+    },
+    {
+      "image": "/images/budget.PNG",
+      "title": "Personal budget app",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "/images/bootstrap.png"
+        }
+      ],
+      "url": "https://budget-app-topaz.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/Budget-app",
+      "description": "This simple web app allows you to calculate your personal budget. It was created with HTML, CSS and Javascript.",
       "mobile": false
     },
     {
@@ -169,12 +277,170 @@
         {
           "name": "Kotlin",
           "icon": "/images/kotlin.png"
+        },
+         {
+          "name": "SQLite",
+          "icon": "/images/sqlite.png"
         }
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
       "sourceCode": "https://github.com/thegera4/Workout-app",
-      "description": "This Android app was developed to help people workout at home without exercising equipment. It is based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app, so you can check your current status and compare it with global standards. The app was made with Kotlin and it uses an SQLite database to save your progress.",
+      "description": "This Android mobile app was developed to help people workout at home without exercising equipment. It is based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app, so you can check your current status and compare it with global standards. The app was made with Kotlin and it uses an SQLite database to save your progress.",
       "mobile": true
+    },
+    {
+      "image": "/images/flags.png",
+      "title": "LATAM flag quiz",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        },
+        {
+          "name": "SQLite",
+          "icon": "/images/sqlite.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.kot_quizzapp",
+      "sourceCode": "https://github.com/thegera4/LATAM-flag-quizz",
+      "description": "This Android mobile app is just a simple quiz game about Latin American flags. It uses SQlite to save your progress and show your final score. The app was made with Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/laboutique.png",
+      "title": "La Boutique",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.shop.laboutique",
+      "sourceCode": "https://github.com/thegera4/La-boutique-shop-app",
+      "description": "This Android mobile app was developed for a local clothing shop that operates in the city Torreon in Mexico. The app was originally planned to be just an inventory tool but it ended up being an ecommerce app. It uses Firebase from Google and it was made with Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/fluttershop.png",
+      "title": "Mobile shop app",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/mobile_shop_flutter",
+      "description": "This Flutter mobile app is a simple mobile ecommerce template app developed during a Flutter course that I took in Udemy. It includes a login view, a product detail view, a shopping cart view, admin options to create an edit your products, and a view to see your previous purchase orders. It uses Firebase from Google and it was made with Dart.",
+      "mobile": true
+    },
+    {
+      "image": "/images/expensetracker.png",
+      "title": "Expense tracker app",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/personal_expense_tracker_app",
+      "description": "This Flutter mobile app is a personal expense tracker app developed during a Flutter course that I took in Udemy. It includes a main view, a modal view to add a new expense, and a custom widget to display all of the expenses during the previous 7 days, It was made with Dart.",
+      "mobile": true
+    },
+    {
+      "image": "/images/uberclone.png",
+      "title": "Uber clone",
+      "technologies": [
+        {
+          "name": "React-Native",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/images/redux.png"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "/images/tailwind.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/uber-clone",
+      "description": "This React-Native mobile app is a simple uber clone. It has a main screen with a search bar where you can select your current location (it uses the google places API for autocomplete), a map screen where you can select your destination (it uses the directions API from google to show the route), and it also uses the distance metric API from google to calculate the fare. It was made with Javascript, Redux and Tailwind.",
+      "mobile": true
+    },
+    {
+      "image": "/images/connect4.png",
+      "title": "Connect 4 game",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/Connect4-game",
+      "description": "This Android mobile app is the classic 'Connect 4 game' where you have to connect 4 chips inline. You can play with a friend on the same device. It was made with Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/mathgame.png",
+      "title": "Math game for kids",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Java",
+          "icon": "/images/java.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/Math-Game-for-kids",
+      "description": "This Android mobile app is a simple math game for kids, where they can practice basic math operations (addition, subtraction, multiplication and division). It was made with Java.",
+      "mobile": true
+    },
+    {
+      "image": "/images/githublogo.png",
+      "title": "More projects",
+      "technologies": null,
+      "url": null,
+      "sourceCode": "https://github.com/thegera4",
+      "description": "You can find more projects in my GitHub profile. Click on the button above to go to my GitHub profile."
     }
   ]
 }
