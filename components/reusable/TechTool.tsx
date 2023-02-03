@@ -1,4 +1,5 @@
 import { motion } from "framer-motion"
+import Image from "next/image"
 import Tooltip from "../ui/Tooltip"
 
 type Props = { 
@@ -9,6 +10,20 @@ type Props = {
 
 function TechTool({ directionLeft, path, alt }: Props) {
   return (
+    <>
+    {/* <div className="group relative flex cursor-default ">
+      <Tooltip tooltip={alt}>
+        <Image 
+          src={path}
+          alt={alt}
+          height={50}
+          width={50}
+          className="object-fit: w-13 h-10 lg:w-50 xl:h-50 filter 
+          group-hover:grayscale transition duration-300 ease-in-out
+          2xs:w-6 2xs:h-6 "
+        />
+      </Tooltip>
+    </div> */}
     <div className="group relative flex cursor-default">
       <Tooltip tooltip={alt}>
         <motion.img 
@@ -18,10 +33,12 @@ function TechTool({ directionLeft, path, alt }: Props) {
           src={path}
           alt={alt}
           className="object-fit: w-13 h-10 lg:w-50 xl:h-50 filter 
-          group-hover:grayscale transition duration-300 ease-in-out"
+          group-hover:grayscale transition duration-300 ease-in-out
+          2xs:w-6 2xs:h-6 "
         />
       </Tooltip>
     </div>
+    </>
   )
 }
 
