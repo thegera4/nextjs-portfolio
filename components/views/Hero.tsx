@@ -17,6 +17,7 @@ function Hero({}: Props) {
     loop: 0,
     deleteSpeed: 40,
   })
+
   return (
     <div className='h-screen flex flex-col space-y-8 items-center justify-center
     text-center overflow-hidden'>
@@ -37,11 +38,19 @@ function Hero({}: Props) {
           <span className='mr-3'> {text} </span>
           <Cursor cursorColor='#16ac16'/>
         </h1>
-        <div className='pt-5 2xs:invisible'>
-          <Link href="#about" className='heroButton'>About</Link>
-          <Link href="#experience" className='heroButton'>Experience</Link>
-          <Link href="#skills" className='heroButton'>Skills</Link>
-          <Link href="#projects" className='heroButton'>Projects</Link>
+        <div className='pt-5 xs:visible 2xs:invisible'>
+          <Link href="#about" className='heroButton xs:pl-3 xs:pr-3'>
+            About
+          </Link>
+          <Link href="#experience" className='heroButton xs:pl-3 xs:pr-3'>
+            Experience
+          </Link>
+          <Link href="#skills" className='heroButton xs:pl-3 xs:pr-3'>
+            Skills
+          </Link>
+          <Link href="#projects" className='heroButton xs:pl3 xs:pr3'>
+            Projects
+          </Link>
         </div>
       </div>
     </div>
