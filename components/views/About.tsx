@@ -12,31 +12,31 @@ function About({}: Props) {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
     >
-      <SectionTitle title='About' />
+      <SectionTitle title='About'/>
       <motion.img
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: 0.5 }}
         viewport={{ once: true }}
         src='/images/profile.png'
         alt='Me'
         className='-mb-20 md:mb-0 flex-shrink-0 h-56 w-56 rounded-full 
-        object-cover md:rounded-lg md:72 md:w-72 xl:w-[400px] xl:h-[400px]
+        object-cover md:rounded-lg md:h-72 md:w-72 xl:w-[400px] xl:h-[400px]
+        xs:w-[200px] xs:h-[200px]
         2xs:w-[100px] 2xs:h-[100px] 2xs:mt-10'
       />
-      <div className='space-y-10 px-0 md:px-10 2xs:space-y-5'>
+      <div className='space-y-10 px-0 md:px-10 xs:space-y-0 2xs:space-y-2'>
         <h4 className='text-4xl font-semibold 2xs:text-[1.5rem]'>
           Here is my{" "}
           <span className='underline decoration-[#16ac16]/50'>
             story...
           </span>
         </h4>
-        <p className='text-base 2xs:hidden'>
-          I'm a mechatronics engineer with 10 years of professional experience in different manufacturing industries 
-          (automotive, metal-mechanic, plastics, food, etc), in different positions 
-          (automation, maintenance, production, engineering, quality, projects, etc).
-        </p>
-        <p className='text-base'>
+        <p className='text-base lg:text-xl md:text-lg xs:text-md 2xs:text-xs'>
+          I'm a mechatronics engineer with 10 years of professional experience in different 
+          manufacturing industries (automotive, metal-mechanic, plastics, food, etc), 
+          in different positions (automation, maintenance, production, engineering, quality, 
+          projects, etc).<br/><br/>
           During the last few years, I found a real passion for programming and becoming a developer,
           so I started studying Mobile development technologies, and then I decided to start a 
           Bootcamp (Henry) in order to become a Fullstack Developer.
