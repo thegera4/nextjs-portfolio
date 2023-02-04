@@ -32,9 +32,9 @@ function TechTool({ directionLeft, path, alt }: Props) {
           whileInView={{ x: 0, opacity: 1 }}
           src={path}
           alt={alt}
-          className="object-fit: w-13 h-10 lg:w-50 xl:h-50 filter 
-          group-hover:grayscale transition duration-300 ease-in-out
-          2xs:w-6 2xs:h-6 "
+          className="object-fit filter xlg:w-50 xlg:h-50
+          group-hover:grayscale transition duration-300 ease-in-out 
+          lg:w-16 lg:h-14 sm:w-14 sm:h-14 xs:w-10 xs:h-10 2xs:w-6 2xs:h-6"
         />
       </Tooltip>
     </div>
