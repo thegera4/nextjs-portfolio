@@ -113,7 +113,6 @@ export const jobs = [
       "Support to customers in their sites with technical issues.",
       "Project: New touch control panel for a John Deere plant",
       "Project: PLC substitution for a Johnson Controls plant",
-      "Project: PLC programming for a machining center at EPC Torreon plant",
       "Project: SCADA application new features in VB6 at Johnson Controls plant",
       "Project: PLC programming for a assembly lines at Johnson Controls plant",
       "Electrical schematic design for different projects.",

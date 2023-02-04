@@ -13,10 +13,11 @@ type Props = {
 function ExperienceCard({ job }: Props) {
   return (
     <div>
-      <article className='flex flex-col rounded-lg items-center space-y-7 
-      flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center 
-      bg-[#292929] p-10 hover:opacity-100 opacity-40 duration-200 
-      overflow-hidden cursor-default 2xs:opacity-100 2xs:w-[240px] xs:w-[300px]'>
+      <article className='flex flex-col rounded-lg items-center space-y-7 mt-20
+      flex-shrink-0 w-[500px] md:w-[500px] md:h-[600px] xl:w-[900px] snap-center
+      bg-[#292929] p-5 hover:opacity-100 opacity-40 duration-200 md:-mt-10
+      overflow-hidden cursor-default 2xs:opacity-100 2xs:w-[240px] xs:w-[300px]
+      xs:h-[320px] 2xs:h-[300px]'>
         <motion.img
           initial={{ y: -100, opacity: 0 }}
           transition={{ duration: 1.2 }}
@@ -40,7 +41,8 @@ function ExperienceCard({ job }: Props) {
           xs:justify-center xs:flex 2xs:text-sm 2xs:justify-center 2xs:flex'>
             {job.date}
           </p>
-          <ul className='list-disc space-y-4 ml-5 text-lg 2xs:hidden'>
+          <ul className='list-disc space-y-4 ml-5 text-lg md:text-sm lg:visible md:visible
+          xs:invisible 2xs:invisible'>
             {job.summary.map((item, index) => (
               <li key={index}>{item}</li>
             ))}
