@@ -3,9 +3,7 @@ import Link from 'next/link'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import BackgroundCircles from '../ui/BackgroundCircles'
 
-type Props = {}
-
-function Hero({}: Props) {
+function Hero() {
   const [text, count] = useTypewriter({
     words: [
       "Hi, I'm Gerardo",
@@ -27,11 +25,12 @@ function Hero({}: Props) {
         alt='Juan Gerardo'
         width={100}
         height={100}
-        className='rounded-full relative h-32 w-32 mx-auto object-cover'
+        className='rounded-full relative h-32 w-32 mx-auto object-cover md:w-64 md:h-64
+        md:top-[-55px]'
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 pb-2 tracking-[10px]
-        2xs:tracking-[5px]'>
+        2xs:tracking-[5px] md:text-xl lg:text-2xl xlg:text-2xl'>
           FullStack Developer
         </h2>
         <h1 className='text-5xl lg:text-6xl font-semibold px-10 2xs:text-[1.8rem]'>
@@ -39,16 +38,20 @@ function Hero({}: Props) {
           <Cursor cursorColor='#16ac16'/>
         </h1>
         <div className='pt-5 xs:visible 2xs:invisible'>
-          <Link href="#about" className='heroButton xs:pl-3 xs:pr-3'>
+          <Link href="#about" className='heroButton lg:text-2xl xlg:text-xl
+           md:text-lg xs:pl-3 xs:pr-3'>
             About
           </Link>
-          <Link href="#experience" className='heroButton xs:pl-3 xs:pr-3'>
+          <Link href="#experience" className='heroButton lg:text-xl xlg:text-xl 
+          md:text-lg xs:pl-3 xs:pr-3'>
             Experience
           </Link>
-          <Link href="#skills" className='heroButton xs:pl-3 xs:pr-3'>
+          <Link href="#skills" className='heroButton lg:text-xl xlg:text-xl 
+          md:text-lg xs:pl-3 xs:pr-3'>
             Skills
           </Link>
-          <Link href="#projects" className='heroButton xs:pl3 xs:pr3'>
+          <Link href="#projects" className='heroButton lg:text-xl xlg:text-xl 
+          md:text-lg xs:pl3 xs:pr3'>
             Projects
           </Link>
         </div>
