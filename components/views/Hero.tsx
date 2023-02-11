@@ -38,7 +38,7 @@ function Hero() {
           <Cursor cursorColor='#16ac16'/>
         </h1>
         <div className='pt-5 xs:visible 2xs:invisible'>
-          <Link href="#about" className='heroButton lg:text-2xl xlg:text-xl
+          <Link href="#about" className='heroButton lg:text-xl xlg:text-xl
            md:text-lg xs:pl-3 xs:pr-3'>
             About
           </Link>

@@ -21,7 +21,7 @@ function Skills({}: Props) {
        text-gray-500 text-sm">
           The tech stack that I have used:
       </h3>
-      <div className="grid grid-cols-4 gap-5 2xs:mt-20 ">
+      <div className="grid grid-cols-4 gap-5 space-x-2 lg:gap-6 2xs:mt-20 ">
         {myTechStack.map((tech, index) => (
           <TechTool 
             key={index} 

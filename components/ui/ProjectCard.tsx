@@ -24,7 +24,7 @@ function ProjectCard({ project }: Props) {
   return (
     <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
     items-center justify-center p-20 md:p-44 h-screen md:top-[0px] sm:top-[0px] 
-    xs:relative xs:top-[180px] 2xs:relative 2xs:top-[550px]'>
+    xs:relative xs:top-[150px] 2xs:relative 2xs:top-[550px]'>
       <motion.img 
         initial={{ y: -300, opacity: 0 }}
         transition={{ duration: 1.2 }}
