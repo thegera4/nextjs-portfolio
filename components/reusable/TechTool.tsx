@@ -19,7 +19,7 @@ function TechTool({ directionLeft, path, alt }: Props) {
           whileInView={{ x: 0, opacity: 1 }}
           src={path}
           alt={alt}
-          className="object-fit filter group-hover:grayscale 
+          className="object-contain filter group-hover:grayscale 
           transition duration-300 ease-in-out
           lg:w-20 lg:h-17 
           sm:w-14 sm:h-14 

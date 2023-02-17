@@ -25,7 +25,7 @@ function ExperienceCard({ job }: Props) {
           viewport={{ once: true }}
           src={job.image}
           alt={job.company}
-          className='w-64 h-32 xl:w-[320px] xl:h-[200px] object-fit object-center
+          className='w-64 h-32 xl:w-[320px] xl:h-[200px] object-contain object-center
           xs:w-[200px] xs:h-[130px] 2xs:w-[160px] 2xs:h-[100px]'
         />
         <div className='px-0 md:px-10'>

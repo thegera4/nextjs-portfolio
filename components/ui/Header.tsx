@@ -16,21 +16,25 @@ function Header({}: Props) {
       >
         <SocialIcon 
           url="https://twitter.com/thegera4" 
+          target='_blank'
           bgColor='transparent'
           fgColor='gray'
         />
         <SocialIcon 
           url="https://github.com/thegera4"
+          target='_blank'
           bgColor='transparent'
           fgColor='gray'
         />
         <SocialIcon 
           url="https://facebook.com/juangerardo.medellinibarra/"
+          target='_blank'
           bgColor='transparent'
           fgColor='gray'
         />
         <SocialIcon 
           url="https://linkedin.com/in/juan-gerardo-medellin-ibarra-8b207058/"
+          target='_blank'
           bgColor='transparent'
           fgColor='gray'
         />

@@ -35,7 +35,7 @@ function ProjectCard({ project }: Props) {
         className={
           project.mobile ?
            'xs:w-[100px] xs:h-[200px] md:w-[200px] md:h-[400px] lg:w-[230px] lg:h-[450px] object-fit rounded-md' :
-            'xs:w-[350px] xs:h-[200px] md:w-[450px] md:h-[300px] lg:w-[500px] object-fit rounded-md'
+            'xs:w-[350px] xs:h-[200px] md:w-[450px] md:h-[300px] lg:w-[500px] object-contain rounded-md'
         }
       />
       <h4 className='text-4xl font-semibold text-center xs:text-2xl 2xs:text-2xl'>
@@ -52,7 +52,7 @@ function ProjectCard({ project }: Props) {
             alt={tech.name}
             width={30}
             height={30}
-            className='xs:w-[20px] xs:h-[20px] xs:-ml-5 2xs:-ml-5 2xs:w-[15px] 2xs:h-[15px]'
+            className='object-contain xs:w-[20px] xs:h-[20px] xs:-ml-5 2xs:-ml-5 2xs:w-[15px] 2xs:h-[15px]'
           />
         ))}
       </div>
