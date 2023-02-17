@@ -197,11 +197,15 @@
         {
           "name": "GetX",
           "icon": "/images/getx.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
         }
       ],
       "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
       "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "This is a simple web admin dashboard template made with flutter web, but the ios and android apps can easily be created with just some clicks with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The App was made with Flutter, Dart and it uses some other 3rd party libraries such as Syncfusion Charts and Adaptive Scrollbar. The demo data comes from different dummy APIs.",
+      "description": "This is a simple web admin dashboard template made with flutter web, but the ios and android apps can easily be created with just some clicks with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The App was made with Flutter, Dart and it uses some other 3rd party libraries. It also includes authentication with firebase. The demo data comes from different dummy APIs.",
       "mobile": false
     },
     {
