@@ -2,6 +2,12 @@ import { motion } from "framer-motion"
 import ExperienceCard from "../ui/ExperienceCard"
 import SectionTitle from "../reusable/SectionTitle"
 import { jobs } from "@/data/jobs"
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Navigation } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { CSSProperties } from "react"
+
 
 type Props = {}
 
@@ -13,14 +19,28 @@ function WorkExperience({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
+      viewport={{ once: true }}
     >
       <SectionTitle title='Experience' />
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x 
-      snap-mandatory scrollbar-thin scrollbar-thumb-[#16ac16]/80 
-      scrollbar-track-[rgb(36,36,36)] scrollbar-rounded-1">
-        {jobs.map((job, index) => (
-          <ExperienceCard key={index} job={job}/>
-        ))}
+      <div className="w-full flex space-x-5 p-10 items-center align-middle
+      xs:p-4 2xs:p-0">
+        <Swiper  
+          navigation={true}
+          modules={[Navigation]} 
+          style={{ 
+            '--swiper-navigation-color': '#16ac16', 
+            '--swiper-navigation-size': '3rem',
+
+          } as CSSProperties}
+        >
+          {jobs.map((job, index) => 
+            <SwiperSlide 
+              key={index}
+            >
+              <ExperienceCard job={job} />
+            </SwiperSlide>
+          )}
+        </Swiper>
       </div>
     </motion.div>
   )

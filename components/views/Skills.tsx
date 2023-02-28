@@ -15,6 +15,7 @@ function Skills({}: Props) {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 2.5 }}
+        viewport={{ once: true }}
     >
       <SectionTitle title='Skills' />
       <h3 className="absolute top-36 uppercase tracking-[3px]

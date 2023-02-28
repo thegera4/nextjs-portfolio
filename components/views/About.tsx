@@ -11,6 +11,7 @@ function About({}: Props) {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
+      viewport={{ once: true }}
     >
       <SectionTitle title='About'/>
       <motion.img
