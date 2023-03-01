@@ -39,14 +39,14 @@ function Header({}: Props) {
           fgColor='gray'
         />
       </motion.div>
-        <motion.div 
-          className='flex flex-row items-center text-gray-300 cursor-pointer'
-          initial={{ x: 500, opacity: 0, scale:0.5}}
-          animate={{ x: 0, opacity: 1, scale:1}}
-          transition={{ duration: 1 }}
-        >
-          <IconLabel icon="email" label="Contact Me" link='#contact' />
-        </motion.div>
+      <motion.div 
+        className='flex flex-row items-center text-gray-300 cursor-pointer'
+        initial={{ x: 500, opacity: 0, scale:0.5}}
+        animate={{ x: 0, opacity: 1, scale:1}}
+        transition={{ duration: 1 }}
+      >
+        <IconLabel icon="email" label="Contact" link='#contact' />
+      </motion.div>
     </header>
   )
 }
