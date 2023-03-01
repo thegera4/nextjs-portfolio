@@ -1,6 +1,11 @@
 import { motion } from 'framer-motion'
 import SectionTitle from '../reusable/SectionTitle'
 import ProjectCard from '../ui/ProjectCard'
+import { Swiper, SwiperSlide } from "swiper/react"
+import { Navigation } from 'swiper';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import { CSSProperties } from "react"
 
 interface props {
   projects: {
@@ -31,11 +36,21 @@ function Projects({ projects }: props) {
     >
       <SectionTitle title='Projects' />
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden 
-      snap-x snap-mandatory z-20 scrollbar scrollbar-track-gray-400/20 
-      scrollbar-thumb-[#16ac16]/80'>
+       z-20 scrollbar'>
+        <Swiper
+          navigation={true}
+          modules={[Navigation]}
+          style={{
+            '--swiper-navigation-color': '#16ac16',
+            '--swiper-navigation-size': '3rem',
+          } as CSSProperties}
+        >
         {projects.map((project, index) => (
-          <ProjectCard key={index} project={project} />
+          <SwiperSlide key={index}>
+            <ProjectCard project={project} />
+          </SwiperSlide>
         ))}
+        </Swiper>
       </div>
       <div className='w-full absolute top-[30%] bg-[#16ac16]/10 left-0 
       h-[500px] -skew-y-12'/>
