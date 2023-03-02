@@ -97,6 +97,32 @@
       "mobile": false
     },
     {
+      "image": "/images/flutter_dashboard.PNG",
+      "title": "Admin Panel/Dashboard",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "GetX",
+          "icon": "/images/getx.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
+      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
+      "description": "This is a simple web admin dashboard template made with flutter web, but the ios and android apps can easily be created with just some clicks with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The App was made with Flutter, Dart and it uses some other 3rd party libraries. It also includes authentication with firebase. The demo data comes from different dummy APIs.",
+      "mobile": false
+    },
+    {
       "image": "/images/lazynema.JPG",
       "title": "LaZynema",
       "technologies": [
@@ -175,37 +201,15 @@
         {
           "name": "CSS",
           "icon": "/images/css.png"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/images/mongo.png"
         }
       ],
       "url": "https://nextjs-blog-thegera4.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
-      "description": "This is my personal blog web app where you can find interesting posts about the IT world and some technologies that I find interesting. The App was made with Javascript, React, NextJS and CSS, and it uses some 3rd party libraries to write the posts in Markdown and show code snippets.",
-      "mobile": false
-    },
-    {
-      "image": "/images/flutter_dashboard.PNG",
-      "title": "Admin Panel/Dashboard",
-      "technologies": [
-        {
-          "name": "Flutter",
-          "icon": "/images/flutter.png"
-        },
-        {
-          "name": "Dart",
-          "icon": "/images/dart.png"
-        },
-        {
-          "name": "GetX",
-          "icon": "/images/getx.png"
-        },
-        {
-          "name": "Firebase",
-          "icon": "/images/firebase.png"
-        }
-      ],
-      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
-      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "This is a simple web admin dashboard template made with flutter web, but the ios and android apps can easily be created with just some clicks with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The App was made with Flutter, Dart and it uses some other 3rd party libraries. It also includes authentication with firebase. The demo data comes from different dummy APIs.",
+      "description": "This is my personal blog web app where you can find interesting posts about the IT world and some technologies that I find interesting. The App was made with Javascript, React, NextJS and CSS, and it uses some 3rd party libraries to write the posts in Markdown and show code snippets.Also, Mongo Db is used to store contact data from the contact form.",
       "mobile": false
     },
     {
