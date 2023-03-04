@@ -7,8 +7,9 @@ type Props = {
     date: string
     summary: string[]
     image: string
-  }
+  },
 }
+
 
 function ExperienceCard({ job }: Props) {
   return (
@@ -27,7 +28,7 @@ function ExperienceCard({ job }: Props) {
           className='w-64 h-32 xl:w-[320px] xl:h-[200px] object-contain object-center
           xs:w-[200px] xs:h-[130px] 2xs:w-[160px] 2xs:h-[100px]'/>
         <div className='px-0 md:px-10'>
-          <h4 className='text-4xl font-light xs:text-[19px] xs:justify-center 
+          <h4 className='text-4xl font-light xs:text-[18px] xs:justify-center 
           xs:flex 2xs:text-sm 2xs:justify-center 2xs:flex'>
             {job.title}
           </h4>

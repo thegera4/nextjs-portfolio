@@ -1,17 +1,17 @@
 import { motion } from "framer-motion"
 import ExperienceCard from "../ui/ExperienceCard"
 import SectionTitle from "../reusable/SectionTitle"
-import { jobs } from "@/data/jobs"
+import { jobs, trabajos } from "@/data/jobs"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation } from 'swiper';
+import { useRouter } from "next/router"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { CSSProperties } from "react"
 
-
-type Props = {}
-
-function WorkExperience({}: Props) {
+function WorkExperience({ translate }: any) {
+  const { locale } = useRouter()
+  
   return (
     <motion.div 
       className='h-screen flex relative overflow-hidden flex-col text-left
@@ -21,25 +21,29 @@ function WorkExperience({}: Props) {
       transition={{ duration: 2.5 }}
       viewport={{ once: true }}
     >
-      <SectionTitle title='Experience' />
-      <div className="w-full flex space-x-5 p-10 items-center align-middle
-      xs:p-4 2xs:p-0">
+      <SectionTitle title={translate('experience')} />
+      <div className="w-full flex space-x-5 p-10 items-center align-middle xs:p-4 2xs:p-0">
         <Swiper  
           navigation={true}
           modules={[Navigation]} 
           style={{ 
             '--swiper-navigation-color': '#16ac16', 
             '--swiper-navigation-size': '3rem',
-
           } as CSSProperties}
         >
-          {jobs.map((job, index) => 
-            <SwiperSlide 
-              key={index}
-            >
+          {
+          locale === 'en' ?
+          jobs.map((job, index) => 
+            <SwiperSlide key={index} >
               <ExperienceCard job={job} />
             </SwiperSlide>
-          )}
+          ) :
+          trabajos.map((trabajo, index) => 
+            <SwiperSlide key={index} >
+              <ExperienceCard job={trabajo} />
+            </SwiperSlide>
+          )
+          }
         </Swiper>
       </div>
     </motion.div>

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 
 type Props = {
   project: {
@@ -20,6 +21,7 @@ type Props = {
 }
 
 function ProjectCard({ project }: Props) {
+  const { locale } = useRouter()
 
   return (
     <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
@@ -76,7 +78,11 @@ function ProjectCard({ project }: Props) {
           className='projectButton'
           target='_blank'
         >
-          { project.mobile ? 'Download App' : 'See Demo'}
+          { 
+            locale === 'en' ?
+            project.mobile ? 'Download' : 'See Demo' :
+            project.mobile ? 'Descargar' : 'Ver Demo'
+          }
         </Link>
         }
         <Link 
@@ -84,7 +90,11 @@ function ProjectCard({ project }: Props) {
           className='projectButton'
           target='_blank'
         >
-          {project.technologies ? 'Source Code' : 'Github profile'}
+          {
+            locale === 'en' ?
+            project.technologies ? 'Source Code' : 'Github profile' :
+            project.technologies ? 'Código Fuente' : 'Perfil de Github'
+          }
         </Link>
       </div>
       <p className='text-lg text-center lg:text-lg md:text-left md:text-sm sm:text-sm 

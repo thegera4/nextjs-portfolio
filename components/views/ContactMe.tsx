@@ -2,20 +2,18 @@ import SectionTitle from '../reusable/SectionTitle'
 import ContactForm from '../ui/ContactForm'
 import { DevicePhoneMobileIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 
+function ContactMe({ translate}: any) {
 
-type Props = {}
-
-function ContactMe({}: Props) {
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left
     md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
-      <SectionTitle title='Get in touch' />
+      <SectionTitle title={translate('getInTouch')} />
       <div className='flex flex-col space-y-10 2xs:space-y-5'>
         <h4 className='text-4xl font-semibold text-center xs:text-sm md:visible 
         lg:visible xs:invisible 2xs:invisible 2xs:text-sm md:text-4xl'>
-          What can I do for you?{" "} 
+          {translate('needHelp?')}{" "} 
           <span className='decoration-[#16ac16]/50 underline'>
-            Let me know.
+            {translate('letMeKnow')}
           </span>
         </h4>
         <div className='flex flex-row items-center justify-center mx-auto
@@ -33,7 +31,7 @@ function ContactMe({}: Props) {
             </p>
           </div>
         </div>
-        <ContactForm />
+        <ContactForm translate={translate} />
       </div>
     </div>
   )

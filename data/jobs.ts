@@ -120,3 +120,125 @@ export const jobs = [
     image: "/images/cea.png",
   }
 ];
+
+export const trabajos = [
+  {
+    title: "Desarrollador Frontend",
+    company: "Financiera Independencia",
+    date: "Nov 2022 - Actual",
+    summary: [
+      "Trabajar con un grupo de desarrolladores para crear una código mantenible y escalable.",
+      "Aplicar la metodología SCRUM para el desarrollo y entrega de nuevas funcionalidades.",
+      "Contribuir al diseño y desarrollo de nuevas características para un dashboard administrativo.",
+      "Despliegue de aplicacionees a producción usando Google Cloud Services.",
+      "Escribir pruebas unitarias para las nuevas características y arreglo de errores.",
+      "Escribir documentación para nuevas características y arreglo de errores.",
+    ],
+    image: "/images/findeplogo.jpg",
+  },
+  {
+    title: "Asesor de anuncios",
+    company: "Telus International",
+    date: "Dic 2020 - Dic 2022",
+    summary: [
+      "Análisis de anuncios electrónicos para diferentes clientes.",
+      "Clasificación de anuncios a través de una aplicación web.",
+      "Trabajo remoto.",
+      "Análisis de anuncios en Inglés y en Español.",
+    ],
+    image: "/images/telus.jpg",
+  },
+  {
+    title: "Profesor",
+    company: "UAC - UANE",
+    date: "Abr 2020 - Dic 2022",
+    summary: [
+      "Profesor de Inglés para preparatoria y universidad en UANE (universidad privada).",
+      "Profesor de diferentes materias para ingenierias en UAC (universidad pública).",
+      "Soporte a estudiantes con su desarrollo académico y personal.",
+      "Enseñé a más de 500 alumnos.",
+    ],
+    image: "/images/teacher.png",
+  },
+  {
+    title: "Supervisor de manufactura",
+    company: "SMP Alabama",
+    date: "Oct 2018 - Abr 2019",
+    summary: [
+      "Proyecto de 6 meses en Tuscaloosa, Alabama para ayudar al arranque de nueva planta.",
+      "Respuesta a problemas y quejas de cliente.",
+      "Análisis de procesos e implementación de acciones preventivas y correctivas.",
+      "Implementación de proyectos de mejora continua para incrementar niveles de calidad y productividad.",
+      "Administración, entrenamiento y desarrollo de personal operativo (100 operadores y técnicos).",
+      "Reportes de productividad diarios para el equipo de gerentes.",
+    ],
+    image: "/images/smp.png",
+  },
+  {
+    title: "Supervisor de calidad",
+    company: "PKC Group",
+    date: "May 2017 - Oct 2019",
+    summary: [
+      "Administración, entrenamiento y desarrollo del personal de calidad (5 ingenieros y 30 inspectores).",
+      "Análisis de procesos e implementación de acciones de contención, preventivas y correctivas.",
+      "Soporte a diferentes plantas de pkc group con entrenamientos en temas de calidad y problemas de clientes.",
+      "Respuesta a problemas y quejas de clientes.",
+      "Soporte a clientes en sitio con diferentes aspectos de calidad.",
+    ],
+    image: "/images/pkc.png",
+  },
+  {
+    title: "Ingeniero de procesos",
+    company: "Henniges Automotive",
+    date: "Ago 2015  - Oct 2016",
+    summary: [
+      "Administración, entrenamiento y desarrollo de personal operativo (100 operadores).",
+      "Análisis de procesos e implementación de acciones correctivas y preventivas.",
+      "Cotización e implementación de nuevos procesos, equipos y herramientas.",
+      "Respuesta a quejas y problemas de calidad de clientes.",
+      "Documentación de procesos y procedimientos de manufactura.",
+    ],
+    image: "/images/henniges.png",
+  },
+  {
+    title: "Ingeniero de procesos",
+    company: "Delphi Diesel Systems",
+    date: "Sept 2013 - May 2014",
+    summary: [
+      "Administración, entrenamiento y desarrollo de personal operativo (80 operadores).",
+      "Análisis de procesos e implementación de acciones correctivas y preventivas.",
+      "Cotización e implementación de nuevos procesos, equipos y herramientas.",
+      "Respuesta a quejas y problemas de calidad de clientes.",
+      "Documentación de procesos y procedimientos de manufactura.",
+    ],
+    image: "/images/delphi.jpg",
+  },
+  {
+    title: "Ingeniero de procesos",
+    company: "John Deere",
+    date: "Sept 2011 - May 2013",
+    summary: [
+      "Administración, entrenamiento y desarrollo de personal operativo (30 operadores).",
+      "Análisis de procesos e implementación de acciones correctivas y preventivas.",
+      "Cotización e implementación de nuevos procesos, equipos y herramientas.",
+      "Respuesta a quejas y problemas de calidad de clientes.",
+      "Documentación de procesos y procedimientos de manufactura.",
+    ],
+    image: "/images/johndeere.png",
+  },
+  {
+    title: "Programador",
+    company: "CEA",
+    date: "Oct 2010 - May 2011",
+    summary: [
+      "Programación de PLC y HMI en diferentes proyectos.",
+      "Soporte a clientes en sitio con problemas técnicos.",
+      "Proyecto: Nuevo panel táctil de control para planta de John Deere",
+      "Proyecto: Sustitución de PLC para planta Johnson Controls",
+      "Proyecto: Modificación de software SCADA en VB para Johnson Controls",
+      "Proyecto: Programación de PLC para lineas de ensamble en Johnson Controls",
+      "Diseño de diagramas eléctricos para diferentes proyectos.",
+    ],
+    image: "/images/cea.png",
+  }
+];

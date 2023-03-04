@@ -1,9 +1,7 @@
 import { motion } from "framer-motion"
 import SectionTitle from "../reusable/SectionTitle"
 
-type Props = {}
-
-function About({}: Props) {
+function About({translate}: any) {
   return (
     <motion.div 
       className='flex flex-col relative h-screen text-center md:text-left
@@ -13,7 +11,7 @@ function About({}: Props) {
       transition={{ duration: 2.5 }}
       viewport={{ once: true }}
     >
-      <SectionTitle title='About'/>
+      <SectionTitle title={translate('about')}/>
       <motion.img
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
@@ -28,19 +26,14 @@ function About({}: Props) {
       />
       <div className='space-y-10 px-0 md:px-10 xs:space-y-0 2xs:space-y-2'>
         <h4 className='text-4xl font-semibold 2xs:text-[1.5rem]'>
-          Here is my{" "}
+          {translate('here')}{" "}
           <span className='underline decoration-[#16ac16]/50'>
-            story...
+            {translate('story')}...
           </span>
         </h4>
         <p className='text-base lg:text-xl md:text-lg xs:text-md 2xs:text-xs'>
-          I'm a mechatronics engineer with 10 years of professional experience in different 
-          manufacturing industries (automotive, metal-mechanic, plastics, food, etc), 
-          in different positions (automation, maintenance, production, engineering, quality, 
-          projects, etc).<br/><br/>
-          During the last few years, I found a real passion for programming and becoming a developer,
-          so I started studying Mobile development technologies, and then I decided to start a 
-          Bootcamp (Henry) in order to become a Fullstack Developer.
+          {translate('1stParagraph')}<br/><br/>
+          {translate('2ndParagraph')}
         </p>
       </div>
     </motion.div>

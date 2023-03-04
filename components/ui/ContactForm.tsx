@@ -1,7 +1,5 @@
 import { useForm, SubmitHandler } from "react-hook-form";
 
-type Props = {}
-
 type Inputs = {
   name: string,
   email: string,
@@ -9,8 +7,10 @@ type Inputs = {
   message: string
 };
 
-function ContactForm({}: Props) {
+function ContactForm({ translate }: any) {
+
   const { register, handleSubmit } = useForm<Inputs>();
+
   const onSubmit: SubmitHandler<Inputs> = formData =>{
     window.location.href = `mailto:thegera4@hotmail.com?subject=
     ${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message}`
@@ -25,33 +25,33 @@ function ContactForm({}: Props) {
       xs:flex-col xs:space-x-0 xs:space-y-2 md:flex-row md:space-x-2 lg:flex-row lg:space-x-2'>
         <input 
           { ...register("name") } 
-          placeholder='Name' 
+          placeholder={translate('contactName')}
           className='contactInput' 
           type="text" 
         />
         <input 
           { ...register("email") } 
-          placeholder='Email' 
+          placeholder={translate('contactEmail')}
           className='contactInput' 
           type="email" 
         />
       </div>
       <input 
         { ...register("subject") } 
-        placeholder='Subject' 
+        placeholder= {translate('contactSubject')}
         className='contactInput' 
         type="text" 
       />
       <textarea 
         { ...register("message") } 
-        placeholder='Your Message' 
+        placeholder={translate('contactMessage')}
         className='contactInput'
       ></textarea>
       <button 
         type='submit'
         className='bg-[#16ac16] py-5 px-10 rounded-md font-bold'
       >
-        Send
+        {translate('btnSend')}
       </button>
     </form>
   )

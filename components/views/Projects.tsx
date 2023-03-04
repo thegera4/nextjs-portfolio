@@ -6,6 +6,7 @@ import { Navigation } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { CSSProperties } from "react"
+import { useRouter } from 'next/router';
 
 interface props {
   projects: {
@@ -21,10 +22,11 @@ interface props {
       }
     ],
     mobile: boolean
-  }[]
+  }[],
 }
 
 function Projects({ projects }: props) {
+  const { locale } = useRouter()
 
   return (
     <motion.div 
@@ -34,7 +36,7 @@ function Projects({ projects }: props) {
       whileInView={{ opacity: 1 }}
       transition={{ duration:1.5 }}
     >
-      <SectionTitle title='Projects' />
+      <SectionTitle title={locale === 'en' ? 'PROJECTS' : 'PROYECTOS' } />
       <div className='relative w-full flex overflow-x-scroll overflow-y-hidden 
        z-20 scrollbar'>
         <Swiper
@@ -45,11 +47,11 @@ function Projects({ projects }: props) {
             '--swiper-navigation-size': '3rem',
           } as CSSProperties}
         >
-        {projects.map((project, index) => (
-          <SwiperSlide key={index}>
-            <ProjectCard project={project} />
-          </SwiperSlide>
-        ))}
+          {projects.map((project, index) => (
+            <SwiperSlide key={index}>
+              <ProjectCard project={project} />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
       <div className='w-full absolute top-[30%] bg-[#16ac16]/10 left-0 

@@ -179,7 +179,7 @@
       ],
       "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
       "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
-      "description": "This is a fully functional e-commerce web app/template with an all products screen, product detail screen, shopping cart and a payment system with Stripe. The App was made with Javascript, React, NextJS and React. It uses Sanity, which provides an easy administration alternative to a common backend.",
+      "description": "This is a fully functional e-commerce web app/template with an all products screen, product detail screen, shopping cart and a payment system with Stripe. The App was made with Javascript, React and NextJS. It uses Sanity, which provides an easy administration alternative to a common backend.",
       "mobile": false
     },
     {
@@ -471,6 +471,480 @@
       "url": null,
       "sourceCode": "https://github.com/thegera4",
       "description": "You can find more projects in my GitHub profile. Click on the button above to go to my GitHub profile."
+    }
+  ],
+  "proyectos": [
+    {
+      "image": "/images/tuSpacio.PNG",
+      "title": "TuSpacio",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/images/redux.png"
+        },
+        {
+          "name": "MaterialUI",
+          "icon": "/images/mui.png"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/node.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png"
+        },
+        {
+          "name": "Sequelize",
+          "icon": "/images/sequelize.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "/images/postgresql.png"
+        },
+        {
+          "name": "Auth0",
+          "icon": "/images/auth0.png"
+        },
+        {
+          "name": "Stripe",
+          "icon": "/images/stripe.png"
+        }
+      ],
+      "url": "https://tuspacio.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
+      "description": "Esta es una web E-commerce Fullstack sobre productos de belleza. El frontend esta hecho con Javascript, React, Redux y Material UI. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. La app tiene una sistema de autenticación de usuario utilizando Auth0, un carrito de compra, un sistema de pagos con Stripe, un sistema de búsqueda de producto, página de perfil de usuario, un sistema de calificación de producto y un panel completo de administración donde el administrador del sitio, puede modificar cada producto ofrecido en la tienda, agregar nuevos productos, modificar precios e inventarios, ver usuarios registrados, solicitar cambios de passwords a cuentas de usuarios registrados y ver tendencias gráficas sobre las ventas.",
+      "mobile": false
+    },
+    {
+      "image": "/images/befos.PNG",
+      "title": "Befos",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+         {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/images/redux.png"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/node.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png"
+        },
+        {
+          "name": "Sequelize",
+          "icon": "/images/sequelize.png"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "/images/postgresql.png"
+        }
+      ],
+      "url": "https://pi-dogs-main-seven.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
+      "description": "Esta es una web Fullstack con información de razas de perros. El Frontend esta hecho con HTML, CSS, Javascript, React y Redux. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. La app cuenta con una barra de búsqueda en el icono de lupa, paginado numerado, filtros para la información sobre las razas, una vista del detalle de cada raza, una vista para crear tu propia raza, un botón para borrar razas creadas y usa una API sobre las razas de perros para obtener la información principal.",
+      "mobile": false
+    },
+    {
+      "image": "/images/flutter_dashboard.PNG",
+      "title": "Panel de administrador",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "GetX",
+          "icon": "/images/getx.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
+      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
+      "description": "Esta aplicación es un panel de administrador web hecho con Flutter, asi que las aplicaciones de Android y IOS pueden crearse facilmente con el mismo código! Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. La App fue hecha con Flutter, Dart, utiliza otras librerías de 3eros y es 100% responsiva. También incluye un sistema de autenticación de usuario con Firebase. La informacion proviene de diferentes APIs de prueba.",
+      "mobile": false
+    },
+    {
+      "image": "/images/lazynema.JPG",
+      "title": "LaZynema",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "SASS",
+          "icon": "/images/sass.png"
+        },
+         {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        }
+      ],
+      "url": "https://lazynema.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/laZynema",
+      "description": "Esta es una aplicación web sobre películas/series (similar a netflix). Esta hecha con HTML, SASS, Javascript y React. La app cuenta con una barra de búsqueda, una vista de detalles y previsualización con video integrado. Utiliza una API sobre películas y series para obtener la información principal a mostrar.",
+      "mobile": false
+    },
+    {
+      "image": "/images/ecommerce.PNG",
+      "title": "Tienda web",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "NextJS",
+          "icon": "/images/next.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Sanity",
+          "icon": "/images/sanity.webp"
+        },
+        {
+          "name": "Stripe",
+          "icon": "/images/stripe.png"
+        }
+      ],
+      "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
+      "description": "Esta aplicación web es una tienda que incluye una vista de todos los productos, una vista del detalle del producto, un carrito de compras y un sistema de pagos funcional con Stripe. La app esta hecha con Javascript, React y NextJS. También utiliza Sanity, una alternativa para proveer un sistema de administración sencillo donde se puede modificar lo ofrecido en la tienda.",
+      "mobile": false
+    },
+    {
+      "image": "/images/blog.PNG",
+      "title": "Blog Personal",
+      "technologies": [
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "NextJS",
+          "icon": "/images/next.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/images/mongo.png"
+        }
+      ],
+      "url": "https://nextjs-blog-thegera4.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/nextjs-blog",
+      "description": "Este es mi blog personal donde puedes encontrar posts interesantes sobre el mundo IT, recopilaciones de información que me ha ayudado como programador e información sobre algunas tecnologías que me parecen interesantes. La app esta hecha con Javascript, React, NextJS y CSS. También utiliza librerías de 3eros para poder escribir los posts en lenguaje Markdown y poder mostrar bloques de código. A su vez, se utiliza Mongo Db para almacenar la información de contacto, si el usuario utiliza el formulario de contacto.",
+      "mobile": false
+    },
+    {
+      "image": "/images/weather.PNG",
+      "title": "Aplicación de clima",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "/images/tailwind.png"
+        }
+      ],
+      "url": "https://weather-app-murex-alpha.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/Budget-app",
+      "description": "Esta es una pequeña aplicación web para obtener el clima a través de una barra de búsqueda hecha con Javascript, React y Tailwind. Se utiliza la API de Open Weather.",
+      "mobile": false
+    },
+    {
+      "image": "/images/budget.PNG",
+      "title": "Gastos Personales",
+      "technologies": [
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "/images/bootstrap.png"
+        }
+      ],
+      "url": "https://budget-app-topaz.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/Budget-app",
+      "description": "Esta es una pequeña aplicación web que te permite calcular tus gastos con base en tus ingresos. Puedes definir nuevos ingresos y egresos y borrar los que vienen por default. Esta hecha con HTML, CSS, Javascript y Bootstrap.",
+      "mobile": false
+    },
+    {
+      "image": "/images/coolmorning.png",
+      "title": "Cool Morning",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Java",
+          "icon": "/images/java.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.coolmorning&pli=1",
+      "sourceCode": "https://github.com/thegera4/Cool-Morning-App",
+      "description": "Esta app para Android se desarrolló para una tienda de regalos que opera en la ciudad de Torreón, México. Incluye el catálogo de productos de la tienda, instrucciones sobre como realizar la compra y la información de contacto de la tienda. La app esta hecha con Java.",
+      "mobile": true
+    },
+    {
+      "image": "/images/paint.png",
+      "title": "Pinta tus imágenes",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.kot_drawing_app",
+      "sourceCode": "https://github.com/thegera4/Paint-your-images-app",
+      "description": "Esta app para Android te permite pintar sobre un lienzo en blanco ó usar una imágen de fondo y pintar sobre ella con diferentes grosores de línea y diferentes colores. También puedes guardar y compartir tus creaciones con amigos. La app esta hecha con Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/workout.png",
+      "title": "Ejercicios 1&1",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        },
+         {
+          "name": "SQLite",
+          "icon": "/images/sqlite.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
+      "sourceCode": "https://github.com/thegera4/Workout-app",
+      "description": "Esta app de Android se desarrolló para ayudar a las personas a mantenerse en forma en sus casas sin necesidad de equipos para hacer ejercicio. Esta basada en la metodología de ejercicios 1&1, la cual consiste en ejercitarse por 1 minuto y descansar 1 minuto. Se incluye una calculadora de índice de masa corporal (BMI), para que puedas comparar tu estado actual con estándares mundiales. La app fue hecha con Kotlin y utiliza una base de datos SQLite para guardar tu progreso.",
+      "mobile": true
+    },
+    {
+      "image": "/images/flags.png",
+      "title": "Preguntas de banderas",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        },
+        {
+          "name": "SQLite",
+          "icon": "/images/sqlite.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.app.kot_quizzapp",
+      "sourceCode": "https://github.com/thegera4/LATAM-flag-quizz",
+      "description": "Esta app de Android es un pequeño juego de preguntas sobre banderas de países latinoamericanos. Utiliza una base de datos SQlite para guardar el progreso y mostrar tu resultado final. La app esta hecha con Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/laboutique.png",
+      "title": "La Boutique",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.shop.laboutique",
+      "sourceCode": "https://github.com/thegera4/La-boutique-shop-app",
+      "description": "Esta app para Android se desarrolló para un tienda de ropa que opera en la ciudad de Torreón, México. La app se planeó originalmente como una herramienta para mantener el inventario de la tienda, pero terminó convirtiendose en un ecommerce. La app utiliza Firebase de Google y esta hecha con Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/fluttershop.png",
+      "title": "Tienda móvil",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/mobile_shop_flutter",
+      "description": "Esta aplicación móvil de Flutter es una tienda (e-commerce) hecha durante el curso de desarrollo de aplicaciones con Flutter que tomé en Udemy. Incluye una vista de autenticación, una vista para el detalle del producto, una vista para el carrito de compras, opciones de administrador para crear y editar productos y una vista para consultar tus órdenes de compra anteriores. Utiliza Firebase de Google y esta hecha con Dart.",
+      "mobile": true
+    },
+    {
+      "image": "/images/expensetracker.png",
+      "title": "Gastos personales",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/personal_expense_tracker_app",
+      "description": "Esta app móvil de Flutter sirve para llevar un registro de gastos personales y fue hecha durante el curso de desarrollo de aplicaciones con Flutter que tomé en Udemy. Incluye una vista principal, una vista modal para agregar gastos y un 'widget' personalizado para mostrar el resumen de gastos durante los últimos 7 días. Esta hecha con Dart.",
+      "mobile": true
+    },
+    {
+      "image": "/images/uberclone.png",
+      "title": "Clon de Uber",
+      "technologies": [
+        {
+          "name": "React-Native",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "Redux",
+          "icon": "/images/redux.png"
+        },
+        {
+          "name": "Tailwind",
+          "icon": "/images/tailwind.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/uber-clone",
+      "description": "Esta aplicación móvil de React-Native es un pequeño clon de las funcionalidades principales de Uber. Tiene una vista principal con una barra de búsqueda donde puedes seleccionar tu localización actual (utiliza la API de google places para el autocompletado), una vista de mapa donde puedes seleccionar tu destino (utiliza la API de google para mostrar la ruta), y también utiliza la API distance matrix de google para calcular las tarifas. Esta hecha con Javascript, Redux y Tailwind.",
+      "mobile": true
+    },
+    {
+      "image": "/images/connect4.png",
+      "title": "Juego Conecta4",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Kotlin",
+          "icon": "/images/kotlin.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/Connect4-game",
+      "description": "Esta app de Android es el clásico juego 'Conecta4' donde tienes que conectar 4 fichas del mismo color en línea. Puedes jugar con un amigo en el mismo dispositivo. Esta hecha con Kotlin.",
+      "mobile": true
+    },
+    {
+      "image": "/images/mathgame.png",
+      "title": "Juego de mates",
+      "technologies": [
+        {
+          "name": "Android",
+          "icon": "/images/android.png"
+        },
+        {
+          "name": "Java",
+          "icon": "/images/java.png"
+        }
+      ],
+      "url": null,
+      "sourceCode": "https://github.com/thegera4/Math-Game-for-kids",
+      "description": "Esta app de Android es un pequeño juego de matemáticas para niños, donde pueden realizar operaciones básicas (suma, resta, multiplicación y división). Esta hecho con Java.",
+      "mobile": true
+    },
+    {
+      "image": "/images/githublogo.png",
+      "title": "Más proyectos",
+      "technologies": null,
+      "url": null,
+      "sourceCode": "https://github.com/thegera4",
+      "description": "Puedes encontrar más proyectos en mi perfil de GitHub. Da click en el botón de arriba para visitar mi perfil."
     }
   ]
 }

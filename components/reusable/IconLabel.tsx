@@ -30,7 +30,7 @@ function IconLabel({ icon, label, link}: Props) {
     <>
       {iconComponent}
       <Link href={link}>
-        <p className='uppercase md:inline-flex text-sm text-gray-400'>
+        <p className='uppercase md:inline-flex text-sm text-gray-400 cursor-pointer'>
           {label}
         </p>
       </Link>

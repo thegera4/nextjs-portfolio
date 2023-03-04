@@ -1,10 +1,9 @@
 import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion"
 import IconLabel from '../reusable/IconLabel';
+import LanguageSelector from './LanguageSelector';
 
-type Props = {}
-
-function Header({}: Props) {
+function Header({ translate }: any) {
   return (
     <header className='sticky top-0 flex items-start justify-between max-w-7xl 
     mx-auto z-20 xl:items-center p-5'>
@@ -14,12 +13,6 @@ function Header({}: Props) {
         animate={{ x: 0, opacity: 1, scale:1}}
         transition={{ duration: 1 }}
       >
-        <SocialIcon 
-          url="https://twitter.com/thegera4" 
-          target='_blank'
-          bgColor='transparent'
-          fgColor='gray'
-        />
         <SocialIcon 
           url="https://github.com/thegera4"
           target='_blank'
@@ -40,12 +33,13 @@ function Header({}: Props) {
         />
       </motion.div>
       <motion.div 
-        className='flex flex-row items-center text-gray-300 cursor-pointer'
+        className='flex flex-row items-center text-gray-300' 
         initial={{ x: 500, opacity: 0, scale:0.5}}
         animate={{ x: 0, opacity: 1, scale:1}}
         transition={{ duration: 1 }}
       >
-        <IconLabel icon="email" label="Contact" link='#contact' />
+        <IconLabel icon="email" label={translate('contact')} link='#contact' />
+        <LanguageSelector />
       </motion.div>
     </header>
   )

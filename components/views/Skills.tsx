@@ -3,9 +3,7 @@ import { motion } from "framer-motion"
 import TechTool from "../reusable/TechTool"
 import { myTechStack } from "@/constants/technologies"
 
-type Props = {}
-
-function Skills({}: Props) {
+function Skills({ translate }: any) {
 
   return (
     <motion.div 
@@ -17,10 +15,10 @@ function Skills({}: Props) {
         transition={{ duration: 2.5 }}
         viewport={{ once: true }}
     >
-      <SectionTitle title='Skills' />
+      <SectionTitle title={translate('skills')} />
       <h3 className="absolute top-36 uppercase tracking-[3px]
        text-gray-500 text-sm">
-          The tech stack that I have used:
+          {translate('techStack')}
       </h3>
       <div className="grid grid-cols-4 gap-5 space-x-2 lg:gap-6 2xs:mt-20 ">
         {myTechStack.map((tech, index) => (
