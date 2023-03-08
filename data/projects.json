@@ -51,6 +51,48 @@
       "mobile": false
     },
     {
+      "image": "/images/flutter_dashboard.PNG",
+      "title": "Admin Panel/Dashboard",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "GetX",
+          "icon": "/images/getx.png"
+        },
+        {
+          "name": "Typescript",
+          "icon": "/images/typescript.png"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/node.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/images/mongo.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
+      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
+      "description": "This is a Fullstack web admin dashboard made with Flutter web, but the ios and android apps can be easily created with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The Frontend was made with Flutter, Dart and it uses some other 3rd party libraries. It also includes authentication with firebase (google). The demo data comes from different dummy APIs. The Backend (custom auth API) was made with Typescript, Node Js, express, it uses a Mongo DB to save the registered user information and it also uses jwt and bcrypt to store user information securely.",
+      "mobile": false
+    },
+    {
       "image": "/images/befos.PNG",
       "title": "Befos",
       "technologies": [
@@ -62,7 +104,7 @@
           "name": "CSS",
           "icon": "/images/css.png"
         },
-         {
+        {
           "name": "Javascript",
           "icon": "/images/js.png"
         },
@@ -94,58 +136,6 @@
       "url": "https://pi-dogs-main-seven.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
       "description": "This is a Fullstack web app about dog breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
-      "mobile": false
-    },
-    {
-      "image": "/images/flutter_dashboard.PNG",
-      "title": "Admin Panel/Dashboard",
-      "technologies": [
-        {
-          "name": "Flutter",
-          "icon": "/images/flutter.png"
-        },
-        {
-          "name": "Dart",
-          "icon": "/images/dart.png"
-        },
-        {
-          "name": "GetX",
-          "icon": "/images/getx.png"
-        },
-        {
-          "name": "Firebase",
-          "icon": "/images/firebase.png"
-        }
-      ],
-      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
-      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "This is a simple web admin dashboard template made with flutter web, but the ios and android apps can easily be created with just some clicks with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The App was made with Flutter, Dart and it uses some other 3rd party libraries. It also includes authentication with firebase. The demo data comes from different dummy APIs.",
-      "mobile": false
-    },
-    {
-      "image": "/images/lazynema.JPG",
-      "title": "LaZynema",
-      "technologies": [
-        {
-          "name": "HTML",
-          "icon": "/images/html.png"
-        },
-        {
-          "name": "SASS",
-          "icon": "/images/sass.png"
-        },
-         {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        }
-      ],
-      "url": "https://lazynema.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/laZynema",
-      "description": "This is a web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
       "mobile": false
     },
     {
@@ -210,6 +200,32 @@
       "url": "https://nextjs-blog-thegera4.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
       "description": "This is my personal blog web app where you can find interesting posts about the IT world and some technologies that I find interesting. The App was made with Javascript, React, NextJS and CSS, and it uses some 3rd party libraries to write the posts in Markdown and show code snippets.Also, Mongo Db is used to store contact data from the contact form.",
+      "mobile": false
+    },
+    {
+      "image": "/images/lazynema.JPG",
+      "title": "LaZynema",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "SASS",
+          "icon": "/images/sass.png"
+        },
+         {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        }
+      ],
+      "url": "https://lazynema.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/laZynema",
+      "description": "This is a web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
       "mobile": false
     },
     {
@@ -525,6 +541,48 @@
       "mobile": false
     },
     {
+      "image": "/images/flutter_dashboard.PNG",
+      "title": "Panel de administrador",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "GetX",
+          "icon": "/images/getx.png"
+        },
+        {
+          "name": "Typescript",
+          "icon": "/images/typescript.png"
+        },
+        {
+          "name": "NodeJS",
+          "icon": "/images/node.png"
+        },
+        {
+          "name": "Express",
+          "icon": "/images/express.png"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/images/mongo.png"
+        },
+        {
+          "name": "Firebase",
+          "icon": "/images/firebase.png"
+        }
+      ],
+      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
+      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
+      "description": "Esta aplicación Fullstack es un panel de administrador web hecho con Flutter, asi que las aplicaciones de Android y IOS pueden crearse facilmente con el mismo código! Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. El Frontend esta hecho con Flutter, Dart, utiliza otras librerías de 3eros y es 100% responsiva. También incluye un botón de autenticación de usuario con Firebase(google). La información del panel proviene de diferentes APIs de prueba. El Backend (API de autenticación) esta hecha con Typescript, Node Js, express, utiliza una base de datos Mongo para guardar la información del usuario registrado y tambien utiliza jwt y bcrypt para almacenar la información de manera segura.",
+      "mobile": false
+    },
+    {
       "image": "/images/befos.PNG",
       "title": "Befos",
       "technologies": [
@@ -568,58 +626,6 @@
       "url": "https://pi-dogs-main-seven.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
       "description": "Esta es una web Fullstack con información de razas de perros. El Frontend esta hecho con HTML, CSS, Javascript, React y Redux. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. La app cuenta con una barra de búsqueda en el icono de lupa, paginado numerado, filtros para la información sobre las razas, una vista del detalle de cada raza, una vista para crear tu propia raza, un botón para borrar razas creadas y usa una API sobre las razas de perros para obtener la información principal.",
-      "mobile": false
-    },
-    {
-      "image": "/images/flutter_dashboard.PNG",
-      "title": "Panel de administrador",
-      "technologies": [
-        {
-          "name": "Flutter",
-          "icon": "/images/flutter.png"
-        },
-        {
-          "name": "Dart",
-          "icon": "/images/dart.png"
-        },
-        {
-          "name": "GetX",
-          "icon": "/images/getx.png"
-        },
-        {
-          "name": "Firebase",
-          "icon": "/images/firebase.png"
-        }
-      ],
-      "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
-      "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "Esta aplicación es un panel de administrador web hecho con Flutter, asi que las aplicaciones de Android y IOS pueden crearse facilmente con el mismo código! Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. La App fue hecha con Flutter, Dart, utiliza otras librerías de 3eros y es 100% responsiva. También incluye un sistema de autenticación de usuario con Firebase. La informacion proviene de diferentes APIs de prueba.",
-      "mobile": false
-    },
-    {
-      "image": "/images/lazynema.JPG",
-      "title": "LaZynema",
-      "technologies": [
-        {
-          "name": "HTML",
-          "icon": "/images/html.png"
-        },
-        {
-          "name": "SASS",
-          "icon": "/images/sass.png"
-        },
-         {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        }
-      ],
-      "url": "https://lazynema.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/laZynema",
-      "description": "Esta es una aplicación web sobre películas/series (similar a netflix). Esta hecha con HTML, SASS, Javascript y React. La app cuenta con una barra de búsqueda, una vista de detalles y previsualización con video integrado. Utiliza una API sobre películas y series para obtener la información principal a mostrar.",
       "mobile": false
     },
     {
@@ -684,6 +690,32 @@
       "url": "https://nextjs-blog-thegera4.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
       "description": "Este es mi blog personal donde puedes encontrar posts interesantes sobre el mundo IT, recopilaciones de información que me ha ayudado como programador e información sobre algunas tecnologías que me parecen interesantes. La app esta hecha con Javascript, React, NextJS y CSS. También utiliza librerías de 3eros para poder escribir los posts en lenguaje Markdown y poder mostrar bloques de código. A su vez, se utiliza Mongo Db para almacenar la información de contacto, si el usuario utiliza el formulario de contacto.",
+      "mobile": false
+    },
+    {
+      "image": "/images/lazynema.JPG",
+      "title": "LaZynema",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "SASS",
+          "icon": "/images/sass.png"
+        },
+         {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        }
+      ],
+      "url": "https://lazynema.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/laZynema",
+      "description": "Esta es una aplicación web sobre películas/series (similar a netflix). Esta hecha con HTML, SASS, Javascript y React. La app cuenta con una barra de búsqueda, una vista de detalles y previsualización con video integrado. Utiliza una API sobre películas y series para obtener la información principal a mostrar.",
       "mobile": false
     },
     {
