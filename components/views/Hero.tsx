@@ -23,8 +23,8 @@ function Hero({translate}: any) {
       <Image
         src='/images/profile.png'
         alt='Juan Gerardo'
-        width={100}
-        height={100}
+        width={150}
+        height={150}
         className='rounded-full relative h-32 w-32 mx-auto object-cover md:w-64 md:h-64
         md:top-[-55px]'
       />
