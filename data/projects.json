@@ -197,7 +197,7 @@
           "icon": "/images/mongo.png"
         }
       ],
-      "url": "https://nextjs-blog-thegera4.vercel.app/",
+      "url": "https://jgmedellin-blog.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
       "description": "This is my personal blog web app where you can find interesting posts about the IT world and some technologies that I find interesting. The App was made with Javascript, React, NextJS and CSS, and it uses some 3rd party libraries to write the posts in Markdown and show code snippets.Also, Mongo Db is used to store contact data from the contact form.",
       "mobile": false
@@ -687,7 +687,7 @@
           "icon": "/images/mongo.png"
         }
       ],
-      "url": "https://nextjs-blog-thegera4.vercel.app/",
+      "url": "https://jgmedellin-blog.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
       "description": "Este es mi blog personal donde puedes encontrar posts interesantes sobre el mundo IT, recopilaciones de información que me ha ayudado como programador e información sobre algunas tecnologías que me parecen interesantes. La app esta hecha con Javascript, React, NextJS y CSS. También utiliza librerías de 3eros para poder escribir los posts en lenguaje Markdown y poder mostrar bloques de código. A su vez, se utiliza Mongo Db para almacenar la información de contacto, si el usuario utiliza el formulario de contacto.",
       "mobile": false
