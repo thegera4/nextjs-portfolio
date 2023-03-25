@@ -20,13 +20,13 @@ function Header({ translate }: any) {
           fgColor='gray'
         />
         <SocialIcon 
-          url="https://facebook.com/juangerardo.medellinibarra/"
+          url="https://linkedin.com/in/juan-gerardo-medellin-ibarra-8b207058/"
           target='_blank'
           bgColor='transparent'
           fgColor='gray'
         />
-        <SocialIcon 
-          url="https://linkedin.com/in/juan-gerardo-medellin-ibarra-8b207058/"
+        <SocialIcon
+          url="https://jgmedellin-blog.vercel.app/"
           target='_blank'
           bgColor='transparent'
           fgColor='gray'
