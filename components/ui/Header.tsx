@@ -3,7 +3,11 @@ import { motion } from "framer-motion"
 import IconLabel from '../reusable/IconLabel';
 import LanguageSelector from './LanguageSelector';
 
-function Header({ translate }: any) {
+type Translate = {
+  translate: (key: string) => string
+}
+
+const Header: React.FC<Translate> = ({ translate }) => {
   return (
     <header className='sticky top-0 flex items-start justify-between max-w-7xl 
     mx-auto z-20 xl:items-center p-5'>
