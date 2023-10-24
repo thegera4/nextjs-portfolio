@@ -1,11 +1,11 @@
-import { FC, ReactNode, useRef } from 'react'
+import { ReactNode, useRef } from 'react'
 
-type Props = {
+type Tooltip = {
   children: ReactNode,
   tooltip?: string
 }
 
-function Tooltip({ children, tooltip }: Props) {
+const Tooltip: React.FC<Tooltip> = ({ children, tooltip }) => {
   const tooltipRef = useRef<HTMLSpanElement>(null);
   const container = useRef<HTMLDivElement>(null);
 
