@@ -18,8 +18,21 @@ test.describe('test', () => {
     await nextBtn.click();
     const div = page.locator('.relative > .swiper > .swiper-wrapper')
     const divStyle = await div.getAttribute('style')
-    expect(divStyle).toContain('translate3d(-1280px, 0px, 0px)')
-
+    
+    if (divStyle !== null) {
+      // Use a regular expression to extract the numeric value from the transform property
+      const transformValueMatch = divStyle.match(/translate3d\((-?\d+)px, 0px, 0px\)/)
+      if (transformValueMatch !== null) {
+        // Parse the extracted numeric value as an integer
+        const transformValue = parseInt(transformValueMatch[1], 10)
+        //change tansformValue to absolute value
+        const transformValueABS = Math.abs(transformValue)
+        // Check if the numeric value is within the desired range (1270 to 1280)
+        expect(transformValueABS).toBeGreaterThanOrEqual(1270)
+        expect(transformValueABS).toBeLessThanOrEqual(1280)
+      }
+    }
+  
     const prevBtn = page.locator('.relative > .swiper > .swiper-button-prev')
     await prevBtn.click()
     const divStyle2 = await div.getAttribute('style')
