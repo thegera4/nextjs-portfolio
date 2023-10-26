@@ -1,8 +1,9 @@
 import SectionTitle from '../reusable/SectionTitle'
 import ContactForm from '../ui/ContactForm'
 import { DevicePhoneMobileIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import { Translate, Inputs } from '@/types'
 
-function ContactMe({ translate}: any) {
+const ContactMe: React.FC<Translate> = ({ translate}) => {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left
@@ -31,7 +32,7 @@ function ContactMe({ translate}: any) {
             </p>
           </div>
         </div>
-        <ContactForm translate={translate} />
+        <ContactForm translate={translate} name={''} email={''} subject={''} message={''}/>
       </div>
     </div>
   )
