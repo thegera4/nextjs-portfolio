@@ -1,9 +1,5 @@
-import { ReactNode, useRef } from 'react'
-
-type Tooltip = {
-  children: ReactNode,
-  tooltip?: string
-}
+import { useRef } from 'react'
+import { Tooltip } from '@/types';
 
 const Tooltip: React.FC<Tooltip> = ({ children, tooltip }) => {
   const tooltipRef = useRef<HTMLSpanElement>(null);

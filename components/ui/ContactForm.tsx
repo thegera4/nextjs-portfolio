@@ -1,13 +1,7 @@
 import { useForm, SubmitHandler } from "react-hook-form";
+import { Inputs } from "@/types";
 
-type Inputs = {
-  name: string,
-  email: string,
-  subject: string,
-  message: string
-};
-
-function ContactForm({ translate }: any) {
+const ContactForm: React.FC<Inputs> = ({ translate }) => {
 
   const { register, handleSubmit } = useForm<Inputs>();
 

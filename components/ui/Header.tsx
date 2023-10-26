@@ -2,10 +2,7 @@ import { SocialIcon } from 'react-social-icons';
 import { motion } from "framer-motion"
 import IconLabel from '../reusable/IconLabel';
 import LanguageSelector from './LanguageSelector';
-
-type Translate = {
-  translate: (key: string) => string
-}
+import { Translate } from '@/types';
 
 const Header: React.FC<Translate> = ({ translate }) => {
   return (
