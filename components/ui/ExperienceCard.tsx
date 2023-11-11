@@ -1,19 +1,9 @@
 import { motion } from 'framer-motion'
+import { ExperienceCard } from '@/types'
 
-type Props = {
-  job: {
-    title: string
-    company: string
-    date: string
-    summary: string[]
-    image: string
-  },
-}
+const ExperienceCard: React.FC<ExperienceCard>  = ({ job }) => {
 
-
-function ExperienceCard({ job }: Props) {
   return (
-    <div>
       <article className='flex flex-col rounded-lg items-center space-y-7 
       mt-20 flex-shrink-0 w-full md:h-[600px] bg-[#292929] p-5 
       hover:opacity-100 opacity-40 duration-200 cursor-default 
@@ -41,7 +31,8 @@ function ExperienceCard({ job }: Props) {
           md:-mb-1'>
             {job.date}
           </p>
-          <ul className='list-disc space-y-4 ml-5 text-lg md:text-sm lg:visible md:visible
+          <ul className='list-disc space-y-4 ml-5 text-lg
+           md:text-sm lg:visible md:visible
           xs:invisible 2xs:invisible'>
             {job.summary.map((item, index) => (
               <li key={index}>{item}</li>
@@ -49,7 +40,6 @@ function ExperienceCard({ job }: Props) {
           </ul>
         </div>
       </article>
-    </div>
   )
 }
 

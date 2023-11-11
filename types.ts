@@ -14,4 +14,14 @@ export type Inputs = Translate & {
     email: string,
     subject: string,
     message: string,
-  };
+};
+
+export type ExperienceCard = {
+    job: {
+      title: string
+      company: string
+      date: string
+      summary: string[]
+      image: string
+    },
+}
