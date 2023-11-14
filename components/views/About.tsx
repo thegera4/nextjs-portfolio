@@ -17,7 +17,7 @@ function About({translate}: any) {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        src='/images/profile.png'
+        src='/images/meGundam.jpg'
         alt='Me'
         className='-mb-20 md:mb-0 flex-shrink-0 h-56 w-56 rounded-full 
         object-cover md:rounded-lg md:h-72 md:w-72 xl:w-[400px] xl:h-[400px]
