@@ -6,9 +6,10 @@ type Props = {
   icon: string;
   label: string;
   link: string;
+  contact: () => void;
 }
 
-function IconLabel({ icon, label, link}: Props) {
+function IconLabel({ icon, label, link, contact}: Props) {
 
   let iconComponent;
 
@@ -27,14 +28,14 @@ function IconLabel({ icon, label, link}: Props) {
   }
 
   return (
-    <>
+    <div onClick={contact}>
       {iconComponent}
-      <Link href={link}>
+      {/*<Link href={link}>*/}
         <p className='uppercase md:inline-flex text-sm text-white cursor-pointer'>
           {label}
         </p>
-      </Link>
-    </>
+      {/*</Link>*/}
+    </div>
   )
 }
 

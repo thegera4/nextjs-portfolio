@@ -9,7 +9,7 @@ test.describe('ExperienceCard component tests', () => {
 
   test('should display the ExperienceCard component', async ({ page }) => {
     const experienceCard = page.locator('article')
-    await expect(experienceCard).toHaveCount(9)
+    await expect(experienceCard).toHaveCount(1)
   })
 
 

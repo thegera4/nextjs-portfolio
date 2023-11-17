@@ -5,6 +5,11 @@ import LanguageSelector from './LanguageSelector';
 import { Translate } from '@/types';
 
 const Header: React.FC<Translate> = ({ translate }) => {
+
+  const onSubmit: ()=>void = () => {
+    window.location.href = `mailto:thegera4@hotmail.com?subject=I saw your Portfolio...&body=Hi, my name is...`
+  };
+
   return (
     <header className='sticky top-0 flex items-start justify-between max-w-7xl 
     mx-auto z-20 xl:items-center p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100'>
@@ -39,7 +44,7 @@ const Header: React.FC<Translate> = ({ translate }) => {
         animate={{ x: 0, opacity: 1, scale:1}}
         transition={{ duration: 1 }}
       >
-        <IconLabel icon="email" label={translate('contact')} link='#contact' />
+        <IconLabel icon="email" label={translate('contact')} link='#contact' contact={onSubmit}/>
         <LanguageSelector />
       </motion.div>
     </header>
