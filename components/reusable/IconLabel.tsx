@@ -14,13 +14,13 @@ function IconLabel({ icon, label, link}: Props) {
 
   switch(icon) {
     case 'home':
-      iconComponent = <HomeIcon className='h-6 w-6 text-gray-400 mr-2
+      iconComponent = <HomeIcon className='h-6 w-6 text-white mr-2
       lg:visible md:visible sm:visible xs:invisible 2xs:invisible' />
       break;
     case 'email':
       iconComponent = <SocialIcon className='cursor-pointer
       lg:visible md:visible sm:visible xs:invisible 2xs:invisible' 
-      network={icon}fgColor='gray' bgColor='transparent'/>
+      network={icon} fgColor='white' bgColor='transparent'/>
       break;
     default:
       return null;
@@ -30,7 +30,7 @@ function IconLabel({ icon, label, link}: Props) {
     <>
       {iconComponent}
       <Link href={link}>
-        <p className='uppercase md:inline-flex text-sm text-gray-400 cursor-pointer'>
+        <p className='uppercase md:inline-flex text-sm text-white cursor-pointer'>
           {label}
         </p>
       </Link>

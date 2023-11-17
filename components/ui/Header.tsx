@@ -7,7 +7,7 @@ import { Translate } from '@/types';
 const Header: React.FC<Translate> = ({ translate }) => {
   return (
     <header className='sticky top-0 flex items-start justify-between max-w-7xl 
-    mx-auto z-20 xl:items-center p-5'>
+    mx-auto z-20 xl:items-center p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100'>
       <motion.div 
         className='flex flex-row items-center'
         initial={{ x: -500, opacity: 0, scale:0.5}}
@@ -18,19 +18,19 @@ const Header: React.FC<Translate> = ({ translate }) => {
           url="https://github.com/thegera4"
           target='_blank'
           bgColor='transparent'
-          fgColor='gray'
+          fgColor='white'
         />
         <SocialIcon 
           url="https://linkedin.com/in/juan-gerardo-medellin-ibarra-8b207058/"
           target='_blank'
           bgColor='transparent'
-          fgColor='gray'
+          fgColor='white'
         />
         <SocialIcon
           url="https://jgmedellin-blog.vercel.app/"
           target='_blank'
           bgColor='transparent'
-          fgColor='gray'
+          fgColor='white'
         />
       </motion.div>
       <motion.div 

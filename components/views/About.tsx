@@ -27,7 +27,7 @@ function About({translate}: any) {
       <div className='space-y-10 px-0 md:px-10 xs:space-y-0 2xs:space-y-2'>
         <h4 className='text-4xl font-semibold 2xs:text-[1.5rem]'>
           {translate('here')}{" "}
-          <span className='underline decoration-[#16ac16]/50'>
+          <span className='underline decoration-[#1ff81f]'>
             {translate('story')}...
           </span>
         </h4>

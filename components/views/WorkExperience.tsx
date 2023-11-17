@@ -8,6 +8,7 @@ import { useRouter } from "next/router"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { CSSProperties } from "react"
+import ExperienceTimeline from "../ui/ExperienceTimeline"
 
 function WorkExperience({ translate }: any) {
   const { locale } = useRouter()
@@ -22,8 +23,10 @@ function WorkExperience({ translate }: any) {
       viewport={{ once: true }}
     >
       <SectionTitle title={translate('experience')} />
-      <div className="w-full flex space-x-5 p-10 items-center align-middle xs:p-4 2xs:p-0">
-        <Swiper  
+        <div className="max-w-7xl flex space-x-5 p-10 items-center align-middle xs:p-4 2xs:p-0">
+      {/*<div className="w-full flex space-x-5 p-10 items-center align-middle xs:p-4 2xs:p-0">*/}
+        {/* Swiper with experience cards */}
+        {/*<Swiper  
           navigation={true}
           modules={[Navigation]} 
           style={{ 
@@ -44,7 +47,8 @@ function WorkExperience({ translate }: any) {
             </SwiperSlide>
           )
           }
-        </Swiper>
+        </Swiper>*/}
+        <ExperienceTimeline />
       </div>
     </motion.div>
   )

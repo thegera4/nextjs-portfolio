@@ -11,7 +11,7 @@ const LanguageSelector: React.FC = () => {
         viewBox="0 0 24 24" 
         strokeWidth={1.5} 
         stroke="currentColor" 
-        className="w-6 h-6 text-gray-400 sm:visible xs:"
+        className="w-6 h-6 mt-1.5 text-white sm:visible "
       >
         <path 
         strokeLinecap="round" 
@@ -21,8 +21,7 @@ const LanguageSelector: React.FC = () => {
       </svg>
       <select
         title='Select Language'
-        className='bg-[#242424] text-gray-400 cursor-pointer max-w-xs
-        text-sm'
+        className='bg-[#242424] text-white cursor-pointer max-w-xs text-sm border-none'
         value={locale}
         onChange={(e) => push('/', '/', { locale: e.target.value })}
       >
