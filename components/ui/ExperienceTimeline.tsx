@@ -1,22 +1,6 @@
 import { Button, Timeline } from 'flowbite-react';
 import { HiCalendar } from 'react-icons/hi';
-
-/* 
- {
-    title: "Frontend Developer",
-    company: "Financiera Independencia",
-    date: "Nov 2022 - Present",
-    summary: [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-    ],
-    image: "/images/findeplogo.jpg",
-  },
-*/
+import CV from '../../public/assets/CV Juan Gerardo eng v7.pdf'
 
 const ExperienceTimeline: React.FC = () => {
     return (
@@ -82,19 +66,30 @@ const ExperienceTimeline: React.FC = () => {
                     </Timeline.Content>
                 </Timeline.Item>
             </Timeline>
-            <div className='flex '>
-                <Button color="gray">
-                    Download CV
-                    <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 19">
-                        <path 
-                            stroke="currentColor" 
-                            strokeLinecap="round" 
-                            strokeLinejoin="round" 
-                            strokeWidth="2" 
-                            d="M15 15h.01M4 12H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3M9.5 1v10.93m4-3.93-4 4-4-4"
-                        />
-                    </svg>
-                </Button>
+            <div className="flex justify-center mt-2">
+                <div className="flex items-center justify-center h-12 w-40 p-1 font-medium relative text-gray-900 bg-white border
+                border-gray-200 rounded-lg">
+                    <span className="flex text-gray-800 dark:text-white">
+                        <a href={CV} download className="flex items-center">
+                            <span>Download CV</span>
+                            <svg 
+                                className="w-6 h-6 text-gray-800 dark:text-white" 
+                                aria-hidden="true" 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                fill="none" 
+                                viewBox="0 0 20 19"
+                            >
+                                <path 
+                                    stroke="currentColor" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    strokeWidth="2" 
+                                    d="M15 15h.01M4 12H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-3M9.5 1v10.93m4-3.93-4 4-4-4"
+                                />
+                            </svg>
+                        </a>
+                    </span>
+                </div>
             </div>
         </article>
     )
