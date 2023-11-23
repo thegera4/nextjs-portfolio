@@ -1,22 +1,20 @@
 import { motion } from "framer-motion"
-import ExperienceCard from "../ui/ExperienceCard"
+//import ExperienceCard from "../ui/ExperienceCard"
 import SectionTitle from "../reusable/SectionTitle"
 import { jobs, trabajos } from "@/data/jobs"
-import { Swiper, SwiperSlide } from "swiper/react"
-import { Navigation } from 'swiper';
-import { useRouter } from "next/router"
+//import { Swiper, SwiperSlide } from "swiper/react"
+//import { Navigation } from 'swiper';
+//import { useRouter } from "next/router"
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { CSSProperties } from "react"
 import ExperienceTimeline from "../ui/ExperienceTimeline"
+import { Translate } from '@/types'
 
-function WorkExperience({ translate }: any) {
-  const { locale } = useRouter()
+const WorkExperience: React.FC<Translate> = ({ translate }) => {
+  //const { locale } = useRouter()
   
   return (
-    <motion.div 
-      className='h-screen flex relative overflow-hidden flex-col text-left
-      md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'
+    <motion.div className='h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center'
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2.5 }}
@@ -48,7 +46,7 @@ function WorkExperience({ translate }: any) {
           )
           }
         </Swiper>*/}
-        <ExperienceTimeline />
+        <ExperienceTimeline translate={translate} />
       </div>
     </motion.div>
   )

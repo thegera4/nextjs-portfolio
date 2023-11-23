@@ -1,8 +1,10 @@
-import { Button, Timeline } from 'flowbite-react';
+import { Timeline } from 'flowbite-react';
 import { HiCalendar } from 'react-icons/hi';
+import { Translate } from '@/types';
 import CV from '../../public/assets/CV Juan Gerardo eng v7.pdf'
 
-const ExperienceTimeline: React.FC = () => {
+const ExperienceTimeline: React.FC<Translate> = ({translate}) => {
+
     return (
         <article>
             <Timeline horizontal>
@@ -11,16 +13,16 @@ const ExperienceTimeline: React.FC = () => {
                     <Timeline.Content>
                     <Timeline.Time>Oct 2010 - May 2011</Timeline.Time>
                     <Timeline.Title className='text-[#a5f3fc]'>
-                        Automation Programmer
+                        {translate('AutomationProgrammer')}
                     </Timeline.Title>
-                    <Timeline.Body className='text-white'>
-                        - PLC and HMI programming for different projects.<br/>
-                        - Support to customers in their sites with technical issues.<br/>
-                        - Project: New touch control panel for a John Deere plant<br/>
-                        - Project: PLC substitution for a Johnson Controls plant <br/>
-                        - Project: SCADA application new features in VB6 at Johnson Controls plant <br/>
-                        - Project: PLC programming for a assembly lines at Johnson Controls plant <br/>
-                        - Electrical schematic design for different projects. <br/>
+                    <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
+                        - {translate('PLCHMI')}<br/>
+                        - {translate('SuppToCust')}<br/>
+                        - {translate('NewTouchPanel')}<br/>
+                        - {translate('NewPLC')}<br/>
+                        - {translate('SCADA')}<br/>
+                        - {translate('PLCProg')}<br/>
+                        - {translate('ElectricalSchemes')}<br/>
                     </Timeline.Body>
                     </Timeline.Content>
                 </Timeline.Item>
@@ -29,18 +31,18 @@ const ExperienceTimeline: React.FC = () => {
                     <Timeline.Content>
                     <Timeline.Time>May 2011 - Nov 2022</Timeline.Time>
                     <Timeline.Title className='text-[#a5f3fc]'>
-                        Several NON-IT positions
+                        {translate('NonIT')}
                     </Timeline.Title>
-                    <Timeline.Body className='text-white'>
-                        - Line Technician at LALA.<br/>
-                        - Machining Process Engineer at John Deere.<br/>
-                        - Machining Process Engineer  at Delphi Diesel Systems.<br/>
-                        - Automotive Quality Engineer at PKC Group.<br/>
-                        - Process and Quality Engineer at Henniges Automotive. <br/>
-                        - Automotive Senior Quality Engineer at Motherson Group. <br/>
-                        - Manufacturing Supervisor at SMP Automotive Alambama. <br/>
-                        - Teacher at UANE and UAC. <br/>
-                        - Ads Assesor at Telus International.
+                    <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
+                        - {translate('LALA')}<br/>
+                        - {translate('MJD')}<br/>
+                        - {translate('DELPHI')}<br/>
+                        - {translate('PKCQE')}<br/>
+                        - {translate('HENNIGES')}<br/>
+                        - {translate('MOTHERSON')} <br/>
+                        - {translate('SMP')}<br/>
+                        - {translate('TEACHER')}<br/>
+                        - {translate('ADSAssesor')}<br/>
                     </Timeline.Body>
                     </Timeline.Content>
                 </Timeline.Item>
@@ -49,19 +51,19 @@ const ExperienceTimeline: React.FC = () => {
                     <Timeline.Content>
                     <Timeline.Time>Nov 2022 -  
                         <span className="ml-1 items-center justify-center p-0.5 font-medium relative text-gray-900 bg-white border border-gray-200 rounded-lg">
-                            Current
+                            {translate('Current')}
                         </span>
                     </Timeline.Time>
                     <Timeline.Title className='text-[#a5f3fc]'>
-                        Frontend Developer
+                        {translate('FrontendDeveloper')}
                     </Timeline.Title>
-                    <Timeline.Body className='text-white'>
-                        - Create a scalable and maintainable codebase.<br/>
-                        - Apply scrum methodologies.<br/>
-                        - Design UI and new features for applications.<br/>
-                        - Deploy applications using Google Cloud Services.<br/>
-                        - Write unit tests for new features and bug fixes. <br/>
-                        - Write documentation for new features and bug fixes.<br/>
+                    <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
+                        - {translate('CreateCodebase')}<br/>
+                        - {translate('ApplyScrum')}<br/>
+                        - {translate('DesignUI')}<br/>
+                        - {translate('DeployGCP')}<br/>
+                        - {translate('WriteTests')}<br/>
+                        - {translate('WriteDocs')}<br/>
                     </Timeline.Body>
                     </Timeline.Content>
                 </Timeline.Item>
@@ -71,7 +73,7 @@ const ExperienceTimeline: React.FC = () => {
                 border-gray-200 rounded-lg">
                     <span className="flex text-gray-800 dark:text-white">
                         <a href={CV} download className="flex items-center">
-                            <span>Download CV</span>
+                            <span>{translate('DownloadCV')}</span>
                             <svg 
                                 className="w-6 h-6 text-gray-800 dark:text-white" 
                                 aria-hidden="true" 
@@ -96,6 +98,3 @@ const ExperienceTimeline: React.FC = () => {
 }
 
 export default ExperienceTimeline
-
-
-

@@ -26,12 +26,12 @@ export const NEXTJS = 'NextJS';
 export const GIT = 'Git';
 export const GITLAB = 'GitLab';
 export const LESS = 'Less';
+export const PYTHON = 'Python';
+export const FASTAPI = 'FastAPI';
+export const DOCKER = 'Docker';
+export const KUBERNETES = 'Kubernetes';
 
 export const myTechStack = [
-  {
-    alt: REACT,
-    path: '/images/react.png',
-  },
   {
     alt: JAVASCRIPT,
     path: '/images/js.png',
@@ -49,8 +49,12 @@ export const myTechStack = [
     path: '/images/css.png',
   },
   {
-    alt: LESS,
-    path: '/images/less.png',
+    alt: REACT,
+    path: '/images/react.png',
+  },
+  {
+    alt: REDUX,
+    path: '/images/redux.png',
   },
   {
     alt: SASS,
@@ -61,16 +65,12 @@ export const myTechStack = [
     path: '/images/tailwind.png',
   },
   {
-    alt: REDUX,
-    path: '/images/redux.png',
-  },
-  {
     alt: MATERIAL_UI,
     path: '/images/mui.png',
   },
   {
     alt: NEXTJS,
-    path: '/images/next.png',
+    path: '/images/nextjs.png',
   },
   {
     alt: NODEJS,
@@ -85,12 +85,16 @@ export const myTechStack = [
     path: '/images/sequelize.png',
   },
   {
-    alt: MONGODB,
-    path: '/images/mongo.png',
+    alt: PYTHON,
+    path: '/images/python.png',
   },
   {
-    alt: AUTO0,
-    path: '/images/auth0.png',
+    alt: FASTAPI,
+    path: '/images/fastapi.png',
+  },
+  {
+    alt: MONGODB,
+    path: '/images/mongo.png',
   },
   {
     alt: SQLITE,
@@ -133,11 +137,27 @@ export const myTechStack = [
     path: '/images/git.png',
   },
   {
-    alt: GITLAB,
-    path: '/images/gitlab.png',
+    alt: DOCKER,
+    path: '/images/docker.png',
+  },
+  {
+    alt: KUBERNETES,
+    path: '/images/kubernetes.png',
   },
   {
     alt: STRIPE,
     path: '/images/stripe.png',
+  },
+  {
+    alt: AUTO0,
+    path: '/images/auth0.png',
+  },
+  {
+    alt: GITLAB,
+    path: '/images/gitlab.png',
+  },
+  {
+    alt: LESS,
+    path: '/images/less.png',
   },
 ];

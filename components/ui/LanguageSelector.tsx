@@ -4,7 +4,7 @@ const LanguageSelector: React.FC = () => {
   const { locale, push } = useRouter()
 
   return (
-    <div className='flex ml-5'>
+    <div className='flex ml-5 sm:mt-0 xs:mt-[-20px]'>
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
         fill="none" 

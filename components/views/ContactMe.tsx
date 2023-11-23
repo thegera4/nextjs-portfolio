@@ -1,9 +1,9 @@
 import SectionTitle from '../reusable/SectionTitle'
 import ContactForm from '../ui/ContactForm'
 import { DevicePhoneMobileIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
-import { Translate, Inputs } from '@/types'
+import { Translate } from '@/types'
 
-const ContactMe: React.FC<Translate> = ({ translate}) => {
+const ContactMe: React.FC<Translate> = ({ translate }) => {
 
   return (
     <div className='h-screen flex relative flex-col text-center md:text-left

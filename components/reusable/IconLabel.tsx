@@ -19,8 +19,7 @@ function IconLabel({ icon, label, link, contact}: Props) {
       lg:visible md:visible sm:visible xs:invisible 2xs:invisible' />
       break;
     case 'email':
-      iconComponent = <SocialIcon className='cursor-pointer
-      lg:visible md:visible sm:visible xs:invisible 2xs:invisible' 
+      iconComponent = <SocialIcon className='cursor-pointer' 
       network={icon} fgColor='white' bgColor='transparent'/>
       break;
     default:
@@ -28,10 +27,10 @@ function IconLabel({ icon, label, link, contact}: Props) {
   }
 
   return (
-    <div onClick={contact}>
+    <div onClick={contact}> 
       {iconComponent}
       {/*<Link href={link}>*/}
-        <p className='uppercase md:inline-flex text-sm text-white cursor-pointer'>
+        <p className='uppercase md:inline-flex text-sm text-white cursor-pointer md:visible xs:invisible 2xs:invisible'>
           {label}
         </p>
       {/*</Link>*/}

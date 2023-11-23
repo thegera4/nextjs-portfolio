@@ -11,8 +11,8 @@ const Header: React.FC<Translate> = ({ translate }) => {
   };
 
   return (
-    <header className='sticky top-0 flex items-start justify-between max-w-7xl 
-    mx-auto z-20 xl:items-center p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100'>
+    <header className='sticky top-0 flex items-start md:justify-between max-w-7xl mx-auto z-20 xl:items-center 
+    p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100 sm:justify-center'>
       <motion.div 
         className='flex flex-row items-center'
         initial={{ x: -500, opacity: 0, scale:0.5}}
