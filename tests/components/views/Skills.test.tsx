@@ -27,7 +27,7 @@ test.describe('Skills view tests', () => {
     await expect(page.locator('#skills').getByRole('img', { name: 'Express' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'Sequelize' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'MongoDB' })).toBeVisible()
-    await expect(page.locator('img[alt="Auto0"]')).toBeVisible()
+    await expect(page.locator('#skills').getByRole('img', { name: 'Auth0' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'SQLite' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'Firebase' })).toBeVisible()
     await expect(page.locator('img[alt="MySQL"]')).toBeVisible()

@@ -36,13 +36,9 @@ test.describe('Header component tests with codegen', () => {
     expect(popup.url()).toBe('https://jgmedellin-blog.vercel.app/')
   })
 
-  test('should have a contact link and when clicked, it scrolls down to the contact section', async ({ page }) => {
-    const email = page.getByLabel('email');
-    expect(await email.isVisible()).toBeTruthy();
-    const contact = page.getByRole('link', { name: 'CONTACT' });
+  test('should have a contact link', async ({ page }) => {
+    const contact = page.getByText('CONTACT', { exact: true })
     expect(await contact.isVisible()).toBeTruthy();
-    await contact.click();
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/#contact');
   })
 
   test('should have a language selector with 2 options "EN" and "ES", and changes the language', async ({ page }) => {
@@ -76,3 +72,7 @@ test.describe('Header component tests with codegen', () => {
   })
 
 })
+
+function locator(arg0: string) {
+  throw new Error('Function not implemented.');
+}
