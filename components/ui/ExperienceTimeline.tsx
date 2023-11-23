@@ -10,7 +10,7 @@ const ExperienceTimeline: React.FC = () => {
                     <Timeline.Point icon={HiCalendar} />
                     <Timeline.Content>
                     <Timeline.Time>Oct 2010 - May 2011</Timeline.Time>
-                    <Timeline.Title className='text-[#1ff81f]'>
+                    <Timeline.Title className='text-[#a5f3fc]'>
                         Automation Programmer
                     </Timeline.Title>
                     <Timeline.Body className='text-white'>
@@ -28,7 +28,7 @@ const ExperienceTimeline: React.FC = () => {
                     <Timeline.Point icon={HiCalendar} />
                     <Timeline.Content>
                     <Timeline.Time>May 2011 - Nov 2022</Timeline.Time>
-                    <Timeline.Title className='text-[#1ff81f]'>
+                    <Timeline.Title className='text-[#a5f3fc]'>
                         Several NON-IT positions
                     </Timeline.Title>
                     <Timeline.Body className='text-white'>
@@ -52,7 +52,7 @@ const ExperienceTimeline: React.FC = () => {
                             Current
                         </span>
                     </Timeline.Time>
-                    <Timeline.Title className='text-[#1ff81f]'>
+                    <Timeline.Title className='text-[#a5f3fc]'>
                         Frontend Developer
                     </Timeline.Title>
                     <Timeline.Body className='text-white'>
