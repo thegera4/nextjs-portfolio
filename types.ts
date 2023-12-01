@@ -22,3 +22,15 @@ export type ExperienceCard = {
 }
 
 export type SectionTitle = { title: string }
+
+export type ProjectCardInfo = {
+  project: {
+    title: string,
+    description: string,
+    image: string,
+    url: string,
+    sourceCode: string,
+    technologies: [{ icon: string, name: string }],
+    mobile: boolean
+  }
+}
