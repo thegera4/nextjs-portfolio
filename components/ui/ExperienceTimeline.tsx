@@ -1,60 +1,20 @@
 import { Timeline } from 'flowbite-react';
-import { HiCalendar } from 'react-icons/hi';
 import { Translate } from '@/types';
 import CV from '../../public/assets/CV Juan Gerardo eng v7.pdf'
 
 const ExperienceTimeline: React.FC<Translate> = ({translate}) => {
-
     return (
         <article>
-            <Timeline horizontal>
+            <Timeline >
                 <Timeline.Item>
-                    <Timeline.Point icon={HiCalendar} />
-                    <Timeline.Content>
-                    <Timeline.Time>Oct 2010 - May 2011</Timeline.Time>
-                    <Timeline.Title className='text-[#a5f3fc]'>
-                        {translate('AutomationProgrammer')}
-                    </Timeline.Title>
-                    <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
-                        - {translate('PLCHMI')}<br/>
-                        - {translate('SuppToCust')}<br/>
-                        - {translate('NewTouchPanel')}<br/>
-                        - {translate('NewPLC')}<br/>
-                        - {translate('SCADA')}<br/>
-                        - {translate('PLCProg')}<br/>
-                        - {translate('ElectricalSchemes')}<br/>
-                    </Timeline.Body>
-                    </Timeline.Content>
-                </Timeline.Item>
-                <Timeline.Item>
-                    <Timeline.Point icon={HiCalendar} />
-                    <Timeline.Content>
-                    <Timeline.Time>May 2011 - Nov 2022</Timeline.Time>
-                    <Timeline.Title className='text-[#a5f3fc]'>
-                        {translate('NonIT')}
-                    </Timeline.Title>
-                    <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
-                        - {translate('LALA')}<br/>
-                        - {translate('MJD')}<br/>
-                        - {translate('DELPHI')}<br/>
-                        - {translate('PKCQE')}<br/>
-                        - {translate('HENNIGES')}<br/>
-                        - {translate('MOTHERSON')} <br/>
-                        - {translate('SMP')}<br/>
-                        - {translate('TEACHER')}<br/>
-                        - {translate('ADSAssesor')}<br/>
-                    </Timeline.Body>
-                    </Timeline.Content>
-                </Timeline.Item>
-                <Timeline.Item>
-                    <Timeline.Point icon={HiCalendar} />
+                    <Timeline.Point/>
                     <Timeline.Content>
                     <Timeline.Time>Nov 2022 -  
                         <span className="ml-1 items-center justify-center p-0.5 font-medium relative text-gray-900 bg-white border border-gray-200 rounded-lg">
                             {translate('Current')}
                         </span>
                     </Timeline.Time>
-                    <Timeline.Title className='text-[#a5f3fc]'>
+                    <Timeline.Title className='text-[#2bff2b]'>
                         {translate('FrontendDeveloper')}
                     </Timeline.Title>
                     <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
@@ -64,6 +24,27 @@ const ExperienceTimeline: React.FC<Translate> = ({translate}) => {
                         - {translate('DeployGCP')}<br/>
                         - {translate('WriteTests')}<br/>
                         - {translate('WriteDocs')}<br/>
+                    </Timeline.Body>
+                    </Timeline.Content>
+                </Timeline.Item>
+                <Timeline.Item>
+                    <Timeline.Point/>
+                    <Timeline.Content>
+                    <Timeline.Time>May 2011 - Nov 2022</Timeline.Time>
+                    <Timeline.Title className='text-[#2bff2b]'>
+                        {translate('NonIT')}
+                    </Timeline.Title>
+                    <Timeline.Body className='text-white lg:text-lg sm:text-sm sm:block xs:hidden'>
+                        - {translate('AutomationProgrammer')}<br/>
+                        - {translate('LALA')}<br/>
+                        - {translate('MJD')}<br/>
+                        - {translate('DELPHI')}<br/>
+                        - {translate('PKCQE')}<br/>
+                        - {translate('HENNIGES')}<br/>
+                        - {translate('MOTHERSON')} <br/>
+                        - {translate('SMP')}<br/>
+                        - {translate('TEACHER')}<br/>
+                        - {translate('ADSAssesor')}<br/>
                     </Timeline.Body>
                     </Timeline.Content>
                 </Timeline.Item>
@@ -96,5 +77,4 @@ const ExperienceTimeline: React.FC<Translate> = ({translate}) => {
         </article>
     )
 }
-
 export default ExperienceTimeline
