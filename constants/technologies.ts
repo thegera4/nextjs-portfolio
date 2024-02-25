@@ -30,6 +30,8 @@ export const PYTHON = 'Python';
 export const FASTAPI = 'FastAPI';
 export const DOCKER = 'Docker';
 export const KUBERNETES = 'Kubernetes';
+export const GO = 'Go';
+export const GIN = 'Gin';
 
 export const myTechStack = [
   {
@@ -53,22 +55,6 @@ export const myTechStack = [
     path: '/images/react.png',
   },
   {
-    alt: REDUX,
-    path: '/images/redux.png',
-  },
-  {
-    alt: SASS,
-    path: '/images/sass.png',
-  },
-  {
-    alt: TAILWIND,
-    path: '/images/tailwind.png',
-  },
-  {
-    alt: MATERIAL_UI,
-    path: '/images/mui.png',
-  },
-  {
     alt: NEXTJS,
     path: '/images/nextjs.png',
   },
@@ -81,8 +67,12 @@ export const myTechStack = [
     path: '/images/express.png',
   },
   {
-    alt: SEQUELIZE,
-    path: '/images/sequelize.png',
+    alt: GO,
+    path: '/images/go.png',
+  },
+  {
+    alt: GIN,
+    path: '/images/gin.png',
   },
   {
     alt: PYTHON,
@@ -93,30 +83,6 @@ export const myTechStack = [
     path: '/images/fastapi.png',
   },
   {
-    alt: MONGODB,
-    path: '/images/mongo.png',
-  },
-  {
-    alt: SQLITE,
-    path: '/images/sqlite.png',
-  },
-  {
-    alt: FIREBASE,
-    path: '/images/firebase.png',
-  },
-  {
-    alt: MYSQL,
-    path: '/images/mysql.png',
-  },
-  {
-    alt: POSTGRESQL,
-    path: '/images/postgresql.png',
-  },
-  {
-    alt: ANDROID,
-    path: '/images/android.png',
-  },
-  {
     alt: JAVA,
     path: '/images/java.png',
   },
@@ -125,16 +91,20 @@ export const myTechStack = [
     path: '/images/kotlin.png',
   },
   {
-    alt: FLUTTER,
-    path: '/images/flutter.png',
+    alt: ANDROID,
+    path: '/images/android.png',
+  },
+  {
+    alt: FIREBASE,
+    path: '/images/firebase.png',
   },
   {
     alt: DART,
     path: '/images/dart.png',
   },
   {
-    alt: GIT,
-    path: '/images/git.png',
+    alt: FLUTTER,
+    path: '/images/flutter.png',
   },
   {
     alt: DOCKER,
@@ -145,19 +115,19 @@ export const myTechStack = [
     path: '/images/kubernetes.png',
   },
   {
-    alt: STRIPE,
-    path: '/images/stripe.png',
+    alt: POSTGRESQL,
+    path: '/images/postgresql.png',
   },
   {
-    alt: AUTO0,
-    path: '/images/auth0.png',
+    alt: MYSQL,
+    path: '/images/mysql.png',
   },
   {
-    alt: GITLAB,
-    path: '/images/gitlab.png',
+    alt: MONGODB,
+    path: '/images/mongo.png',
   },
   {
-    alt: LESS,
-    path: '/images/less.png',
+    alt: SQLITE,
+    path: '/images/sqlite.png',
   },
 ];

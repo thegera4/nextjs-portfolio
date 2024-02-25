@@ -93,6 +93,48 @@
       "mobile": false
     },
     {
+      "image": "/images/GoNextEvents.PNG",
+      "title": "GoNext Events",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Typescript",
+          "icon": "/images/typescript.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "NextJS",
+          "icon": "/images/nextjs.png"
+        },
+        {
+          "name": "Go",
+          "icon": "/images/go.png"
+        },
+        {
+          "name": "Gin",
+          "icon": "/images/gin.png"
+        },
+        {
+          "name": "SQLite",
+          "icon": "/images/sqlite.png"
+        }
+      ],
+      "url": "https://nextjs-events-lovat.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/nextjs-events",
+      "description": "This is a Fullstack web app that allows you to see and create events/meetings. The Frontend was made with HTML, CSS, Typescript, React and NextJS. The Backend was made with Go and Gin with a SQLite database. The app has a search bar to filter the events by month and year, a login page, a details page for each event, a create event page and delete event button that allows you to delete the events that you created.",
+      "mobile": false
+    },
+    {
       "image": "/images/befos.PNG",
       "title": "Befos",
       "technologies": [
@@ -618,6 +660,48 @@
       "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
       "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
       "description": "Esta aplicación Fullstack es un panel de administrador web hecho con Flutter, asi que las aplicaciones de Android y IOS pueden crearse facilmente con el mismo código! Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. El Frontend esta hecho con Flutter, Dart, utiliza otras librerías de 3eros y es 100% responsiva. También incluye un botón de autenticación de usuario con Firebase(google). La información del panel proviene de diferentes APIs de prueba. El Backend (API de autenticación) esta hecha con Typescript, Node Js, express, utiliza una base de datos Mongo para guardar la información del usuario registrado y tambien utiliza jwt y bcrypt para almacenar la información de manera segura.",
+      "mobile": false
+    },
+    {
+      "image": "/images/GoNextEvents.PNG",
+      "title": "GoNext Events",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Typescript",
+          "icon": "/images/typescript.png"
+        },
+        {
+          "name": "React",
+          "icon": "/images/react.png"
+        },
+        {
+          "name": "NextJS",
+          "icon": "/images/nextjs.png"
+        },
+        {
+          "name": "Go",
+          "icon": "/images/go.png"
+        },
+        {
+          "name": "Gin",
+          "icon": "/images/gin.png"
+        },
+        {
+          "name": "SQLite",
+          "icon": "/images/sqlite.png"
+        }
+      ],
+      "url": "https://nextjs-events-lovat.vercel.app/",
+      "sourceCode": "https://github.com/thegera4/nextjs-events",
+      "description": "Esta es una Fullstack web app que te permite ver y crear eventos. El Frontend esta hecho con HTML, CSS, Typescript, React y NextJS. El Backend esta hecho con Go y Gin, usando una base de datos SQLite. La app tiene una barra de búsqueda para filtrar los eventos por fecha, una página para hacer login, una página de detalles por evento, una página para crear eventos y un botón para borrar los eventos que tu creaste.",
       "mobile": false
     },
     {
