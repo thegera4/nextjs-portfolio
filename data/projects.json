@@ -331,7 +331,7 @@
       "mobile": false
     },
     {
-      "image": "/images/coolmorning.png",
+      "image": "/images/coolmorning.webp",
       "title": "Cool Morning",
       "technologies": [
         {
@@ -385,7 +385,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
       "sourceCode": "https://github.com/thegera4/Workout-app",
-      "description": "This Android mobile app was developed to help people workout at home without exercising equipment. It is based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app, so you can check your current status and compare it with global standards. The app was made with Kotlin and it uses an SQLite database to save your progress.",
+      "description": "This Android mobile app was developed to help people workout at home without exercising equipment, based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app with global standards. The app was made with Kotlin and it uses an SQLite database to save your progress.",
       "mobile": true
     },
     {
@@ -495,7 +495,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/uber-clone",
-      "description": "This React-Native mobile app is a simple uber clone. It has a main screen with a search bar where you can select your current location (it uses the google places API for autocomplete), a map screen where you can select your destination (it uses the directions API from google to show the route), and it also uses the distance metric API from google to calculate the fare. It was made with Javascript, Redux and Tailwind.",
+      "description": "This React-Native mobile app is a simple uber clone. It has a main screen with a search bar where you can select your current location, a map screen where you can select your destination, and it also calculates the fare. It was made with Javascript, Redux, Tailwind and some Google APIs (matrix, places and maps).",
       "mobile": true
     },
     {
@@ -875,7 +875,7 @@
       "mobile": false
     },
     {
-      "image": "/images/coolmorning.png",
+      "image": "/images/coolmorning.webp",
       "title": "Cool Morning",
       "technologies": [
         {
@@ -929,7 +929,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
       "sourceCode": "https://github.com/thegera4/Workout-app",
-      "description": "Esta app de Android se desarrolló para ayudar a las personas a mantenerse en forma en sus casas sin necesidad de equipos para hacer ejercicio. Esta basada en la metodología de ejercicios 1&1, la cual consiste en ejercitarse por 1 minuto y descansar 1 minuto. Se incluye una calculadora de índice de masa corporal (BMI), para que puedas comparar tu estado actual con estándares mundiales. La app fue hecha con Kotlin y utiliza una base de datos SQLite para guardar tu progreso.",
+      "description": "App de Android que se desarrolló para ayudar a las personas a mantenerse en forma en sus casas sin necesidad de equipos para hacer ejercicio, basada en la metodología de ejercicios 1&1, la cual consiste en ejercitarse por 1 minuto y descansar 1 minuto. Se incluye una calculadora de índice de masa corporal (BMI) con estándares mundiales. Hecha con Kotlin y SQLite para guardar tu progreso.",
       "mobile": true
     },
     {
@@ -995,7 +995,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/mobile_shop_flutter",
-      "description": "Esta aplicación móvil de Flutter es una tienda (e-commerce) hecha durante el curso de desarrollo de aplicaciones con Flutter que tomé en Udemy. Incluye una vista de autenticación, una vista para el detalle del producto, una vista para el carrito de compras, opciones de administrador para crear y editar productos y una vista para consultar tus órdenes de compra anteriores. Utiliza Firebase de Google y esta hecha con Dart.",
+      "description": "Aplicación móvil de e-commerce hecha con Flutter y Dart. Incluye una vista de autenticación, una vista para el detalle del producto, una vista para el carrito de compras, opciones de administrador para crear y editar productos y una vista para consultar tus órdenes de compra anteriores. Utiliza una base de datos Firebase de Google.",
       "mobile": true
     },
     {
@@ -1013,7 +1013,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/personal_expense_tracker_app",
-      "description": "Esta app móvil de Flutter sirve para llevar un registro de gastos personales y fue hecha durante el curso de desarrollo de aplicaciones con Flutter que tomé en Udemy. Incluye una vista principal, una vista modal para agregar gastos y un 'widget' personalizado para mostrar el resumen de gastos durante los últimos 7 días. Esta hecha con Dart.",
+      "description": "App móvil que sirve para llevar un registro de gastos personales, hecha con Flutter y Dart. Incluye una vista principal, una vista modal para agregar gastos y un 'widget' personalizado para mostrar el resumen de gastos durante los últimos 7 días.",
       "mobile": true
     },
     {
@@ -1039,7 +1039,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/uber-clone",
-      "description": "Esta aplicación móvil de React-Native es un pequeño clon de las funcionalidades principales de Uber. Tiene una vista principal con una barra de búsqueda donde puedes seleccionar tu localización actual (utiliza la API de google places para el autocompletado), una vista de mapa donde puedes seleccionar tu destino (utiliza la API de google para mostrar la ruta), y también utiliza la API distance matrix de google para calcular las tarifas. Esta hecha con Javascript, Redux y Tailwind.",
+      "description": "Aplicación móvil de React-Native clon de Uber. Cuenta con una vista principal con una barra de búsqueda donde puedes seleccionar tu localización actual, una vista de mapa donde puedes seleccionar tu destino, y también calcula las tarifas. Esta hecha con Javascript, Redux, Tailwind y APIs de Google como Maps, Matrix y Places.",
       "mobile": true
     },
     {

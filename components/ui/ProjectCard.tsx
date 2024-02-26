@@ -12,7 +12,7 @@ const ProjectCard: React.FC<ProjectCardInfo> = ({ project }) => {
   return (
     <div className='max-w-screen flex-shrink-0 snap-center flex flex-col space-y-5
     items-center justify-center p-20 md:p-44 h-screen md:top-[0px] sm:top-[0px] 
-    xs:relative xs:top-[150px] 2xs:relative 2xs:top-[550px]'>
+    xs:relative xs:top-[50px] 2xs:relative 2xs:top-[550px]'>
       <Image
         src={project.image}
         alt={project.title}
@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardInfo> = ({ project }) => {
         height={project.mobile ? 400 : 300}
         className={
           project.mobile ?
-            'xs:w-[100px] xs:h-[200px] md:w-[200px] md:h-[400px] lg:w-[230px] lg:h-[450px] object-fit rounded-md' :
+            'xs:w-[100px] xs:h-[200px] md:w-[150px] md:h-[300px] lg:w-[150px] lg:h-[300px] object-fit rounded-md' :
             'xs:w-[350px] xs:h-[200px] md:w-[450px] md:h-[300px] lg:w-[500px] object-contain rounded-md'
         }
       />
