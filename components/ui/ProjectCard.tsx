@@ -10,7 +10,7 @@ const ProjectCard: React.FC<ProjectCardInfo> = ({ project }) => {
   const locale = router.locale || 'en';
 
   return (
-    <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5
+    <div className='max-w-screen flex-shrink-0 snap-center flex flex-col space-y-5
     items-center justify-center p-20 md:p-44 h-screen md:top-[0px] sm:top-[0px] 
     xs:relative xs:top-[150px] 2xs:relative 2xs:top-[550px]'>
       <Image

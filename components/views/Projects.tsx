@@ -37,7 +37,7 @@ function Projects({ projects }: props) {
       transition={{ duration:1.5 }}
     >
       <SectionTitle title={locale === 'en' ? 'PROJECTS' : 'PROYECTOS' } />
-      <div className='relative w-full flex overflow-x-scroll overflow-y-hidden 
+      <div className='relative max-w-6xl flex overflow-x-scroll overflow-y-hidden 
        z-20 scrollbar'>
         <Swiper
           navigation={true}

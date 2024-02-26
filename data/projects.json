@@ -47,7 +47,7 @@
       ],
       "url": "https://tuspacio.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
-      "description": "This is a Fullstack E-commerce web app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, a shopping cart, a payment system with Stripe, a product search system, a profile system , a product review system and a complete admin panel/dashboard where the page admin can modify every product offered in the page, add new products, modify price and stock, see registered users, request password changes from registered users, and see earning trends.",
+      "description": "Fullstack E-commerce web app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, several e-commerce functionalities, a payment system with Stripe and a complete admin panel/dashboard.",
       "mobile": false
     },
     {
@@ -89,7 +89,7 @@
       ],
       "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
       "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "This is a Fullstack web admin dashboard made with Flutter web, but the ios and android apps can be easily created with the same codebase! This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management, and it is responsive! The Frontend was made with Flutter, Dart and it uses some other 3rd party libraries. It also includes authentication with firebase (google). The demo data comes from different dummy APIs. The Backend (custom auth API) was made with Typescript, Node Js, express, it uses a Mongo DB to save the registered user information and it also uses jwt and bcrypt to store user information securely.",
+      "description": "Fullstack web admin dashboard made with Flutter web. This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management. The Frontend was made with Flutter and Dart. It also includes authentication with firebase (google). The Backend was made with Typescript, NodeJs, Express, it uses a Mongo DB to save the registered user information.",
       "mobile": false
     },
     {
@@ -131,7 +131,7 @@
       ],
       "url": "https://nextjs-events-lovat.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-events",
-      "description": "This is a Fullstack web app that allows you to see and create events/meetings. The Frontend was made with HTML, CSS, Typescript, React and NextJS. The Backend was made with Go and Gin with a SQLite database. The app has a search bar to filter the events by month and year, a login page, a details page for each event, a create event page and delete event button that allows you to delete the events that you created.",
+      "description": "Fullstack web app that allows you to see and create events/meetings. The Frontend was made with HTML, CSS, Typescript, React and NextJS. The Backend was made with Go and Gin with a SQLite database. The app has a search bar to filter the events by date, a login page, a details page, a create event page and delete event button that allows you to delete the events that you created.",
       "mobile": false
     },
     {
@@ -177,7 +177,7 @@
       ],
       "url": "https://pi-dogs-main-seven.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
-      "description": "This is a Fullstack web app about dog breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
+      "description": "Fullstack web app about dog breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
       "mobile": false
     },
     {
@@ -328,32 +328,6 @@
       "url": "https://weather-app-murex-alpha.vercel.app/",
       "sourceCode": "https://github.com/thegera4/Budget-app",
       "description": "This is the classic weather app made with React, tailwind and using the Open Weather API.",
-      "mobile": false
-    },
-    {
-      "image": "/images/budget.PNG",
-      "title": "Personal budget app",
-      "technologies": [
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "HTML",
-          "icon": "/images/html.png"
-        },
-        {
-          "name": "CSS",
-          "icon": "/images/css.png"
-        },
-        {
-          "name": "Bootstrap",
-          "icon": "/images/bootstrap.png"
-        }
-      ],
-      "url": "https://budget-app-topaz.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/Budget-app",
-      "description": "This simple web app allows you to calculate your personal budget. It was created with HTML, CSS and Javascript.",
       "mobile": false
     },
     {
@@ -617,7 +591,7 @@
       ],
       "url": "https://tuspacio.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
-      "description": "Esta es una web E-commerce Fullstack sobre productos de belleza. El frontend esta hecho con Javascript, React, Redux y Material UI. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. La app tiene una sistema de autenticación de usuario utilizando Auth0, un carrito de compra, un sistema de pagos con Stripe, un sistema de búsqueda de producto, página de perfil de usuario, un sistema de calificación de producto y un panel completo de administración donde el administrador del sitio, puede modificar cada producto ofrecido en la tienda, agregar nuevos productos, modificar precios e inventarios, ver usuarios registrados, solicitar cambios de passwords a cuentas de usuarios registrados y ver tendencias gráficas sobre las ventas.",
+      "description": "Web E-commerce Fullstack sobre productos de belleza. El frontend esta hecho con Javascript, React, Redux y Material UI. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. Incluye un sistema de autenticación de usuario utilizando Auth0, varias funcionalidades de un e-commerce, un sistema de pagos con Stripe y un panel completo de administración.",
       "mobile": false
     },
     {
@@ -659,7 +633,7 @@
       ],
       "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
       "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "Esta aplicación Fullstack es un panel de administrador web hecho con Flutter, asi que las aplicaciones de Android y IOS pueden crearse facilmente con el mismo código! Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. El Frontend esta hecho con Flutter, Dart, utiliza otras librerías de 3eros y es 100% responsiva. También incluye un botón de autenticación de usuario con Firebase(google). La información del panel proviene de diferentes APIs de prueba. El Backend (API de autenticación) esta hecha con Typescript, Node Js, express, utiliza una base de datos Mongo para guardar la información del usuario registrado y tambien utiliza jwt y bcrypt para almacenar la información de manera segura.",
+      "description": "Aplicación Fullstack es un panel de administrador hecho con Flutter Web. Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. El Frontend esta hecho con Flutter y Dart. Incluye un botón de autenticación de usuario con Firebase(google). El Backend esta hecho con Typescript, NodeJs, Express y MongoDB.",
       "mobile": false
     },
     {
@@ -701,7 +675,7 @@
       ],
       "url": "https://nextjs-events-lovat.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-events",
-      "description": "Esta es una Fullstack web app que te permite ver y crear eventos. El Frontend esta hecho con HTML, CSS, Typescript, React y NextJS. El Backend esta hecho con Go y Gin, usando una base de datos SQLite. La app tiene una barra de búsqueda para filtrar los eventos por fecha, una página para hacer login, una página de detalles por evento, una página para crear eventos y un botón para borrar los eventos que tu creaste.",
+      "description": "Fullstack web app que te permite ver y crear eventos. El Frontend esta hecho con HTML, CSS, Typescript, React y NextJS. El Backend esta hecho con Go, Gin y SQLite. La app tiene una barra de búsqueda para filtrar los eventos por fecha, una página para hacer login, una página de detalles por evento, una página para crear eventos y un botón para borrar los eventos que tu creaste.",
       "mobile": false
     },
     {
@@ -747,7 +721,7 @@
       ],
       "url": "https://pi-dogs-main-seven.vercel.app/",
       "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
-      "description": "Esta es una web Fullstack con información de razas de perros. El Frontend esta hecho con HTML, CSS, Javascript, React y Redux. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. La app cuenta con una barra de búsqueda en el icono de lupa, paginado numerado, filtros para la información sobre las razas, una vista del detalle de cada raza, una vista para crear tu propia raza, un botón para borrar razas creadas y usa una API sobre las razas de perros para obtener la información principal.",
+      "description": "Aplicación Web Fullstack con información de razas de perros. El Frontend esta hecho con HTML, CSS, Javascript, React y Redux. El Backend esta hecho con NodeJS, Express, Sequelize y PostgreSQL. Incluye una barra de búsqueda en el icono de lupa, paginado numerado, filtros, una vista del detalle de cada raza, una vista para crear tu propia raza y un botón para borrar razas creadas.",
       "mobile": false
     },
     {
@@ -811,7 +785,7 @@
       ],
       "url": "https://jgmedellin-blog.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
-      "description": "Este es mi blog personal donde puedes encontrar posts interesantes sobre el mundo IT, recopilaciones de información que me ha ayudado como programador e información sobre algunas tecnologías que me parecen interesantes. La app esta hecha con Javascript, React, NextJS y CSS. También utiliza librerías de 3eros para poder escribir los posts en lenguaje Markdown y poder mostrar bloques de código. A su vez, se utiliza Mongo Db para almacenar la información de contacto, si el usuario utiliza el formulario de contacto.",
+      "description": "Este es mi blog personal donde puedes encontrar información que me ha ayudado como programador principalmente. Hecho con Javascript, React, NextJS y CSS. Utiliza librerías para poder escribir los posts en lenguaje Markdown y poder mostrar bloques de código. A su vez, se utiliza Mongo Db para almacenar la información de contacto, si el usuario utiliza el formulario de contacto.",
       "mobile": false
     },
     {
@@ -898,32 +872,6 @@
       "url": "https://weather-app-murex-alpha.vercel.app/",
       "sourceCode": "https://github.com/thegera4/Budget-app",
       "description": "Esta es una pequeña aplicación web para obtener el clima a través de una barra de búsqueda hecha con Javascript, React y Tailwind. Se utiliza la API de Open Weather.",
-      "mobile": false
-    },
-    {
-      "image": "/images/budget.PNG",
-      "title": "Gastos Personales",
-      "technologies": [
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "HTML",
-          "icon": "/images/html.png"
-        },
-        {
-          "name": "CSS",
-          "icon": "/images/css.png"
-        },
-        {
-          "name": "Bootstrap",
-          "icon": "/images/bootstrap.png"
-        }
-      ],
-      "url": "https://budget-app-topaz.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/Budget-app",
-      "description": "Esta es una pequeña aplicación web que te permite calcular tus gastos con base en tus ingresos. Puedes definir nuevos ingresos y egresos y borrar los que vienen por default. Esta hecha con HTML, CSS, Javascript y Bootstrap.",
       "mobile": false
     },
     {
