@@ -1,5 +1,5 @@
 
-## Deploy on Vercel
+## Personal Portfolio
 
 Welcome to my personal portfolio where I showcase my story, skills and projects.
 
