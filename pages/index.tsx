@@ -36,10 +36,10 @@ export default function Home(props: any) {
        <section id="experience">
          <WorkExperience translate={translate} />
        </section>
-       <section id="skills" /*className='snap-start'*/>
+       <section id="skills">
          <Skills translate={translate} />
        </section>
-       <section id="projects" /*className='snap-start'*/>
+       <section id="projects">
          <Projects projects={props.projects} />
        </section>
        {/*<section id="contact" className='snap-start'>
