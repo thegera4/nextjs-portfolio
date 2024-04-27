@@ -6,7 +6,7 @@ import WorkExperience from '@/components/views/WorkExperience'
 import Skills from '@/components/views/Skills'
 import Projects from '@/components/views/Projects'
 //import ContactMe from '@/components/views/ContactMe'
-import IconLabel from '@/components/reusable/IconLabel'
+//import IconLabel from '@/components/reusable/IconLabel'
 import data from '@/data/projects.json'
 //import Link from 'next/link'
 import { useTranslation } from 'next-i18next'
@@ -28,10 +28,10 @@ export default function Home(props: any) {
        <section id="hero" >
          <Hero translate={translate}/>
        </section>
-       <section id="about" /*className='snap-center'*/>
+       <section id="about">
          <About translate={translate} />
        </section>
-       <section id="experience" /*className='snap-center'*/>
+       <section id="experience">
          <WorkExperience translate={translate} />
        </section>
        <section id="skills" /*className='snap-start'*/>
