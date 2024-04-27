@@ -25,7 +25,7 @@ export default function Home(props: any) {
         <title>Juan Gerardo Medellin Ibarra Portfolio</title>
        </Head>
        <Header translate={translate} />
-       <section id="hero" /*className='snap-start'*/>
+       <section id="hero" >
          <Hero translate={translate}/>
        </section>
        <section id="about" /*className='snap-center'*/>

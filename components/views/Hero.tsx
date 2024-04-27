@@ -29,16 +29,11 @@ function Hero({translate}: any) {
       />
       <div className='z-20'>
         <h2 className='text-sm uppercase text-white pb-2 tracking-[10px]
-          xs:tracking-[6px] xs:mt-[-40px]
-          md:text-xl 
-          lg:text-2xl 
-          xlg:text-2xl'
+          xs:tracking-[6px] xs:mt-[-40px] md:text-xl lg:text-2xl xlg:text-2xl'
         >
           {translate('fullstackDev')}
         </h2>
-        <h1 className='text-5xl lg:text-6xl font-semibold px-10 
-        2xs:text-[1.8rem]'
-        >
+        <h1 className='text-5xl lg:text-4xl font-semibold px-10 xs:text-[1.5rem]'>
           <span className='mr-3'> {text} </span>
           <Cursor cursorColor='#1ff81f'/>
         </h1>
