@@ -30,7 +30,7 @@ test.describe('Skills view tests', () => {
     await expect(page.locator('#skills').getByRole('img', { name: 'Dart' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'Flutter' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'Docker' })).toBeVisible()
-    await expect(page.locator('#skills').getByRole('img', { name: 'Kubernetes' })).toBeVisible()
+    await expect(page.locator('#skills').getByRole('img', { name: 'Figma' })).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'PostgreSQL' })).toBeVisible()
     await expect(page.locator('img[alt="MySQL"]')).toBeVisible()
     await expect(page.locator('#skills').getByRole('img', { name: 'MongoDB' })).toBeVisible()
