@@ -23,6 +23,8 @@ export default function Home(props: any) {
      >
        <Head>
         <title>Juan Gerardo Medellin Ibarra Portfolio</title>
+        <meta name="description" content="Juan Gerardo Medellin Ibarra Portfolio" />
+        <link rel="icon" href="/portfolio favicon.svg" />
        </Head>
        <Header translate={translate} />
        <section id="hero" >
