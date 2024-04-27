@@ -6,7 +6,9 @@ import { SpeedInsights } from '@vercel/speed-insights/react';
 import { useRouter } from 'next/router';
 
 function App({ Component, pageProps }: AppProps) {
+
   const router = useRouter();
+  
   return (
     <>
       <Component {...pageProps} />
