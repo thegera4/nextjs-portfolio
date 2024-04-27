@@ -32,6 +32,7 @@ export const DOCKER = 'Docker';
 export const KUBERNETES = 'Kubernetes';
 export const GO = 'Go';
 export const GIN = 'Gin';
+export const FIGMA = 'Figma';
 
 export const myTechStack = [
   {
@@ -111,8 +112,8 @@ export const myTechStack = [
     path: '/images/docker.png',
   },
   {
-    alt: KUBERNETES,
-    path: '/images/kubernetes.png',
+    alt: FIGMA,
+    path: '/images/figma_logo.png',
   },
   {
     alt: POSTGRESQL,
