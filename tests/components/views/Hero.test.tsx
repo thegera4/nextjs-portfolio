@@ -18,22 +18,22 @@ test.describe('HERO view tests', () => {
     const about = page.getByRole('link', { name: 'ABOUT' });
     expect(await about.isVisible()).toBeTruthy();
     await about.click();
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/#about');
+    expect(page.url()).toBe('https://www.jgmedellin.com/#about');
     
     const experience = page.getByRole('link', { name: 'EXPERIENCE' });
     expect(await experience.isVisible()).toBeTruthy();
     await experience.click();
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/#experience');
+    expect(page.url()).toBe('https://www.jgmedellin.com/#experience');
 
     const skills = page.getByRole('link', { name: 'SKILLS' });
     expect(await skills.isVisible()).toBeTruthy();
     await skills.click();
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/#skills');
+    expect(page.url()).toBe('https://www.jgmedellin.com/#skills');
 
     const projects = page.getByRole('link', { name: 'PROJECTS' });
     expect(await projects.isVisible()).toBeTruthy();
     await projects.click();
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/#projects');
+    expect(page.url()).toBe('https://www.jgmedellin.com/#projects');
   })
 
 });

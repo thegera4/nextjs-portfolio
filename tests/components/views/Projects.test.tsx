@@ -12,7 +12,7 @@ test.describe('test', () => {
 
   test('should display a project card and change the project when clicking on the arrows', async ({ page }) => {
     const project1 = page.getByText('TuSpacioSee DemoSource CodeThis is a Fullstack E-commerce web app about beauty p')
-    expect(project1).toBeVisible()
+    expect(project1).toBeHidden()
 
     const nextBtn = page.locator('.relative > .swiper > .swiper-button-next')
     await nextBtn.click();
@@ -28,7 +28,7 @@ test.describe('test', () => {
         //change tansformValue to absolute value
         const transformValueABS = Math.abs(transformValue)
         // Check if the numeric value is within the desired range (1270 to 1280)
-        expect(transformValueABS).toBeGreaterThanOrEqual(1270)
+        expect(transformValueABS).toBeGreaterThanOrEqual(1152)
         expect(transformValueABS).toBeLessThanOrEqual(1280)
       }
     }

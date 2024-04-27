@@ -6,13 +6,14 @@ import { Translate } from '@/types';
 
 const Header: React.FC<Translate> = ({ translate }) => {
 
-  const onSubmit: ()=>void = () => {
-    window.location.href = `mailto:thegera4@hotmail.com?subject=I saw your Portfolio...&body=Hi, my name is...`
-  };
+  const onSubmit: ()=>void = () => { window.location.href = `mailto:thegera4@hotmail.com?subject=I saw your Portfolio...&body=Hi, my name is...` };
 
   return (
-    <header className='sticky top-0 flex items-start md:justify-between max-w-7xl mx-auto z-20 xl:items-center 
-    p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100 sm:justify-center'>
+    <header className='sticky top-0 flex items-start 
+      xl:items-center p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100 
+      md:justify-between max-w-7xl mx-auto z-50 
+      xs:justify-center'
+    >
       <motion.div 
         className='flex flex-row items-center'
         initial={{ x: -500, opacity: 0, scale:0.5}}
@@ -39,7 +40,7 @@ const Header: React.FC<Translate> = ({ translate }) => {
         />
       </motion.div>
       <motion.div 
-        className='flex flex-row items-center text-gray-300' 
+        className='flex flex-row items-center' 
         initial={{ x: 500, opacity: 0, scale:0.5}}
         animate={{ x: 0, opacity: 1, scale:1}}
         transition={{ duration: 1 }}

@@ -48,7 +48,7 @@ test.describe('Header component tests with codegen', () => {
 
     await language.selectOption('es');
     await page.waitForTimeout(1000);
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/es');
+    expect(page.url()).toBe('https://www.jgmedellin.com/es');
     const sobre_mi = page.getByRole('link', { name: 'SOBRE MI' });
     const experiencia = page.getByRole('link', { name: 'EXPERIENCIA' });
     const habilidades = page.getByRole('link', { name: 'HABILIDADES' });
@@ -60,7 +60,7 @@ test.describe('Header component tests with codegen', () => {
 
     await language.selectOption('en');
     await page.waitForTimeout(1000);
-    expect(page.url()).toBe('https://jgmedellin.vercel.app/');
+    expect(page.url()).toBe('https://www.jgmedellin.com/');
     const about = page.getByRole('link', { name: 'ABOUT' });
     const experience = page.getByRole('link', { name: 'EXPERIENCE' });
     const skills = page.getByRole('link', { name: 'SKILLS' });

@@ -4,7 +4,7 @@ const LanguageSelector: React.FC = () => {
   const { locale, push } = useRouter()
 
   return (
-    <div className='flex ml-5 sm:mt-0 xs:mt-[-20px]'>
+    <div className='flex ml-5 xs:mt-[-20px] sm:mt-[-20px] md:mt-0'>
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
         fill="none" 
@@ -21,20 +21,14 @@ const LanguageSelector: React.FC = () => {
       </svg>
       <select
         title='Select Language'
-        className='bg-[#242424] text-white cursor-pointer max-w-xs text-sm border-none'
+        className='bg-transparent text-white cursor-pointer max-w-xs text-sm border-none'
         value={locale}
         onChange={(e) => push('/', '/', { locale: e.target.value })}
       >
-        <option 
-          value="en"
-          className='bg-transparent text-gray-400 cursor-pointer'
-        >
+        <option value="en" className='bg-[#242424] text-white cursor-pointer'>
           EN
         </option>
-        <option 
-          value="es"
-          className='bg-transparent text-gray-400 cursor-pointer'
-        >
+        <option value="es" className='bg-[#242424] text-white cursor-pointer'>
           ES
         </option>
       </select>

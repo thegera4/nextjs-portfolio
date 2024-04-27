@@ -22,7 +22,7 @@ export default function Home(props: any) {
      scrollbar-thumb-rounded'
      >
        <Head>
-         <title>Juan Gerardo Medellin Ibarra Portfolio</title>
+        <title>Juan Gerardo Medellin Ibarra Portfolio</title>
        </Head>
        <Header translate={translate} />
        <section id="hero" /*className='snap-start'*/>
