@@ -31,14 +31,14 @@ function Projects({ projects }: props) {
   return (
     <motion.div 
       className='relative flex overflow-hidden flex-col text-left max-w-full justify-evenly mx-auto items-center z-0 
-      md:mt-32 xs:mt-24'
+      xl:mt-0 lg:mt-14 md:mt-4 sm:mt-8 xs:mt-24'
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration:1.5 }}
     >
       <SectionTitle title={locale === 'en' ? 'PROJECTS' : 'PROYECTOS' } />
       <div className='relative max-w-6xl flex overflow-x-scroll overflow-y-hidden z-20 scrollbar 
-      xl:mt-20 lg:mt-10 md:mt-[-110px] sm:mt-56'>
+      xl:mt-4 first-letter:lg:mt-[-50px] md:mt-0 sm:mt-5'>
         <Swiper
           navigation={true}
           modules={[Navigation]}

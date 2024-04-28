@@ -1,17 +1,29 @@
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ProjectCardInfo } from 'types'
 import PulsatingArrow from '../reusable/PulsatingArrow'
+import { set } from 'react-hook-form'
 
 const ProjectCard: React.FC<ProjectCardInfo> = ({ project, projectIndex }) => {
   const router = useRouter();
   const locale = router.locale || 'en';
+  const [showPulsatingArrows, setShowPulsatingArrows] = useState<boolean>(false)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setShowPulsatingArrows(window.innerWidth > 1140);
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
 
   return (
     <div className='max-w-screen flex-shrink-0 snap-center flex flex-col space-y-5
-    items-center justify-center p-20 h-screen 
-    xs:mt-32'
+    items-center justify-center p-20 lg:mb-10 md:mb-20 xs:mt-32'
     >
       <Image
         src={project.image}
@@ -24,13 +36,13 @@ const ProjectCard: React.FC<ProjectCardInfo> = ({ project, projectIndex }) => {
         }
       />
       <div className='flex items-center'>
-        {projectIndex > 0 && <PulsatingArrow side='left' />} {/* mostrar los arrows en lg, en xl ya no*/}
+        {!showPulsatingArrows && projectIndex > 0 && <PulsatingArrow side='left' />} {/* mostrar los arrows en lg, a partir de 1140px ya no*/}
         <h4 className='text-4xl font-semibold text-center xs:text-2xl 2xs:text-2xl'>
           <span className='underline decoration-[#16ac16]/50'>
             {project.title}
           </span>
         </h4>
-        {projectIndex < 19 && <PulsatingArrow side='right' />} {/* adjust number if you add or remove projects */}
+        {!showPulsatingArrows && projectIndex < 19 && <PulsatingArrow side='right' />} {/* adjust number if you add or remove projects */}
       </div>
       { project.technologies &&
         <div className='flex items-center space-x-2 '>
@@ -62,8 +74,8 @@ const ProjectCard: React.FC<ProjectCardInfo> = ({ project, projectIndex }) => {
           }
         </Link>
       </div>
-      <p className='text-lg text-center max-w-7xl lg:text-lg lg:max-w-4xl
-      md:text-left md:max-w-2xl md:text-lg xs:text-sm xs:max-w-xs xs:text-left'
+      <p className='text-lg xl:max-w-7xl lg:text-lg lg:max-w-4xl md:text-left md:max-w-2xl 
+      md:text-lgsm:xs:max-w-sm xs:text-sm xs:max-w-xs xs:text-left'
       >
         {project.description}
       </p>
