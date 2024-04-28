@@ -30,15 +30,15 @@ function Projects({ projects }: props) {
 
   return (
     <motion.div 
-      className='h-screen relative flex overflow-hidden flex-col text-left
-      md:flex-row max-w-full justify-evenly mx-auto items-center z-0'
+      className='relative flex overflow-hidden flex-col text-left max-w-full justify-evenly mx-auto items-center z-0 
+      md:mt-32 xs:mt-24'
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration:1.5 }}
     >
       <SectionTitle title={locale === 'en' ? 'PROJECTS' : 'PROYECTOS' } />
-      <div className='relative max-w-6xl flex overflow-x-scroll overflow-y-hidden 
-       z-20 scrollbar lg:mt-40 md:mt-20 sm:mt-56'>
+      <div className='relative max-w-6xl flex overflow-x-scroll overflow-y-hidden z-20 scrollbar 
+      xl:mt-20 lg:mt-10 md:mt-[-110px] sm:mt-56'>
         <Swiper
           navigation={true}
           modules={[Navigation]}
@@ -49,7 +49,7 @@ function Projects({ projects }: props) {
         >
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
-              <ProjectCard project={project} />
+              <ProjectCard project={project} projectIndex={index} />
             </SwiperSlide>
           ))}
         </Swiper>

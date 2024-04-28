@@ -32,5 +32,6 @@ export type ProjectCardInfo = {
     sourceCode: string,
     technologies: [{ icon: string, name: string }],
     mobile: boolean
-  }
+  },
+  projectIndex: number
 }
