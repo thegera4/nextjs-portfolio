@@ -4,9 +4,8 @@
 
 @layer components {
   .heroButton {
-    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs
-    tracking-widest text-white text-opacity-60 transition-all hover:border-[#1ff81f]
-    hover:text-[#1ff81f];
+    @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-white 
+    text-opacity-60 transition-all hover:border-[#1ff81f] hover:text-[#1ff81f] hover:animate-pulse;
   }
   .projectButton {
     @apply px-6 py-2 border border-[#1ff81f] rounded-full uppercase text-xs

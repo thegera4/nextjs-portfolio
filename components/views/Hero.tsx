@@ -38,16 +38,16 @@ function Hero({translate}: any) {
           <Cursor cursorColor='#1ff81f'/>
         </h1>
         <div className='pt-5 xs:visible xs:flex 2xs:invisible'>
-          <Link href="#about" className='heroButton lg:text-xl xlg:text-xl md:text-lg xs:pl-1 xs:pr-1'>
+          <Link href="#about" className='heroButton lg:text-xl xlg:text-xl md:text-lg sm:px-6 xs:px-1'>
             {translate('about')}
           </Link>
-          <Link href="#experience" className='heroButton lg:text-xl xlg:text-xl md:text-lg xs:pl-2 xs:pr-1'>
+          <Link href="#experience" className='heroButton lg:text-xl xlg:text-xl md:text-lg sm:px-6 xs:pl-2 xs:pr-1'>
             {translate('experience')}
           </Link>
-          <Link href="#skills" className='heroButton lg:text-xl xlg:text-xl md:text-lg xs:pl-2 xs:pr-1'>
+          <Link href="#skills" className='heroButton lg:text-xl xlg:text-xl md:text-lg sm:px-6 xs:pl-2 xs:pr-1'>
             {translate('skills')}
           </Link>
-          <Link href="#projects" className='heroButton lg:text-xl xlg:text-xl md:text-lg xs:pl-1 xs:pr-1'>
+          <Link href="#projects" className='heroButton lg:text-xl xlg:text-xl md:text-lg sm:px-6 xs:px-1'>
             {translate('projects')}
           </Link>
         </div>
