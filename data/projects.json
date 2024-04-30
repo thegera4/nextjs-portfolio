@@ -135,49 +135,21 @@
       "mobile": false
     },
     {
-      "image": "/images/befos.PNG",
-      "title": "Befos",
+      "image": "/images/teamapp.PNG",
+      "title": "Team App",
       "technologies": [
         {
-          "name": "HTML",
-          "icon": "/images/html.png"
+          "name": "Webflow",
+          "icon": "/images/webflow.png"
         },
         {
-          "name": "CSS",
-          "icon": "/images/css.png"
-        },
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "Redux",
-          "icon": "/images/redux.png"
-        },
-        {
-          "name": "NodeJS",
-          "icon": "/images/node.png"
-        },
-        {
-          "name": "Express",
-          "icon": "/images/express.png"
-        },
-        {
-          "name": "Sequelize",
-          "icon": "/images/sequelize.png"
-        },
-        {
-          "name": "PostgreSQL",
-          "icon": "/images/postgresql.png"
+          "name": "Figma",
+          "icon": "/images/figma_logo.png"
         }
       ],
-      "url": "https://pi-dogs-main-seven.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
-      "description": "Fullstack web app about dog breeds. The Frontend was made with HTML, CSS, Javascript, React and Redux. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a dog breed search bar, a pagination component, data filters, a dog detail page, a dog creation page, a dog delete button and it uses an API about dog breeds to show the information.",
+      "url": "https://team-app-a0256a.webflow.io/",
+      "sourceCode": "https://www.figma.com/file/sp391BAaacwUHKjzsEGJPG/Practice%3A-Team-App-(Copy)?type=design&node-id=1517%3A2&mode=design&t=5UZqhXs4zln49vUP-1",
+      "description": "This is a concept project started from scratch with wireframes and UI design made with Figma (click on the 'Source Code' button to see the Figma file). The website was created with 'Webflow', which is a no code technology (alternative to Wordpress) that uses HTML, CSS and Javascript under the hood. The only functional link in the website is the 'Blog' link, which takes you to a concept blog page, where you can click on each blog card and it will take you to a concept blog post page. The CMS is managed by Webflow, so adding a new post is easy and intuitive.",
       "mobile": false
     },
     {
@@ -679,49 +651,21 @@
       "mobile": false
     },
     {
-      "image": "/images/befos.PNG",
-      "title": "Befos",
+      "image": "/images/teamapp.PNG",
+      "title": "Team App",
       "technologies": [
         {
-          "name": "HTML",
-          "icon": "/images/html.png"
+          "name": "Webflow",
+          "icon": "/images/webflow.png"
         },
         {
-          "name": "CSS",
-          "icon": "/images/css.png"
-        },
-         {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "Redux",
-          "icon": "/images/redux.png"
-        },
-        {
-          "name": "NodeJS",
-          "icon": "/images/node.png"
-        },
-        {
-          "name": "Express",
-          "icon": "/images/express.png"
-        },
-        {
-          "name": "Sequelize",
-          "icon": "/images/sequelize.png"
-        },
-        {
-          "name": "PostgreSQL",
-          "icon": "/images/postgresql.png"
+          "name": "Figma",
+          "icon": "/images/figma_logo.png"
         }
       ],
-      "url": "https://pi-dogs-main-seven.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/PI-Dogs-main",
-      "description": "Aplicación Web Fullstack con información de razas de perros. El Frontend esta hecho con HTML, CSS, Javascript, React y Redux. El Backend esta hecho con NodeJS, Express, Sequelize y PostgreSQL. Incluye una barra de búsqueda en el icono de lupa, paginado numerado, filtros, una vista del detalle de cada raza, una vista para crear tu propia raza y un botón para borrar razas creadas.",
+      "url": "https://team-app-a0256a.webflow.io/",
+      "sourceCode": "https://www.figma.com/file/sp391BAaacwUHKjzsEGJPG/Practice%3A-Team-App-(Copy)?type=design&node-id=1517%3A2&mode=design&t=5UZqhXs4zln49vUP-1",
+      "description": "Este es un proyecto concepto creado desde cero con los wireframes y el diseño UI hecho con Figma (click en el botón de 'Código Fuente' para ver el archivo de Figma). La web fué hecha con 'Webflow', la cual es una tecnología 'no code' (alternativa a Wordpress) que usa por debajo HTML, CSS y Javascript. El único link funcional en la web es el link de 'Blog', el cual te lleva a otra página concepto de Blog, donde puedes dar click en cualquier card y te llevará a otra página concepto donde puede ver el post. El CMS es administrado por Webflow, asi que agregar nuevos post es fácil e intuitivo.",
       "mobile": false
     },
     {
