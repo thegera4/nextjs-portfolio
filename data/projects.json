@@ -133,7 +133,7 @@
       ],
       "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
       "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
-      "description": "This is a fully functional e-commerce web app/template with an all products screen, product detail screen, shopping cart and a payment system with Stripe. The App was made with Javascript, React and NextJS. It uses Sanity, which provides an easy administration alternative to a common backend.",
+      "description": "This is a fully functional e-commerce web app/template with an all products screen, product detail screen, shopping cart and a payment system with Stripe. The App was made with Javascript, React and NextJS. It uses Sanity, which provides an easy administration alternative to a common backend. If you want to test the purchase process, when you reach the Stripe checkout page use fake data and card number 4242 4242 4242 4242, exp. date 04/42 and cvc 424",
       "mobile": false
     },
     {
@@ -561,7 +561,7 @@
       ],
       "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
       "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
-      "description": "Esta aplicación web es una tienda que incluye una vista de todos los productos, una vista del detalle del producto, un carrito de compras y un sistema de pagos funcional con Stripe. La app esta hecha con Javascript, React y NextJS. También utiliza Sanity, una alternativa para proveer un sistema de administración sencillo donde se puede modificar lo ofrecido en la tienda.",
+      "description": "Esta aplicación web es una tienda que incluye una vista de todos los productos, una vista del detalle del producto, un carrito de compras y un sistema de pagos funcional con Stripe. La app esta hecha con Javascript, React y NextJS. También utiliza Sanity, una alternativa para proveer un sistema de administración sencillo donde se puede modificar lo ofrecido en la tienda. Si quieres probar el proceso de compra con Stripe, cuando llegues al checkout utiliza cualquier información falsa y la tarjeta número 4242 4242 4242 4242, fecha de exp. 04/42 y cvc 424",
       "mobile": false
     },
     {
