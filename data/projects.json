@@ -1,56 +1,6 @@
 {
   "projects": [
     {
-      "image": "/images/tuSpacio.PNG",
-      "title": "TuSpacio",
-      "technologies": [
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "Redux",
-          "icon": "/images/redux.png"
-        },
-        {
-          "name": "MaterialUI",
-          "icon": "/images/mui.png"
-        },
-        {
-          "name": "NodeJS",
-          "icon": "/images/node.png"
-        },
-        {
-          "name": "Express",
-          "icon": "/images/express.png"
-        },
-        {
-          "name": "Sequelize",
-          "icon": "/images/sequelize.png"
-        },
-        {
-          "name": "PostgreSQL",
-          "icon": "/images/postgresql.png"
-        },
-        {
-          "name": "Auth0",
-          "icon": "/images/auth0.png"
-        },
-        {
-          "name": "Stripe",
-          "icon": "/images/stripe.png"
-        }
-      ],
-      "url": "https://tuspacio.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
-      "description": "Fullstack E-commerce web app about beauty products. The Frontend was made with Javascript, React, Redux and MaterialUI. The Backend was made with NodeJS, Express and Sequelize with a PostgreSQL database. The app has a user authentication system with Auth0, several e-commerce functionalities, a payment system with Stripe and a complete admin panel/dashboard.",
-      "mobile": false
-    },
-    {
       "image": "/images/flutter_dashboard.PNG",
       "title": "Admin Panel/Dashboard",
       "technologies": [
@@ -240,44 +190,6 @@
       "url": "https://lazynema.vercel.app/",
       "sourceCode": "https://github.com/thegera4/laZynema",
       "description": "This is a web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
-      "mobile": false
-    },
-    {
-      "image": "/images/chatapp.PNG",
-      "title": "Web Chat App",
-      "technologies": [
-        {
-          "name": "HTML",
-          "icon": "/images/html.png"
-        },
-        {
-          "name": "CSS",
-          "icon": "/images/css.png"
-        },
-         {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "NextJS",
-          "icon": "/images/nextjs.png"
-        },
-        {
-          "name": "Firebase",
-          "icon": "/images/firebase.png"
-        },
-        {
-          "name": "Material UI",
-          "icon": "/images/mui.png"
-        }
-      ],
-      "url": "https://web-chat-app-xi.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/web-chat-app",
-      "description": "This is a web application to chat in real time with one person. It was made with HTML, CSS, Styled Components, Material UI, Javascript, React and NextJS. The app uses Firebase authentication with google as login provider, and a firestore database to save the conversations.",
       "mobile": false
     },
     {
@@ -517,56 +429,6 @@
   ],
   "proyectos": [
     {
-      "image": "/images/tuSpacio.PNG",
-      "title": "TuSpacio",
-      "technologies": [
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "Redux",
-          "icon": "/images/redux.png"
-        },
-        {
-          "name": "MaterialUI",
-          "icon": "/images/mui.png"
-        },
-        {
-          "name": "NodeJS",
-          "icon": "/images/node.png"
-        },
-        {
-          "name": "Express",
-          "icon": "/images/express.png"
-        },
-        {
-          "name": "Sequelize",
-          "icon": "/images/sequelize.png"
-        },
-        {
-          "name": "PostgreSQL",
-          "icon": "/images/postgresql.png"
-        },
-        {
-          "name": "Auth0",
-          "icon": "/images/auth0.png"
-        },
-        {
-          "name": "Stripe",
-          "icon": "/images/stripe.png"
-        }
-      ],
-      "url": "https://tuspacio.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/PG-tuSpacio-FrontEnd",
-      "description": "Web E-commerce Fullstack sobre productos de belleza. El frontend esta hecho con Javascript, React, Redux y Material UI. El Backend esta hecho con NodeJS, Express y Sequelize con una base de datos PostgreSQL. Incluye un sistema de autenticación de usuario utilizando Auth0, varias funcionalidades de un e-commerce, un sistema de pagos con Stripe y un panel completo de administración.",
-      "mobile": false
-    },
-    {
       "image": "/images/flutter_dashboard.PNG",
       "title": "Panel de administrador",
       "technologies": [
@@ -756,44 +618,6 @@
       "url": "https://lazynema.vercel.app/",
       "sourceCode": "https://github.com/thegera4/laZynema",
       "description": "Esta es una aplicación web sobre películas/series (similar a netflix). Esta hecha con HTML, SASS, Javascript y React. La app cuenta con una barra de búsqueda, una vista de detalles y previsualización con video integrado. Utiliza una API sobre películas y series para obtener la información principal a mostrar.",
-      "mobile": false
-    },
-    {
-      "image": "/images/chatapp.PNG",
-      "title": "Web Chat App",
-      "technologies": [
-        {
-          "name": "HTML",
-          "icon": "/images/html.png"
-        },
-        {
-          "name": "CSS",
-          "icon": "/images/css.png"
-        },
-         {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "NextJS",
-          "icon": "/images/nextjs.png"
-        },
-        {
-          "name": "Firebase",
-          "icon": "/images/firebase.png"
-        },
-        {
-          "name": "Material UI",
-          "icon": "/images/mui.png"
-        }
-      ],
-      "url": "https://web-chat-app-xi.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/web-chat-app",
-      "description": "Esta es una aplicación web para chatear en tiempo real con una persona. Esta hecha con HTML, CSS, Styled Components, Material UI, Javascript, React y NextJS. La app utiliza la autenticación de firebase con google como proveedor, y una base de datos firestore de firebase para guardar las conversaciones.",
       "mobile": false
     },
     {
