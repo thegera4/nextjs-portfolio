@@ -20,17 +20,14 @@ const BackgroundCircles: React.FC = () => {
       <div className='rounded-full border border-[#333333] h-[300px] w-[300px] mt-52 absolute
       xs:mt-32'
       />
-      <div className='rounded-full border border-[#333333] h-[500px] w-[500px] mt-52 absolute
-      xs:mt-32 xs:h-[345px] xs:w-[345px]
-      sm:h-[500px] sm:w-[500px]'
+      <div className='rounded-full border border-[#333333] h-[400px] w-[400px] mt-52 absolute
+      md:h-[400px] md:w-[400px] sm:h-[350px] sm:w-[350px] xs:mt-32 xs:h-[345px] xs:w-[345px]'
       />
-      <div className='rounded-full border border-[#1ff81f] opacity-20 h-[650px] w-[650px] mt-52 absolute animate-pulse
-      xs:mt-32 xs:h-[400px] xs:w-[400px]
-      sm:h-[650px] sm:w-[650px]'
+      <div className='rounded-full border border-[#1ff81f] opacity-20 h-[500px] w-[500px] mt-52 absolute animate-pulse
+      md:h-[500px] md:w-[500px] sm:h-[400px] sm:w-[400px] xs:mt-32 xs:h-[400px] xs:w-[400px]'
       />
-      <div className='rounded-full border border-[#333333] h-[800px] w-[800px] mt-52 absolute
-      xs:mt-32 xs:h-[450px] xs:w-[450px]
-      sm:h-[800px] sm:w-[800px]'
+      <div className='rounded-full border border-[#333333] h-[610px] w-[610px] mt-52 absolute
+      md:h-[610px] md:w-[610px] xs:mt-32 xs:h-[450px] xs:w-[450px]'
       />
     </motion.div>
   )
