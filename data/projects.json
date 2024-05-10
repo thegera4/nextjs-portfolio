@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "image": "/images/sqlite-viewer-browser.jpg",
+      "title": "SQLite Viewer-Browser",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        }
+      ],
+      "url": "https://marketplace.visualstudio.com/items?itemName=JuanGerardoMedellinIbarra.sqlite-viewer-browser",
+      "sourceCode": "https://github.com/thegera4/sqlite-viewer",
+      "description": "This is an extension for the code editor 'Visual Studio Code'. The extension allows you to view (browse) SQLite databases to see the data and to perform some basic operations like update, delete and insert data. The user interface was made with HTML/CSS/Javascript and it uses a third party package to manage sqlite databases. You can install the extension from the Visual Studio Code marketplace (click on the 'See Demo' button) or from the 'Extensions' option in the side menu in your VSCode (search for 'Sqlite Viewer-Browser'). I made this application as a personal tool to work with sqlite databases.",
+      "mobile": false
+    },
+    {
       "image": "/images/flutter_dashboard.PNG",
       "title": "Admin Panel/Dashboard",
       "technologies": [
@@ -428,6 +450,28 @@
     }
   ],
   "proyectos": [
+    {
+      "image": "/images/sqlite-viewer-browser.jpg",
+      "title": "SQLite Viewer-Browser",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "/images/html.png"
+        },
+        {
+          "name": "CSS",
+          "icon": "/images/css.png"
+        },
+        {
+          "name": "Javascript",
+          "icon": "/images/js.png"
+        }
+      ],
+      "url": "https://marketplace.visualstudio.com/items?itemName=JuanGerardoMedellinIbarra.sqlite-viewer-browser",
+      "sourceCode": "https://github.com/thegera4/sqlite-viewer",
+      "description": "Esta es una extensión para el editor de código 'Visual Studio Code'. La extensión te permite visualizar información de una base de datos SQLite y realizar operaciones básicas como borrar, actualizar e insertar datos. La interfaz de usuario se hizo con HTML/CSS/Javascript y usa una librería de 3eros para el manejo de las bases de datos sqlite. Puedes instalar la extensión desde el marketplace de Visual Studio Code (click en botón 'Ver Demo') ó desde la opción de 'Extensiones' en el menu lateral de tu VSCode (busca 'Sqlite Viewer-Browser'). Hice esta aplicación como una herramienta personal para trabajar con sqlite.",
+      "mobile": false
+    },
     {
       "image": "/images/flutter_dashboard.PNG",
       "title": "Panel de administrador",
