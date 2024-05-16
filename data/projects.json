@@ -237,24 +237,6 @@
       "mobile": false
     },
     {
-      "image": "/images/coolmorning.webp",
-      "title": "Cool Morning",
-      "technologies": [
-        {
-          "name": "Android",
-          "icon": "/images/android.png"
-        },
-        {
-          "name": "Java",
-          "icon": "/images/java.png"
-        }
-      ],
-      "url": "https://play.google.com/store/apps/details?id=com.app.coolmorning&pli=1",
-      "sourceCode": "https://github.com/thegera4/Cool-Morning-App",
-      "description": "This Android mobile app was developed for a local gift shop that operates in the city Torreon in Mexico. It includes the menu, instructions to purchase the products and the contact information from the store. The app was made with Java.",
-      "mobile": true
-    },
-    {
       "image": "/images/paint.png",
       "title": "Paint Your Images",
       "technologies": [
@@ -685,24 +667,6 @@
       "sourceCode": "https://github.com/thegera4/Budget-app",
       "description": "Esta es una pequeña aplicación web para obtener el clima a través de una barra de búsqueda hecha con Javascript, React y Tailwind. Se utiliza la API de Open Weather.",
       "mobile": false
-    },
-    {
-      "image": "/images/coolmorning.webp",
-      "title": "Cool Morning",
-      "technologies": [
-        {
-          "name": "Android",
-          "icon": "/images/android.png"
-        },
-        {
-          "name": "Java",
-          "icon": "/images/java.png"
-        }
-      ],
-      "url": "https://play.google.com/store/apps/details?id=com.app.coolmorning&pli=1",
-      "sourceCode": "https://github.com/thegera4/Cool-Morning-App",
-      "description": "Esta app para Android se desarrolló para una tienda de regalos que opera en la ciudad de Torreón, México. Incluye el catálogo de productos de la tienda, instrucciones sobre como realizar la compra y la información de contacto de la tienda. La app esta hecha con Java.",
-      "mobile": true
     },
     {
       "image": "/images/paint.png",
