@@ -17,7 +17,7 @@ const WorkExperience: React.FC<Translate> = ({ translate }) => {
       viewport={{ once: true }}
     >
       <SectionTitle title={translate('experience')} />
-      <div className="max-w-7xl flex mt-24 space-x-5 p-10 items-center align-middle xs:p-4 xs:mt-40 sm:mt-0">
+      <div className="max-w-7xl flex mt-24 space-x-5 p-10 items-center align-middle xs:p-4 xs:mt-16 sm:mt-0">
         <ExperienceTimeline translate={translate} />
       </div>
     </motion.div>

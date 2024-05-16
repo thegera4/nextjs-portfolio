@@ -21,8 +21,8 @@ const Skills: React.FC<Translate> = ({ translate }) => {
       >
         {translate('techStack')}
       </h3>
-      <div className="grid grid-cols-4 gap-5 space-x-2 lg:gap-6 lg:mt-32
-      md:gap-10 md:mt-10 sm:mt-56 xs:mt-44"
+      <div className="grid grid-cols-4 gap-5 space-x-2 pt-40 lg:gap-6
+      md:gap-10 md:mt-10 sm:mt-56 xs:mt-[-40px]"
       >
         {myTechStack.map((tech, index) => (
           <TechTool key={index} path={tech.path} alt={tech.alt} />

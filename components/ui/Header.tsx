@@ -12,7 +12,7 @@ const Header: React.FC<Translate> = ({ translate }) => {
     <header className='sticky top-0 flex items-start 
       xl:items-center p-5 backdrop-filter backdrop-blur-lg backdrop-saturate-100 
       md:justify-between max-w-7xl mx-auto z-50 
-      xs:justify-center'
+      xs:justify-center xs:h-20'
     >
       <motion.div 
         className='flex flex-row items-center'
