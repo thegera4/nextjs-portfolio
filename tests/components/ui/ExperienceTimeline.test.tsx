@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 test.describe('ExperienceTimeline component tests', () => {
 
     test.beforeEach(async ({ page }) => {
-        await page.goto('https://jgmedellin.vercel.app/#experience');
+        await page.goto('https://www.jgmedellin.com/#experience');
     })
 
     test('the "Experience" section is visible', async ({ page }) => {
@@ -16,7 +16,7 @@ test.describe('ExperienceTimeline component tests', () => {
         await page.getByRole('link', { name: 'Download CV' }).click();
         const download = await downloadPromise;
         await download.saveAs('cv.pdf');
-        expect(download.suggestedFilename()).toContain('CV Juan Gerardo eng v7');
+        expect(download.suggestedFilename()).toContain('CV Juan Gerardo eng v8');
     });
 
 });
