@@ -19,7 +19,7 @@
       ],
       "url": "https://marketplace.visualstudio.com/items?itemName=JuanGerardoMedellinIbarra.sqlite-viewer-browser",
       "sourceCode": "https://github.com/thegera4/sqlite-viewer",
-      "description": "This is an extension for the code editor 'Visual Studio Code'. The extension allows you to view (browse) SQLite databases to see the data and to perform some basic operations like update, delete and insert data. The user interface was made with HTML/CSS/Javascript and it uses a third party package to manage sqlite databases. You can install the extension from the Visual Studio Code marketplace (click on the 'See Demo' button) or from the 'Extensions' option in the side menu in your VSCode (search for 'Sqlite Viewer-Browser'). I made this application as a personal tool to work with sqlite databases.",
+      "description": "This extension for the code editor 'Visual Studio Code', allows you to view SQLite databases data and perform basic operations like update, delete and insert data. I made this application as a personal tool to work with sqlite databases.",
       "mobile": false
     },
     {
@@ -61,7 +61,7 @@
       ],
       "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
       "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "Fullstack web admin dashboard made with Flutter web. This project uses the GetX package for flutter for a complete solution in navigation, http requests and state management. The Frontend was made with Flutter and Dart. It also includes authentication with firebase (google). The Backend was made with Typescript, NodeJs, Express, it uses a Mongo DB to save the registered user information.",
+      "description": "Fullstack web admin dashboard made with Flutter web. It includes authentication with firebase (google) and a custom auth backend made with Typescript, NodeJs, Express and Mongo DB to save the registered user information.",
       "mobile": false
     },
     {
@@ -103,7 +103,7 @@
       ],
       "url": "https://nextjs-events-lovat.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-events",
-      "description": "Fullstack web app that allows you to see and create events/meetings. The Frontend was made with HTML, CSS, Typescript, React and NextJS. The Backend was made with Go and Gin with a SQLite database. The app has a search bar to filter the events by date, a login page, a details page, a create event page and delete event button that allows you to delete the events that you created.",
+      "description": "Fullstack web app that allows you to see and create events/meetings. The Frontend was made with HTML, CSS, Typescript, React and NextJS. The Backend was made with Go and Gin with a SQLite database.",
       "mobile": false
     },
     {
@@ -121,7 +121,7 @@
       ],
       "url": "https://team-app-a0256a.webflow.io/",
       "sourceCode": "https://www.figma.com/file/sp391BAaacwUHKjzsEGJPG/Practice%3A-Team-App-(Copy)?type=design&node-id=1517%3A2&mode=design&t=5UZqhXs4zln49vUP-1",
-      "description": "This is a concept project started from scratch with wireframes and UI design made with Figma (click on the 'Source Code' button to see the Figma file). The website was created with 'Webflow', which is a no code technology (alternative to Wordpress) that uses HTML, CSS and Javascript under the hood. The only functional link in the website is the 'Blog' link, which takes you to a concept blog page, where you can click on each blog card and it will take you to a concept blog post page. The CMS is managed by Webflow, so adding a new post is easy and intuitive.",
+      "description": "This is a concept project desgined with Figma. The website was created with 'Webflow'. The only functional link in the website is the 'Blog' link, which takes you to a concept blog page, where you can click on each blog card to view the post.",
       "mobile": false
     },
     {
@@ -155,7 +155,7 @@
       ],
       "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
       "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
-      "description": "This is a fully functional e-commerce web app/template with an all products screen, product detail screen, shopping cart and a payment system with Stripe. The App was made with Javascript, React and NextJS. It uses Sanity, which provides an easy administration alternative to a common backend. If you want to test the purchase process, when you reach the Stripe checkout page use fake data and card number 4242 4242 4242 4242, exp. date 04/42 and cvc 424",
+      "description": "This is an e-commerce web app/template. It uses Sanity, which provides an easy administration alternative to a common backend. To test the checkout, use fake data and card number 4242 4242 4242 4242, exp. date 04/42 and cvc 424.",
       "mobile": false
     },
     {
@@ -185,7 +185,7 @@
       ],
       "url": "https://jgmedellin-blog.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
-      "description": "This is my personal blog web app where you can find interesting posts about the IT world and some technologies that I find interesting. The App was made with Javascript, React, NextJS and CSS, and it uses some 3rd party libraries to write the posts in Markdown and show code snippets.Also, Mongo Db is used to store contact data from the contact form.",
+      "description": "This is my personal blog where you can find some interesting posts. It uses some 3rd party libraries to write the posts in Markdown and show code snippets. Also, Mongo Db is used to store contact data from the contact form.",
       "mobile": false
     },
     {
@@ -211,7 +211,7 @@
       ],
       "url": "https://lazynema.vercel.app/",
       "sourceCode": "https://github.com/thegera4/laZynema",
-      "description": "This is a web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an API about movies to show the information.",
+      "description": "This is a web app about movies/series (similar to netflix). The Frontend was made with HTML, SASS, Javascript and React. The app has a movie search bar, a movie detail page and it uses an external movies API to show the information.",
       "mobile": false
     },
     {
@@ -273,7 +273,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
       "sourceCode": "https://github.com/thegera4/Workout-app",
-      "description": "This Android mobile app was developed to help people workout at home without exercising equipment, based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app with global standards. The app was made with Kotlin and it uses an SQLite database to save your progress.",
+      "description": "This Android mobile app was developed to help people workout at home without exercising equipment, based on the 1&1 workout methodology which consist in exercising 1 minute and rest 1 minute. A BMI calculator is also included in the app.",
       "mobile": true
     },
     {
@@ -317,7 +317,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.shop.laboutique",
       "sourceCode": "https://github.com/thegera4/La-boutique-shop-app",
-      "description": "This Android mobile app was developed for a local clothing shop that operates in the city Torreon in Mexico. The app was originally planned to be just an inventory tool but it ended up being an ecommerce app. It uses Firebase from Google and it was made with Kotlin.",
+      "description": "This Android mobile app was developed for a local clothing shop that operates in the city Torreon in Mexico. The app was originally planned to be just an inventory tool but it ended up being an ecommerce app.",
       "mobile": true
     },
     {
@@ -339,7 +339,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/mobile_shop_flutter",
-      "description": "This Flutter mobile app is a simple mobile ecommerce template app developed during a Flutter course that I took in Udemy. It includes a login view, a product detail view, a shopping cart view, admin options to create an edit your products, and a view to see your previous purchase orders. It uses Firebase from Google and it was made with Dart.",
+      "description": "This Flutter mobile app is a mobile ecommerce template app. It includes a login view, a product detail view, a shopping cart view, admin options to create an edit your products, and a view to see your previous purchase orders.",
       "mobile": true
     },
     {
@@ -357,7 +357,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/personal_expense_tracker_app",
-      "description": "This Flutter mobile app is a personal expense tracker app developed during a Flutter course that I took in Udemy. It includes a main view, a modal view to add a new expense, and a custom widget to display all of the expenses during the previous 7 days, It was made with Dart.",
+      "description": "This Flutter mobile app is a personal expense tracker app. It includes a main view, a modal view to add a new expense, and a custom widget to display all of the expenses during the previous 7 days, It was made with Dart.",
       "mobile": true
     },
     {
@@ -383,7 +383,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/uber-clone",
-      "description": "This React-Native mobile app is a simple uber clone. It has a main screen with a search bar where you can select your current location, a map screen where you can select your destination, and it also calculates the fare. It was made with Javascript, Redux, Tailwind and some Google APIs (matrix, places and maps).",
+      "description": "This React-Native mobile app is a simple uber clone. It has a main screen with a search bar where you can select your current location, a map screen where you can select your destination, and it also calculates the fare.",
       "mobile": true
     },
     {
