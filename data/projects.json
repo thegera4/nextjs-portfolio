@@ -451,7 +451,7 @@
       ],
       "url": "https://marketplace.visualstudio.com/items?itemName=JuanGerardoMedellinIbarra.sqlite-viewer-browser",
       "sourceCode": "https://github.com/thegera4/sqlite-viewer",
-      "description": "Esta es una extensión para el editor de código 'Visual Studio Code'. La extensión te permite visualizar información de una base de datos SQLite y realizar operaciones básicas como borrar, actualizar e insertar datos. La interfaz de usuario se hizo con HTML/CSS/Javascript y usa una librería de 3eros para el manejo de las bases de datos sqlite. Puedes instalar la extensión desde el marketplace de Visual Studio Code (click en botón 'Ver Demo') ó desde la opción de 'Extensiones' en el menu lateral de tu VSCode (busca 'Sqlite Viewer-Browser'). Hice esta aplicación como una herramienta personal para trabajar con sqlite.",
+      "description": "Esta es una extensión para el editor de código 'Visual Studio Code', la cual te permite ver información de una base de datos SQLite y borrar, actualizar e insertar datos. Hice esta aplicación como una herramienta personal para trabajar con sqlite.",
       "mobile": false
     },
     {
@@ -493,7 +493,7 @@
       ],
       "url": "https://web-admin-dashboard-flutter.vercel.app/#/auth",
       "sourceCode": "https://github.com/thegera4/web_admin_dashboard_flutter",
-      "description": "Aplicación Fullstack es un panel de administrador hecho con Flutter Web. Este proyecto utiliza la librería GetX para Flutter para tener una solución completa en navegación, peticiones http y manejo de estados. El Frontend esta hecho con Flutter y Dart. Incluye un botón de autenticación de usuario con Firebase(google). El Backend esta hecho con Typescript, NodeJs, Express y MongoDB.",
+      "description": "Aplicación Fullstack es un panel de administrador hecho con Flutter Web. Se incluye un botón de autenticación de usuario con Google. Se utiliza un backend personal para autenticación que esta hecho con Typescript, NodeJs, Express y MongoDB.",
       "mobile": false
     },
     {
@@ -535,7 +535,7 @@
       ],
       "url": "https://nextjs-events-lovat.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-events",
-      "description": "Fullstack web app que te permite ver y crear eventos. El Frontend esta hecho con HTML, CSS, Typescript, React y NextJS. El Backend esta hecho con Go, Gin y SQLite. La app tiene una barra de búsqueda para filtrar los eventos por fecha, una página para hacer login, una página de detalles por evento, una página para crear eventos y un botón para borrar los eventos que tu creaste.",
+      "description": "Fullstack web app que te permite ver y crear eventos. El Backend esta hecho con Go, Gin y SQLite. La app tiene una barra de búsqueda para filtrar los eventos por fecha y se pueden crear, actualizar y borrar eventos.",
       "mobile": false
     },
     {
@@ -553,7 +553,7 @@
       ],
       "url": "https://team-app-a0256a.webflow.io/",
       "sourceCode": "https://www.figma.com/file/sp391BAaacwUHKjzsEGJPG/Practice%3A-Team-App-(Copy)?type=design&node-id=1517%3A2&mode=design&t=5UZqhXs4zln49vUP-1",
-      "description": "Este es un proyecto concepto creado desde cero con los wireframes y el diseño UI hecho con Figma (click en el botón de 'Código Fuente' para ver el archivo de Figma). La web fué hecha con 'Webflow', la cual es una tecnología 'no code' (alternativa a Wordpress) que usa por debajo HTML, CSS y Javascript. El único link funcional en la web es el link de 'Blog', el cual te lleva a otra página concepto de Blog, donde puedes dar click en cualquier card y te llevará a otra página concepto donde puede ver el post. El CMS es administrado por Webflow, asi que agregar nuevos post es fácil e intuitivo.",
+      "description": "Este es un proyecto concepto diseñado con Figma. La web fué hecha con 'Webflow'. El único link funcional en la web es el link de 'Blog' en donde puedes dar click en cualquier card de post y ver el post completo.",
       "mobile": false
     },
     {
@@ -587,7 +587,7 @@
       ],
       "url": "http://ecommerce-nextjs-sanity-ten.vercel.app/",
       "sourceCode": "https://github.com/thegera4/ecommerce-nextjs-sanity",
-      "description": "Esta aplicación web es una tienda que incluye una vista de todos los productos, una vista del detalle del producto, un carrito de compras y un sistema de pagos funcional con Stripe. La app esta hecha con Javascript, React y NextJS. También utiliza Sanity, una alternativa para proveer un sistema de administración sencillo donde se puede modificar lo ofrecido en la tienda. Si quieres probar el proceso de compra con Stripe, cuando llegues al checkout utiliza cualquier información falsa y la tarjeta número 4242 4242 4242 4242, fecha de exp. 04/42 y cvc 424",
+      "description": "Esta aplicación web es una tienda (e-commerce). Se utiliza Sanity, una alternativa para proveer un sistema de administración sencillo. Para probar la compra, utiliza información falsa y la tarjeta 4242 4242 4242 4242, fecha de exp. 04/42 y cvc 424.",
       "mobile": false
     },
     {
@@ -617,7 +617,7 @@
       ],
       "url": "https://jgmedellin-blog.vercel.app/",
       "sourceCode": "https://github.com/thegera4/nextjs-blog",
-      "description": "Este es mi blog personal donde puedes encontrar información que me ha ayudado como programador principalmente. Hecho con Javascript, React, NextJS y CSS. Utiliza librerías para poder escribir los posts en lenguaje Markdown y poder mostrar bloques de código. A su vez, se utiliza Mongo Db para almacenar la información de contacto, si el usuario utiliza el formulario de contacto.",
+      "description": "Este es mi blog personal donde puedes encontrar información que me ha ayudado como programador principalmente. Utiliza librerías para escribir posts y mostrar código, asi como Mongo Db para almacenar la información de contacto.",
       "mobile": false
     },
     {
@@ -643,7 +643,7 @@
       ],
       "url": "https://lazynema.vercel.app/",
       "sourceCode": "https://github.com/thegera4/laZynema",
-      "description": "Esta es una aplicación web sobre películas/series (similar a netflix). Esta hecha con HTML, SASS, Javascript y React. La app cuenta con una barra de búsqueda, una vista de detalles y previsualización con video integrado. Utiliza una API sobre películas y series para obtener la información principal a mostrar.",
+      "description": "Esta es una aplicación web sobre películas/series (similar a netflix). La app cuenta con una barra de búsqueda, una vista de detalles y previsualización con video integrado. Utiliza una API de películas para obtener la información que se muestra.",
       "mobile": false
     },
     {
@@ -665,7 +665,7 @@
       ],
       "url": "https://weather-app-murex-alpha.vercel.app/",
       "sourceCode": "https://github.com/thegera4/Budget-app",
-      "description": "Esta es una pequeña aplicación web para obtener el clima a través de una barra de búsqueda hecha con Javascript, React y Tailwind. Se utiliza la API de Open Weather.",
+      "description": "Esta es una aplicación web para obtener el clima a través de una barra de búsqueda. Se utiliza la API de Open Weather.",
       "mobile": false
     },
     {
@@ -683,7 +683,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_drawing_app",
       "sourceCode": "https://github.com/thegera4/Paint-your-images-app",
-      "description": "Esta app para Android te permite pintar sobre un lienzo en blanco ó usar una imágen de fondo y pintar sobre ella con diferentes grosores de línea y diferentes colores. También puedes guardar y compartir tus creaciones con amigos. La app esta hecha con Kotlin.",
+      "description": "Esta app para Android te permite pintar sobre un lienzo en blanco ó usar una imágen de fondo y pintar sobre ella con diferentes grosores de línea y diferentes colores. También puedes guardar y compartir tus creaciones con amigos.",
       "mobile": true
     },
     {
@@ -705,7 +705,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_workout_app",
       "sourceCode": "https://github.com/thegera4/Workout-app",
-      "description": "App de Android que se desarrolló para ayudar a las personas a mantenerse en forma en sus casas sin necesidad de equipos para hacer ejercicio, basada en la metodología de ejercicios 1&1, la cual consiste en ejercitarse por 1 minuto y descansar 1 minuto. Se incluye una calculadora de índice de masa corporal (BMI) con estándares mundiales. Hecha con Kotlin y SQLite para guardar tu progreso.",
+      "description": "App de Android que se desarrolló para ayudar a las personas a mantenerse en forma en sus casas sin necesidad de equipos para hacer ejercicio, basada en la metodología de ejercicios 1&1. Incluye una calculadora de índice de masa corporal (BMI).",
       "mobile": true
     },
     {
@@ -727,7 +727,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_quizzapp",
       "sourceCode": "https://github.com/thegera4/LATAM-flag-quizz",
-      "description": "Esta app de Android es un pequeño juego de preguntas sobre banderas de países latinoamericanos. Utiliza una base de datos SQlite para guardar el progreso y mostrar tu resultado final. La app esta hecha con Kotlin.",
+      "description": "Esta app de Android es un pequeño juego de preguntas sobre banderas de países latinoamericanos. Utiliza una base de datos SQlite para guardar el progreso y mostrar tu resultado final.",
       "mobile": true
     },
     {
@@ -749,7 +749,7 @@
       ],
       "url": "https://play.google.com/store/apps/details?id=com.shop.laboutique",
       "sourceCode": "https://github.com/thegera4/La-boutique-shop-app",
-      "description": "Esta app para Android se desarrolló para un tienda de ropa que opera en la ciudad de Torreón, México. La app se planeó originalmente como una herramienta para mantener el inventario de la tienda, pero terminó convirtiendose en un ecommerce. La app utiliza Firebase de Google y esta hecha con Kotlin.",
+      "description": "Esta app para Android se desarrolló para un tienda de ropa que opera en la ciudad de Torreón, México. La app se planeó originalmente como una herramienta para mantener el inventario de la tienda.",
       "mobile": true
     },
     {
@@ -771,7 +771,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/mobile_shop_flutter",
-      "description": "Aplicación móvil de e-commerce hecha con Flutter y Dart. Incluye una vista de autenticación, una vista para el detalle del producto, una vista para el carrito de compras, opciones de administrador para crear y editar productos y una vista para consultar tus órdenes de compra anteriores. Utiliza una base de datos Firebase de Google.",
+      "description": "Aplicación móvil de e-commerce hecha con Flutter. Incluye autenticación, detalle del producto, carrito de compras, opciones de administrador para crear y editar productos y una vista para consultar tus órdenes de compra anteriores.",
       "mobile": true
     },
     {
@@ -789,7 +789,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/personal_expense_tracker_app",
-      "description": "App móvil que sirve para llevar un registro de gastos personales, hecha con Flutter y Dart. Incluye una vista principal, una vista modal para agregar gastos y un 'widget' personalizado para mostrar el resumen de gastos durante los últimos 7 días.",
+      "description": "App móvil que sirve para llevar un registro de gastos personales, hecha con Flutter. Incluye una vista principal, una vista modal para agregar gastos y un 'widget' personalizado para mostrar el resumen de gastos durante los últimos 7 días.",
       "mobile": true
     },
     {
@@ -815,7 +815,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/uber-clone",
-      "description": "Aplicación móvil de React-Native clon de Uber. Cuenta con una vista principal con una barra de búsqueda donde puedes seleccionar tu localización actual, una vista de mapa donde puedes seleccionar tu destino, y también calcula las tarifas. Esta hecha con Javascript, Redux, Tailwind y APIs de Google como Maps, Matrix y Places.",
+      "description": "Aplicación móvil de React-Native clon de Uber. Cuenta con una vista principal con una barra de búsqueda donde puedes seleccionar tu localización actual, una vista de mapa donde puedes seleccionar tu destino, y también calcula las tarifas.",
       "mobile": true
     },
     {
@@ -833,7 +833,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/Connect4-game",
-      "description": "Esta app de Android es el clásico juego 'Conecta4' donde tienes que conectar 4 fichas del mismo color en línea. Puedes jugar con un amigo en el mismo dispositivo. Esta hecha con Kotlin.",
+      "description": "Esta app de Android es el clásico juego 'Conecta4' donde tienes que conectar 4 fichas del mismo color en línea. Puedes jugar con un amigo en el mismo dispositivo.",
       "mobile": true
     },
     {
@@ -851,7 +851,7 @@
       ],
       "url": null,
       "sourceCode": "https://github.com/thegera4/Math-Game-for-kids",
-      "description": "Esta app de Android es un pequeño juego de matemáticas para niños, donde pueden realizar operaciones básicas (suma, resta, multiplicación y división). Esta hecho con Java.",
+      "description": "Esta app de Android es un pequeño juego de matemáticas para niños, donde pueden realizar operaciones básicas (suma, resta, multiplicación y división).",
       "mobile": true
     },
     {
