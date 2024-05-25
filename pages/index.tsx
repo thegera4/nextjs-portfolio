@@ -5,7 +5,7 @@ import About from '@/components/views/About'
 import WorkExperience from '@/components/views/WorkExperience'
 import Skills from '@/components/views/Skills'
 import Projects from '@/components/views/Projects'
-//import ContactMe from '@/components/views/ContactMe'
+import ContactMe from '@/components/views/ContactMe'
 //import IconLabel from '@/components/reusable/IconLabel'
 import data from '@/data/projects.json'
 //import Link from 'next/link'
@@ -42,9 +42,9 @@ export default function Home(props: any) {
        <section id="projects">
          <Projects projects={props.projects} />
        </section>
-       {/*<section id="contact" className='snap-start'>
+       <section id="contact" className='snap-start'>
          <ContactMe translate={translate}  />
-        </section>*/}
+        </section>
        {/*<footer className='sticky bottom-5 w-full cursor-pointer'>
          <div className='flex items-center justify-center z-9999999'>
             <IconLabel icon="home" label="Home" link='#hero' />

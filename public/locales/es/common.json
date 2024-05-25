@@ -17,7 +17,7 @@
   "2ndParagraph": "Durante los últimos años, encontré una verdadera pasión por la programación y convertirme en desarrollador, así que empecé a estudiar tecnologías de desarrollo móvil, y luego decidí comenzar un Bootcamp para convertirme en un desarrollador Fullstack.",
   "techStack": "Las herramientas que he utilizado:",
   "needHelp?": "Qué puedo hacer por ti?",
-  "letMeKnow": "Contáctame aquí.",
+  "letMeKnow": "Contáctame.",
   "contactName": "Nombre",
   "contactEmail": "Correo Electrónico",
   "contactSubject": "Asunto",
@@ -50,5 +50,6 @@
   "DeployGCP": "Despligue de aplicaciones usando Google Cloud Services.",
   "WriteTests": "Escribir pruebas unitarias y corrección de errores.",
   "WriteDocs": "Escribir documentación para nuevas funcionalidades.",
-  "DownloadCV": "Descargar CV"
+  "DownloadCV": "Descargar CV",
+  "whatCanIdo": "Cómo te puedo ayudar?"
 }

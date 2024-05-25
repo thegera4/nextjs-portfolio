@@ -50,5 +50,6 @@
   "DeployGCP": "Deploy applications using Google Cloud Services.",
   "WriteTests": "Write unit tests for new features and bug fixes.",
   "WriteDocs": "Write documentation for new features.",
-  "DownloadCV": "Download CV"
+  "DownloadCV": "Download CV",
+  "whatCanIdo": "What can I do for you?"
 }
