@@ -255,6 +255,28 @@
       "mobile": true
     },
     {
+      "image": "/images/coolmorning.webp",
+      "title": "Cool Morning",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "Figma",
+          "icon": "/images/figma_logo.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.jgmedellin.coolmorning",
+      "sourceCode": "https://github.com/thegera4/flutter_cool_morning",
+      "description": "This mobile app was made for a local gift shop from Torreon, Mexico. You can find all of the information related to the store from product catalogs to contact information.",
+      "mobile": true
+    },
+    {
       "image": "/images/workout.png",
       "title": "1&1 Workout",
       "technologies": [
@@ -684,6 +706,28 @@
       "url": "https://play.google.com/store/apps/details?id=com.app.kot_drawing_app",
       "sourceCode": "https://github.com/thegera4/Paint-your-images-app",
       "description": "Esta app para Android te permite pintar sobre un lienzo en blanco ó usar una imágen de fondo y pintar sobre ella con diferentes grosores de línea y diferentes colores. También puedes guardar y compartir tus creaciones con amigos.",
+      "mobile": true
+    },
+    {
+      "image": "/images/coolmorning.webp",
+      "title": "Cool Morning",
+      "technologies": [
+        {
+          "name": "Flutter",
+          "icon": "/images/flutter.png"
+        },
+        {
+          "name": "Dart",
+          "icon": "/images/dart.png"
+        },
+        {
+          "name": "Figma",
+          "icon": "/images/figma_logo.png"
+        }
+      ],
+      "url": "https://play.google.com/store/apps/details?id=com.jgmedellin.coolmorning",
+      "sourceCode": "https://github.com/thegera4/flutter_cool_morning",
+      "description": "Esta aplicación móvil se hizo para una tienda de Torreón, México. En ella puedes encontrar toda la información relacionada con la tienda desde catálogos de productos hasta información de contacto.",
       "mobile": true
     },
     {
