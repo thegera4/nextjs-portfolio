@@ -215,28 +215,6 @@
       "mobile": false
     },
     {
-      "image": "/images/weather.PNG",
-      "title": "Weather app",
-      "technologies": [
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "Tailwind",
-          "icon": "/images/tailwind.png"
-        }
-      ],
-      "url": "https://weather-app-murex-alpha.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/Budget-app",
-      "description": "This is the classic weather app made with React, tailwind and using the Open Weather API.",
-      "mobile": false
-    },
-    {
       "image": "/images/paint.png",
       "title": "Paint Your Images",
       "technologies": [
@@ -299,25 +277,25 @@
       "mobile": true
     },
     {
-      "image": "/images/flags.png",
-      "title": "LATAM flag quiz",
+      "image": "/images/notudus.png",
+      "title": "Notudus",
       "technologies": [
         {
-          "name": "Android",
-          "icon": "/images/android.png"
+          "name": "React-Native",
+          "icon": "/images/react.png"
         },
         {
-          "name": "Kotlin",
-          "icon": "/images/kotlin.png"
+          "name": "Typescript",
+          "icon": "/images/typescript.png"
         },
         {
           "name": "SQLite",
           "icon": "/images/sqlite.png"
         }
       ],
-      "url": "https://play.google.com/store/apps/details?id=com.app.kot_quizzapp",
-      "sourceCode": "https://github.com/thegera4/LATAM-flag-quizz",
-      "description": "This Android mobile app is just a simple quiz game about Latin American flags. It uses SQlite to save your progress and show your final score. The app was made with Kotlin.",
+      "url": "https://play.google.com/store/apps/details?id=com.jgmedellin.notudusapp",
+      "sourceCode": "https://github.com/thegera4/notudus-app",
+      "description": "This Mobile app allows you to create note lists and todo lists. It uses SQlite to save your date privately and locally in your device. The app was made with Typescript and React-Native.",
       "mobile": true
     },
     {
@@ -669,28 +647,6 @@
       "mobile": false
     },
     {
-      "image": "/images/weather.PNG",
-      "title": "Aplicación de clima",
-      "technologies": [
-        {
-          "name": "Javascript",
-          "icon": "/images/js.png"
-        },
-        {
-          "name": "React",
-          "icon": "/images/react.png"
-        },
-        {
-          "name": "Tailwind",
-          "icon": "/images/tailwind.png"
-        }
-      ],
-      "url": "https://weather-app-murex-alpha.vercel.app/",
-      "sourceCode": "https://github.com/thegera4/Budget-app",
-      "description": "Esta es una aplicación web para obtener el clima a través de una barra de búsqueda. Se utiliza la API de Open Weather.",
-      "mobile": false
-    },
-    {
       "image": "/images/paint.png",
       "title": "Pinta tus imágenes",
       "technologies": [
@@ -753,25 +709,25 @@
       "mobile": true
     },
     {
-      "image": "/images/flags.png",
-      "title": "Preguntas de banderas",
+      "image": "/images/notudus.png",
+      "title": "Notudus",
       "technologies": [
         {
-          "name": "Android",
-          "icon": "/images/android.png"
+          "name": "React-Native",
+          "icon": "/images/react.png"
         },
         {
-          "name": "Kotlin",
-          "icon": "/images/kotlin.png"
+          "name": "Typescript",
+          "icon": "/images/typescript.png"
         },
         {
           "name": "SQLite",
           "icon": "/images/sqlite.png"
         }
       ],
-      "url": "https://play.google.com/store/apps/details?id=com.app.kot_quizzapp",
-      "sourceCode": "https://github.com/thegera4/LATAM-flag-quizz",
-      "description": "Esta app de Android es un pequeño juego de preguntas sobre banderas de países latinoamericanos. Utiliza una base de datos SQlite para guardar el progreso y mostrar tu resultado final.",
+      "url": "https://play.google.com/store/apps/details?id=com.jgmedellin.notudusapp",
+      "sourceCode": "https://github.com/thegera4/notudus-app",
+      "description": "Esta aplicacion movil te permite crear listas de notas y tareas. Utiliza SQlite para almacenar tu informacion de manera segura y en tu dispositivo localmente. Fue hecha con Typescript y React-Native.",
       "mobile": true
     },
     {
